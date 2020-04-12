@@ -29,29 +29,29 @@ class ContactRoute extends React.Component {
 
                     <label for="name">
                       Name:<br/>
-                      <input type="text" id="name" />
+                      <input type="text" name="name" id="name" />
                     </label><br/>
 
                     <label for="email">
                       Email:<br/>
-                      <input type="text" id="email" />
+                      <input type="text" name="email" id="email" />
                     </label><br/>
 
                     <label for="subject">
                       Subject:<br/>
-                      <input type="text" id="subject" />
+                      <input type="text" name="subject" id="subject" />
                     </label><br/>
 
                     <br/><label for="message">
                       Message:<br/>
-                      <textarea id="message" rows="5" cols="30"/>
+                      <textarea id="message" name="message" rows="5" cols="30"/>
                     </label><br/>
 
                     <br/><br/>
 
                     <button type="submit">Send</button>
 
-                    <input type="hidden" name="bot-field" />                    
+                    <input type="hidden" name="bot-field" />
                     <input type="hidden" name="form-name" value="contact" />
                   </form>
                   </p>
