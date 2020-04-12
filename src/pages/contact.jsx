@@ -25,8 +25,7 @@ class ContactRoute extends React.Component {
                   <p>
                   <form method="post" name="contact" id="contact"
                     netlify-honeypot="bot-field"
-                    data-netlify="true"
-                    data-netlify-recaptcha="true">
+                    data-netlify="true">
 
                     <label for="name">
                       Name:<br/>
@@ -52,8 +51,7 @@ class ContactRoute extends React.Component {
 
                     <button type="submit">Send</button>
 
-                    <input type="hidden" name="bot-field" />
-                    <div data-netlify-recaptcha="true"></div>
+                    <input type="hidden" name="bot-field" />                    
                     <input type="hidden" name="form-name" value="contact" />
                   </form>
                   </p>
