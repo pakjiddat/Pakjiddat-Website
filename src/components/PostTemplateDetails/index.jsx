@@ -12,7 +12,7 @@ class PostTemplateDetails extends React.Component {
     const tags = post.fields.tagSlugs
     const title = post.frontmatter.title
     const disqusConfig = {
-      shortname: process.env.GATSBY_DISQUS_NAME,
+      shortname: 'pak-jiddat',
       config: { identifier: post.fields.slug, title }
     }
 
