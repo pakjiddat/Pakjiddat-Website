@@ -17,10 +17,10 @@ class ContactRoute extends React.Component {
             <meta name="description" content="contact page" />
           </Helmet>
           <Sidebar {...this.props} />
-          <div className="content" id="contact-container">
+          <div className="content">
             <div className="content__inner">
               <div className="page">
-                <h1 className="page__title">Contact Us</h1>
+                <h1 className="page__title" id="contact-container">Contact Us</h1>
                 <div className="page__body">
                   <p>
                   <form method="post" name="contact" id="contact"
@@ -47,14 +47,14 @@ class ContactRoute extends React.Component {
                       Message:<br/>
                       <textarea id="message" rows="5" cols="30"/>
                     </label><br/>
-                    
+
                     <br/><br/>
 
                     <button type="submit">Send</button>
 
                     <input type="hidden" name="bot-field" />
                     <div data-netlify-recaptcha="true"></div>
-
+                    <input type="hidden" name="form-name" value="contact" />
                   </form>
                   </p>
                 </div>
