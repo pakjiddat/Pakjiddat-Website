@@ -4,7 +4,6 @@ date: "2017-04-14"
 layout: post
 draft: false
 path: "/posts/what-are-css-grid-systems"
-category: "responsive website design"
 tags:
   - "responsive website design"
 description: "CSS Grid Systems are CSS style-sheets that contain commonly used CSS classes. These CSS classes can be applied to HTML elements such as div tags. They provided functionalities such as tables and grids. The CSS classes are responsive so they work on devices of different sizes."

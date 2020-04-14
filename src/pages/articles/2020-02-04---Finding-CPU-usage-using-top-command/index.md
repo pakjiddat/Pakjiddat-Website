@@ -4,7 +4,6 @@ date: "2017-02-10"
 layout: post
 draft: false
 path: "/posts/finding-cpu-usage-using-top-command"
-category: "server management"
 tags:
   - "server management"
 description: "The top command can be used in combination with bash tools to find CPU usage. The article: Finding CPU usage from top command describes how to find CPU usage using the top command."

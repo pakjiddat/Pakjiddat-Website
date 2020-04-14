@@ -4,7 +4,6 @@ date: "2020-03-28"
 layout: post
 draft: false
 path: "/posts/pak-php-crm"
-category: "open source"
 tags:
   - "open source"
 description: "Pak Php CRM is a simple web based task management application. It can be used by web developers to keep track of tasks, income, billing, goals and more."

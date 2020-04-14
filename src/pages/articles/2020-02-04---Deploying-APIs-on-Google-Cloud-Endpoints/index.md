@@ -4,7 +4,6 @@ date: "2016-11-03"
 layout: post
 draft: false
 path: "/posts/deploying-apis-on-google-cloud-endpoints"
-category: "application program interface"
 tags:
   - "application program interface"
   - "cloud computing"

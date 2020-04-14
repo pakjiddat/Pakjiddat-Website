@@ -4,7 +4,6 @@ date: "2017-03-13"
 layout: post
 draft: false
 path: "/posts/what-is-the-difference-between-viewports-and-device-width"
-category: "responsive website design"
 tags:
   - "responsive website design"
 description: "View port is the viewable area of a browser where the website is shown."

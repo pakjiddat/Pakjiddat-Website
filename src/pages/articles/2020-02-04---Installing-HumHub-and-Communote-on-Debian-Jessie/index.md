@@ -4,7 +4,6 @@ date: "2017-11-14"
 layout: post
 draft: false
 path: "/posts/installing-humhub-and-communote-on-debian-jessie"
-category: "server management"
 tags:
   - "server management"
   - "collaboration tools"

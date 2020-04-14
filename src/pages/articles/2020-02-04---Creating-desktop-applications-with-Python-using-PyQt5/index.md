@@ -4,7 +4,6 @@ date: "2019-03-26"
 layout: post
 draft: false
 path: "/posts/creating-desktop-applications-with-python-using-pyqt5"
-category: "python"
 tags:
   - "python"
   - "desktop programming"

@@ -4,7 +4,6 @@ date: "2018-08-14"
 layout: post
 draft: false
 path: "/posts/making-http-post-requests-from-google-chrome"
-category: "web servers"
 tags:
   - "web servers"
   - "online tools and services"

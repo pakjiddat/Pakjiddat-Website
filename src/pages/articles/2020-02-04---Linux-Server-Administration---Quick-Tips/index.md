@@ -4,7 +4,6 @@ date: "2019-04-03"
 layout: post
 draft: false
 path: "/posts/linux-server-administration---quick-tips"
-category: "quick tips"
 tags:
   - "quick tips"
   - "server management"

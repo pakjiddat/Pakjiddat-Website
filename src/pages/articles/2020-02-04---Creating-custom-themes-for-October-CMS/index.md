@@ -4,7 +4,6 @@ date: "2017-11-22"
 layout: post
 draft: false
 path: "/posts/creating-custom-themes-for-october-cms"
-category: "software installation and configuration"
 tags:
   - "software installation and configuration"
 description: "October CMS is a content management system based on Laravel Php Framework. It allows developing websites and web applications. It supports custom themes and plugins. In this article I will describe my experience with developing a custom theme for the October CMS."

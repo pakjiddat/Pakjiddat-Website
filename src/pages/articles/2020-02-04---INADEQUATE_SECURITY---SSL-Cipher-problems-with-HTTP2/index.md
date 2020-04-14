@@ -4,7 +4,6 @@ date: "2018-10-19"
 layout: post
 draft: false
 path: "/posts/inadequate-security---ssl-cipher-problems-with-http2"
-category: "network administration"
 tags:
   - "network administration"
   - "online tools and services"

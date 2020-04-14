@@ -4,7 +4,6 @@ date: "2018-11-08"
 layout: post
 draft: false
 path: "/posts/using-generators--classes-and-objects-in-javascript"
-category: "javascript"
 tags:
   - "javascript"
 description: "All values in JavaScript are objects except for primitive values which have no methods and properties."

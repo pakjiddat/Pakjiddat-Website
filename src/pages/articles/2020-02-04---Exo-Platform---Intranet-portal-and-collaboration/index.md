@@ -4,7 +4,6 @@ date: "2017-11-22"
 layout: post
 draft: false
 path: "/posts/exo-platform---intranet-portal-and-collaboration"
-category: "software installation and configuration"
 tags:
   - "software installation and configuration"
   - "collaboration tools"

@@ -4,7 +4,6 @@ date: "2017-11-14"
 layout: post
 draft: false
 path: "/posts/pydio---document-management-and-sharing"
-category: "collaboration tools"
 tags:
   - "collaboration tools"
 description: "Pydio is a Secure File Management and Sync solution. It was formerly called AjaXplorer. Pydio stands for 'Put Your Data In Orbit'. It allows users to manage and share their files across devices. It has a customizable web interface and has clients for Desktop and Mobile devices."

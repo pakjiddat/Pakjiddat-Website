@@ -4,7 +4,6 @@ date: "2017-04-11"
 layout: post
 draft: false
 path: "/posts/installing-rocket-chat-and-wekan-on-ubuntu-server"
-category: "collaboration tools"
 tags:
   - "collaboration tools"
 description: "Rocket Chat and Wekan are useful online collaboration tools. Both tools are open source and can be downloaded and installed for free."

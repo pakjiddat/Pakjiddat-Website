@@ -4,7 +4,6 @@ date: "2017-04-14"
 layout: post
 draft: false
 path: "/posts/server-monitoring-with-munin"
-category: "server management"
 tags:
   - "server management"
 description: "Server monitoring is a useful task that is performed by server administrators. Server monitoring involves keeping a check on the various parts of a server such as its CPU, Memory, Hard Disk, Network Traffic, Services and more. Server monitoring can avoid problems that can disrupt services."

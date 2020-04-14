@@ -4,7 +4,6 @@ date: "2018-11-25"
 layout: post
 draft: false
 path: "/posts/using-javascript-modules"
-category: "javascript"
 tags:
   - "javascript"
 description: "JavaScript Modules are an implementation of ES6 Modules. They allow a useful way to organize and reuse JavaScript code. JavaScript Modules consist of a set of features that provide module functionality."

@@ -4,7 +4,6 @@ date: "2019-02-19"
 layout: post
 draft: false
 path: "/posts/website-performance-testing"
-category: "wordpress"
 tags:
   - "wordpress"
   - "website testing"

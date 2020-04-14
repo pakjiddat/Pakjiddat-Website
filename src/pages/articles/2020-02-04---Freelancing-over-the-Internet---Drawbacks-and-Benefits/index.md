@@ -4,7 +4,6 @@ date: "2018-11-13"
 layout: post
 draft: false
 path: "/posts/freelancing-over-the-internet---drawbacks-and-benefits"
-category: "society"
 tags:
   - "society"
 description: "In this article I describe my experiences and conclusions of working as a Freelancer over the internet. I will describe the benefits and drawbacks of Freelancing in general with an emphasis of Freelance I.T work."

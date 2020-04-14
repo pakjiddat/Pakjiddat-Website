@@ -4,7 +4,6 @@ date: "2019-08-17"
 layout: post
 draft: false
 path: "/posts/online-collaboration-with-slack"
-category: "collaboration tools"
 tags:
   - "collaboration tools"
 description: "Slack is a popular online collaboration platform that is widely used by professionals from different fields. It allows instant messaging, voice and video conferencing, file sharing, integration with applications and more."

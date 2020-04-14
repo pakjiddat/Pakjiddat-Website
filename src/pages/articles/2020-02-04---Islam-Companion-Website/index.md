@@ -4,7 +4,6 @@ date: "2019-03-18"
 layout: post
 draft: false
 path: "/posts/islam-companion-website"
-category: "open source"
 tags:
   - "open source"
 description: "The Islam Companion website project is a website that allows users to read Holy Quran and Hadith text. It also allows users to subscribe to Holy Quran and Hadith by email."

@@ -4,7 +4,6 @@ date: "2016-11-03"
 layout: post
 draft: false
 path: "/posts/developing-apis-using-google-apps-script"
-category: "application program interface"
 tags:
   - "application program interface"
 description: "Google Apps Script is a platform for developing scripts for Google Products. It allows developers to interact with Google Products from JavaScript. It also allows extending the functionality of Google Products using JavaScript."

@@ -4,7 +4,6 @@ date: "2017-11-14"
 layout: post
 draft: false
 path: "/posts/setting-up-your-own-content-delivery-network-using-bind-dns"
-category: "content delivery network"
 tags:
   - "content delivery network"
   - "server management"

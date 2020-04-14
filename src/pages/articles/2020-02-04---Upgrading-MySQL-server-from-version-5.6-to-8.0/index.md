@@ -4,7 +4,6 @@ date: "2018-06-28"
 layout: post
 draft: false
 path: "/posts/upgrading-mysql-server-from-version-5-6-to-8-0"
-category: "server management"
 tags:
   - "server management"
   - "software installation and configuration"

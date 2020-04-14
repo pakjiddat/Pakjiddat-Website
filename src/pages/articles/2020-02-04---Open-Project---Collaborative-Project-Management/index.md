@@ -4,7 +4,6 @@ date: "2017-11-14"
 layout: post
 draft: false
 path: "/posts/open-project---collaborative-project-management"
-category: "software installation and configuration"
 tags:
   - "software installation and configuration"
   - "collaboration tools"

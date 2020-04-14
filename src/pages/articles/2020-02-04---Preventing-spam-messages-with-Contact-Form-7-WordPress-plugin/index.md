@@ -4,7 +4,6 @@ date: "2018-06-28"
 layout: post
 draft: false
 path: "/posts/preventing-spam-messages-with-contact-form-7-wordpress-plugin"
-category: "server security"
 tags:
   - "server security"
 description: "Contact Form 7 is a plugin for WordPress that allows website visitors to contact website owners. It is one of the most popular WordPress plugins with over 5 million active installations."

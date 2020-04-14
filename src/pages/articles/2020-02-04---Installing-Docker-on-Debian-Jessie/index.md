@@ -4,7 +4,6 @@ date: "2017-11-22"
 layout: post
 draft: false
 path: "/posts/installing-docker-on-debian-jessie"
-category: "software installation and configuration"
 tags:
   - "software installation and configuration"
 description: "Docker is a solution for managing light weight containers. To install Docker on Debian Jessie, we need to first install packages to allow apt to use a repository over HTTPS. We can do this using the command:"

@@ -4,7 +4,6 @@ date: "2017-03-13"
 layout: post
 draft: false
 path: "/posts/customizing-redmine-layout"
-category: "javascript"
 tags:
   - "javascript"
   - "css"

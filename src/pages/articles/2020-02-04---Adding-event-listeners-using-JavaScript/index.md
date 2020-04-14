@@ -4,7 +4,6 @@ date: "2018-04-04"
 layout: post
 draft: false
 path: "/posts/adding-event-listeners-using-javascript"
-category: "javascript"
 tags:
   - "javascript"
 description: "The addEventListener function can be used to listen for events. The function can be called on any HTML DOM object such as HTML elements, HTML document, the window object or objects that support events such as xmlHttpRequest. The following example shows how to attach event listener to the window object:"

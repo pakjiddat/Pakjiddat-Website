@@ -4,7 +4,6 @@ date: "2017-11-21"
 layout: post
 draft: false
 path: "/posts/installing-zurmo-crm-and-oxwell-social-network-platform"
-category: "software installation and configuration"
 tags:
   - "software installation and configuration"
   - "collaboration tools"

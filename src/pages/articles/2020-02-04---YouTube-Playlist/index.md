@@ -4,13 +4,12 @@ date: "2019-03-18"
 layout: post
 draft: false
 path: "/posts/youtube-playlist"
-category: "open source"
 tags:
   - "open source"
 description: "The YouTube Playlist is derived from the MediaElement player. It allows YouTube videos to be displayed in a playlist."
 ---
 
-![YouTube Playlist](youtube-playlist.png)
+![YouTube Playlist](./youtube-playlist.png)
 
 ### Introduction
 The YouTube Playlist is derived from the [MediaElement player](http://mediaelementjs.com/). It allows YouTube videos to be displayed in a playlist.

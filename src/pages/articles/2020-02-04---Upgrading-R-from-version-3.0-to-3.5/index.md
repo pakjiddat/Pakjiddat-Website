@@ -4,7 +4,6 @@ date: "2018-06-28"
 layout: post
 draft: false
 path: "/posts/upgrading-r-from-version-3-0-to-3-5"
-category: "server management"
 tags:
   - "server management"
   - "software installation and configuration"

@@ -4,7 +4,6 @@ date: "2018-05-01"
 layout: post
 draft: false
 path: "/posts/backing-up-and-restoring-lxd-containers"
-category: "server management"
 tags:
   - "server management"
   - "command line tools"

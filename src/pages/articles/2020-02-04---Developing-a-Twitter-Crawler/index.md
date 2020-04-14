@@ -4,7 +4,6 @@ date: "2017-04-11"
 layout: post
 draft: false
 path: "/posts/developing-a-twitter-crawler"
-category: "social media analysis"
 tags:
   - "social media analysis"
 description: "Recently I had the opportunity of developing a web based Twitter analytics application for a client. The application is called HQFollowBack. During the development of the application I learned how to use software development tools and apply software development techniques for solving certain problems."

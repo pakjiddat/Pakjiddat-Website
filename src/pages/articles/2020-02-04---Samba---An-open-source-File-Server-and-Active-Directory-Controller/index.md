@@ -4,7 +4,6 @@ date: "2016-11-03"
 layout: post
 draft: false
 path: "/posts/samba---an-open-source-file-server-and-active-directory-controller"
-category: "centralized user management"
 tags:
   - "centralized user management"
   - "server management"

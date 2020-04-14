@@ -4,7 +4,6 @@ date: "2017-04-11"
 layout: post
 draft: false
 path: "/posts/upgrading-jwplayer-to-version-7"
-category: "html"
 tags:
   - "html"
   - "css"

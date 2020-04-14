@@ -4,7 +4,6 @@ date: "2019-08-21"
 layout: post
 draft: false
 path: "/posts/running-graphical-applications-within-lxd-containers"
-category: "server management"
 tags:
   - "server management"
   - "software installation and configuration"

@@ -4,7 +4,6 @@ date: "2018-09-05"
 layout: post
 draft: false
 path: "/posts/getting--etc-rc-local-file-to-work-on-debian-9--stretch-"
-category: "server management"
 tags:
   - "server management"
 description: "Debian Stretch uses the rc.local service for executing commands on system startup. To use this service we need to run the following commands:"

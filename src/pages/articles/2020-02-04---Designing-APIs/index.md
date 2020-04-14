@@ -4,7 +4,6 @@ date: "2016-11-04"
 layout: post
 draft: false
 path: "/posts/designing-apis"
-category: "application program interface"
 tags:
   - "application program interface"
 description: "Application Programming Interfaces (APIs) may be regarded as the building blocks of software applications. APIs provide a subset of the functionality of a system to an application. An API may be regarded as a set of libraries that allows an application to be used by multiple applications."

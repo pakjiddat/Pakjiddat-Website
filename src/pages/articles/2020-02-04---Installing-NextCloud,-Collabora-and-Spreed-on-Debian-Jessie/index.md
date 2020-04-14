@@ -4,7 +4,6 @@ date: "2017-11-14"
 layout: post
 draft: false
 path: "/posts/installing-nextcloud--collabora-and-spreed-on-debian-jessie"
-category: "software installation and configuration"
 tags:
   - "software installation and configuration"
   - "collaboration tools"

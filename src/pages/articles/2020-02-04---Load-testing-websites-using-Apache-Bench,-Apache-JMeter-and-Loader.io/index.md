@@ -4,7 +4,6 @@ date: "2017-04-11"
 layout: post
 draft: false
 path: "/posts/load-testing-websites-using-apache-bench--apache-jmeter-and-loader-io"
-category: "website testing"
 tags:
   - "website testing"
 description: "Load testing a website refers to the process of testing the number of concurrent users that the website is able to support. Whether or not your website attracts lots of visitors, it is useful to know how many users the website can support."

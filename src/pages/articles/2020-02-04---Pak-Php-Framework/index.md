@@ -4,7 +4,6 @@ date: "2019-03-11"
 layout: post
 draft: false
 path: "/posts/pak-php-framework"
-category: "open source"
 tags:
   - "open source"
 description: "The Pak Php Framework is a framework for developing PHP applications. It can be used to develop command line applications as well as browser applications based on Model View Controller (MVC) design pattern."

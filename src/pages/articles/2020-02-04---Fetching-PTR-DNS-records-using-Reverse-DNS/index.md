@@ -4,7 +4,6 @@ date: "2017-02-02"
 layout: post
 draft: false
 path: "/posts/fetching-ptr-dns-records-using-reverse-dns"
-category: "network administration"
 tags:
   - "network administration"
 description: "Reverse DNS or RDNS is the process of fetching the host name for a given IP address. Reverse DNS works similarly to forward DNS."

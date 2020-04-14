@@ -4,7 +4,6 @@ date: "2019-05-06"
 layout: post
 draft: false
 path: "/posts/islam-companion-desktop-reader"
-category: "open source"
 tags:
   - "open source"
 description: "The Islam Companion Desktop Reader project is a desktop application for the Linux operating system. It allows users to read Holy Quran and Hadith."

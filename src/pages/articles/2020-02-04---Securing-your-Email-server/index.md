@@ -4,7 +4,6 @@ date: "2017-11-14"
 layout: post
 draft: false
 path: "/posts/securing-your-email-server"
-category: "software installation and configuration"
 tags:
   - "software installation and configuration"
   - "server security"

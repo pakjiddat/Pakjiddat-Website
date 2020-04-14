@@ -4,7 +4,6 @@ date: "2017-11-23"
 layout: post
 draft: false
 path: "/posts/resizing-linux-root-partitions-without-unmount-on-google-cloud"
-category: "server management"
 tags:
   - "server management"
   - "command line tools"

@@ -4,7 +4,6 @@ date: "2017-11-14"
 layout: post
 draft: false
 path: "/posts/graylog2---a-scalable-open-source-centralized-logging-system"
-category: "software installation and configuration"
 tags:
   - "software installation and configuration"
 description: "In this blog post I will describe my experience with using an open source centralized logging system called Graylog2. Graylog2 is an excellent log management system. It is based on well known open source tools such as Mongodb and Elasticsearch."

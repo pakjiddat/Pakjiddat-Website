@@ -4,7 +4,6 @@ date: "2019-09-10"
 layout: post
 draft: false
 path: "/posts/preventing-ssh-and-sql-injection-attacks-using-fail2ban"
-category: "server security"
 tags:
   - "server security"
   - " software installation and configuration"

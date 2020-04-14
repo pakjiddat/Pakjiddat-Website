@@ -4,7 +4,6 @@ date: "2019-11-27"
 layout: post
 draft: false
 path: "/posts/building-ionic-cordova-applications-for-android-on-debian-10"
-category: "mobile development"
 tags:
   - "mobile development"
   - " hybrid apps"

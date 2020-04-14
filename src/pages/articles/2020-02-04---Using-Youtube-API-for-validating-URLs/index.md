@@ -4,7 +4,6 @@ date: "2017-04-11"
 layout: post
 draft: false
 path: "/posts/using-youtube-api-for-validating-urls"
-category: "application program interface"
 tags:
   - "application program interface"
 description: "Google recently updated its Developer Console into a unified platform for accessing all of its APIs. The Google Developer Console not only provides a single location for accessing information about all Google APIs but also provides links to code samples and API SDKs. It also provides online tools for testing the APIs."

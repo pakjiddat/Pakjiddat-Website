@@ -4,7 +4,6 @@ date: "2018-01-13"
 layout: post
 draft: false
 path: "/posts/installing-laravel-spark--gitscrum-and-icecoder-on-debian-stetch"
-category: "php"
 tags:
   - "php"
   - "software installation and configuration"

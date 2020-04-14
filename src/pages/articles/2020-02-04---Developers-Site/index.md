@@ -4,7 +4,6 @@ date: "2019-03-18"
 layout: post
 draft: false
 path: "/posts/developers-site"
-category: "open source"
 tags:
   - "open source"
 description: "The Developers Site project is a simple website that displays articles. It is suitable for developers who need a platform for publishing their work."

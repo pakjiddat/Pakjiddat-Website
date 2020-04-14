@@ -4,7 +4,6 @@ date: "2018-09-25"
 layout: post
 draft: false
 path: "/posts/creating-scalable-applications-with-ionic-framework-and-firebase"
-category: "css"
 tags:
   - "css"
   - "javascript"

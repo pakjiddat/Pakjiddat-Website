@@ -4,7 +4,6 @@ date: "2017-11-15"
 layout: post
 draft: false
 path: "/posts/installing-canvas-learning-management-system"
-category: "software installation and configuration"
 tags:
   - "software installation and configuration"
   - "collaboration tools"

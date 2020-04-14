@@ -4,7 +4,6 @@ date: "2017-11-22"
 layout: post
 draft: false
 path: "/posts/using-redir-command-for-redirecting-ports"
-category: "command line tools"
 tags:
   - "command line tools"
 description: "Redir is a very useful command line script that allows port redirection. The script listens on the given TCP port and forwards incoming connection to the given IP address and port"

@@ -4,7 +4,6 @@ date: "2019-09-02"
 layout: post
 draft: false
 path: "/posts/creating-snaps-for-pyqt5-applications"
-category: "desktop programming"
 tags:
   - "desktop programming"
   - "software deployment"

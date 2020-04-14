@@ -4,7 +4,6 @@ date: "2017-11-14"
 layout: post
 draft: false
 path: "/posts/data-mining-with-graylog2"
-category: "software installation and configuration"
 tags:
   - "software installation and configuration"
 description: "In my earlier post titled, Graylog2 - A scalable open source centralized logging system, I had described my experience with installing and configuring Graylog2. In this post, I will describe my experience with using the search features of Graylog2."

@@ -4,7 +4,6 @@ date: "2017-04-11"
 layout: post
 draft: false
 path: "/posts/advantages-of-html-5-validation"
-category: "website testing"
 tags:
   - "website testing"
 description: "In this blog post I will discuss briefly the importance of HTML 5 and how to create standards compliant HTML code."

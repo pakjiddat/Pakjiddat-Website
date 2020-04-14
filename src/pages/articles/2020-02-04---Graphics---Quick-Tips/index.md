@@ -4,7 +4,6 @@ date: "2019-04-05"
 layout: post
 draft: false
 path: "/posts/graphics---quick-tips"
-category: "quick tips"
 tags:
   - "quick tips"
   - "graphics"

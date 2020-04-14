@@ -4,7 +4,6 @@ date: "2019-05-06"
 layout: post
 draft: false
 path: "/posts/islam-companion-desktop-api"
-category: "open source"
 tags:
   - "open source"
 description: "The Islam Companion Desktop API project is a API (Application Programming Interface) written in Python language, that allows users to add Holy Quran and Hadith data to their applications. Currently it provides Quranic and Hadith translations in Urdu language. Support for other languages is planned."

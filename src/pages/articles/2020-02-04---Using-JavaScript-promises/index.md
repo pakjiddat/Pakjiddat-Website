@@ -4,7 +4,6 @@ date: "2018-11-05"
 layout: post
 draft: false
 path: "/posts/using-javascript-promises"
-category: "javascript"
 tags:
   - "javascript"
 description: "A Promise is defined as an object representing the eventual completion or failure of an asynchronous operation. When creating a Promise object, we have to pass a function called executor as the constructor parameter. The function should accept two functions as arguments called resolve and reject."

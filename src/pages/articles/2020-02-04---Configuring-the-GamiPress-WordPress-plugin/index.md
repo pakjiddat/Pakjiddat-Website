@@ -4,7 +4,6 @@ date: "2019-09-19"
 layout: post
 draft: false
 path: "/posts/configuring-the-gamipress-wordpress-plugin"
-category: "wordpress"
 tags:
   - "wordpress"
 description: "GamiPress is a WordPress plugin that allows adding Gamification features to a WordPress website. It is free and open source. The main features of GamiPress are free but some of the addons, service plans and assets are priced."

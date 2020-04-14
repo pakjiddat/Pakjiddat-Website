@@ -4,7 +4,6 @@ date: "2019-03-10"
 layout: post
 draft: false
 path: "/posts/utilities-framework"
-category: "open source"
 tags:
   - "open source"
 description: "The Utilities Framework is a set of PHP libraries that provide functions such as error handling, logging, emailing, fetching web pages, script profiling, database abstraction, encryption, template engine and more. It requires PHP 7.2 and above. The libraries are easy to use and can be used with custom applications and PHP Frameworks."

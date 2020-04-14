@@ -4,7 +4,6 @@ date: "2017-12-16"
 layout: post
 draft: false
 path: "/posts/using-cookies-in-javascript"
-category: "javascript"
 tags:
   - "javascript"
 description: "Cookies allow websites to store information on the user browsers. They are usually used to store website session related information."

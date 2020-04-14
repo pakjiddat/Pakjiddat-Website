@@ -4,7 +4,6 @@ date: "2019-10-02"
 layout: post
 draft: false
 path: "/posts/securing-websites-using-content-security-policy-and-x-frame-options"
-category: "website security"
 tags:
   - "website security"
 description: "Websites are playing an increasingly important role in society. They are no longer used casually. Over the last few years websites have evolved from an amusing hobby to a platform for delivering important content. The content delivered by websites is being used to make important decisions. It is therefore very important to ensure that website content is securely delivered."

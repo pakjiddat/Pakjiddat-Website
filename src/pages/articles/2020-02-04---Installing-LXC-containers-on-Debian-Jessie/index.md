@@ -4,7 +4,6 @@ date: "2017-04-11"
 layout: post
 draft: false
 path: "/posts/installing-lxc-containers-on-debian-jessie"
-category: "server virtualization"
 tags:
   - "server virtualization"
 description: "Containers are light weight virtual machines that can be used to isolate processes. Containers implement operating system level virtualization. This means that all containers running on a host will share the kernel of the host operating system."

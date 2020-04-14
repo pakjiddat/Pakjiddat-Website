@@ -114,12 +114,5 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
       )
       createNodeField({ node, name: 'tagSlugs', value: tagSlugs })
     }
-
-    if (typeof node.frontmatter.category !== 'undefined') {
-      const categorySlug = `/categories/${_.kebabCase(
-        node.frontmatter.category
-      )}/`
-      createNodeField({ node, name: 'categorySlug', value: categorySlug })
-    }
   }
 }

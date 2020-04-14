@@ -4,7 +4,6 @@ date: "2018-10-31"
 layout: post
 draft: false
 path: "/posts/generating-free-ssl-certificate-from-letsencrypt-on-localhost"
-category: "command line tools"
 tags:
   - "command line tools"
   - "web servers"

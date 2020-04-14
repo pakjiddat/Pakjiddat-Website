@@ -4,7 +4,6 @@ date: "2018-10-19"
 layout: post
 draft: false
 path: "/posts/viewing-package-information-using-yum-history-command"
-category: "command line tools"
 tags:
   - "command line tools"
   - "software installation and configuration"

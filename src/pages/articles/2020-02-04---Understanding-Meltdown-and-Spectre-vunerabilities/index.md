@@ -4,7 +4,6 @@ date: "2018-01-28"
 layout: post
 draft: false
 path: "/posts/understanding-meltdown-and-spectre-vunerabilities"
-category: "server security"
 tags:
   - "server security"
 description: "Meltdown and Spectre are hardware vulnerabilities that affect all microprocessors based on Intel and some based on ARM and AMD."

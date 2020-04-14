@@ -4,7 +4,6 @@ date: "2017-04-14"
 layout: post
 draft: false
 path: "/posts/new-features-in-html-5"
-category: "html"
 tags:
   - "css"
   - "html"

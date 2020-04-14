@@ -4,7 +4,6 @@ date: "2018-03-24"
 layout: post
 draft: false
 path: "/posts/creating-custom-playlists-for-mediaelementplayer"
-category: "html"
 tags:
   - "html"
   - "javascript"

@@ -4,7 +4,6 @@ date: "2017-03-13"
 layout: post
 draft: false
 path: "/posts/installing-w3c-markup-validator-on-debian-jessie"
-category: "software installation and configuration"
 tags:
   - "software installation and configuration"
 description: "The W3C Markup Validator is a useful tool that allows validating HTML text. It can be used to check if a given web page or text conforms to the HTML 5 standard."

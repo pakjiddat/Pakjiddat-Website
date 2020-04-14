@@ -4,7 +4,6 @@ date: "2017-04-11"
 layout: post
 draft: false
 path: "/posts/continuous-integration-and-project-management-with-jenkins-and-redmine"
-category: "continuous integration"
 tags:
   - "wordpress"
   - "continuous integration"

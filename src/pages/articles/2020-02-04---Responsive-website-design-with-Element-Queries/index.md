@@ -4,7 +4,6 @@ date: "2019-03-18"
 layout: post
 draft: false
 path: "/posts/responsive-website-design-with-element-queries"
-category: "responsive website design"
 tags:
   - "responsive website design"
 description: "Element Queries allow changing the size of a HTML element based on the style of other elements. Element queries are similar to media queries, but are based on element size instead of browser or view-port size."

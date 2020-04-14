@@ -4,7 +4,6 @@ date: "2019-04-16"
 layout: post
 draft: false
 path: "/posts/linux-server-security---quick-tips"
-category: "quick tips"
 tags:
   - "quick tips"
   - "server security"

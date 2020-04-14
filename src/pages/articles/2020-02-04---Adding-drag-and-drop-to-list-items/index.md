@@ -4,7 +4,6 @@ date: "2017-10-02"
 layout: post
 draft: false
 path: "/posts/adding-drag-and-drop-to-list-items"
-category: "html"
 tags:
   - "html"
 description: "In order to drag and drop HTML list items, we need to set the draggable attribute of the list items to true. We also need to define event handlers on the list items for the following events: dragstart, drop and dragover."

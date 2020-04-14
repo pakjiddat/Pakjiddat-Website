@@ -4,7 +4,6 @@ date: "2018-01-28"
 layout: post
 draft: false
 path: "/posts/securing-linux-servers-with-selinux--clamav--spamassassin-and-rkhunter"
-category: "server management"
 tags:
   - "server management"
   - "server security"

@@ -4,7 +4,6 @@ date: "2018-09-07"
 layout: post
 draft: false
 path: "/posts/publishing-websites-using-jekyll"
-category: "software installation and configuration"
 tags:
   - "software installation and configuration"
 description: "Jekyll is a static site generator. It generates static HTML pages from content written in Mark Down or HTML. Its different from other website publishing tools in that it does not use a database."

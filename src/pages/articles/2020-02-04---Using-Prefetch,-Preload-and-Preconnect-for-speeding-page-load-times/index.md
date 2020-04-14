@@ -4,7 +4,6 @@ date: "2018-02-19"
 layout: post
 draft: false
 path: "/posts/using-prefetch--preload-and-preconnect-for-speeding-page-load-times"
-category: "html"
 tags:
   - "html"
   - "css"

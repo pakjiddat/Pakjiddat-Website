@@ -4,7 +4,6 @@ date: "2016-10-24"
 layout: post
 draft: false
 path: "/posts/freeipa---an-open-source-centralized-user-management-system"
-category: "centralized user management"
 tags:
   - "centralized user management"
 description: "This blog post is about FreeIPA, a very useful open source centralized user management solution from Red Hat. I had the opportunity of installing FreeIPA in a virtualized environment. I want to share my experience in this blog post."

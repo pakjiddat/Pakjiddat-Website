@@ -4,7 +4,6 @@ date: "2019-04-03"
 layout: post
 draft: false
 path: "/posts/linux-command-line-tools---quick-tips"
-category: "quick tips"
 tags:
   - "quick tips"
   - "command line tools"
@@ -18,6 +17,13 @@ The following script can be used for updating all occurrences of a text inside f
 
 ```
 find folder_name -type f -print0 | xargs -0 sed -i 's/current_text/new_text/g'
+```
+
+#### [Using SED tool for removing line that starts with some text in all files](https://stackoverflow.com/questions/8206280/delete-all-lines-beginning-with-a-from-a-file)
+The following script can be used for updating all occurrences of a text inside files:
+
+```
+find . -type f -exec sed -i '/^category:/ d' {} +
 ```
 
 #### [Using Rsync fore recursive file copy](https://linux.die.net/man/1/rsync)

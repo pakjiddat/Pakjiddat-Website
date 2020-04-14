@@ -4,7 +4,6 @@ date: "2017-04-11"
 layout: post
 draft: false
 path: "/posts/closing-unnecessary-email-accounts"
-category: "server management"
 tags:
   - "server management"
 description: "If you want to keep your email organized, then it might be a good idea to have just one email account. Recently I decided to organize my email by closing email accounts that I don't use frequently. This article provides some points on how to organize your email."

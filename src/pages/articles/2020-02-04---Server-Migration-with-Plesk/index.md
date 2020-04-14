@@ -4,7 +4,6 @@ date: "2017-02-02"
 layout: post
 draft: false
 path: "/posts/server-migration-with-plesk"
-category: "server management"
 tags:
   - "server management"
 description: "Plesk is a commercial platform for managing website hosting. The cost of using Plesk depends on the number of domains to be managed, type of hosting (dedicated or VPS), addon products such as anti virus etc. Plesk allows managing FTP, Email, web site hosting, DNS and more."

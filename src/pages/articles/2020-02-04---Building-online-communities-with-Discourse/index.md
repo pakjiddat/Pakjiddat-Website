@@ -4,7 +4,6 @@ date: "2019-04-19"
 layout: post
 draft: false
 path: "/posts/building-online-communities-with-discourse"
-category: "software installation and configuration"
 tags:
   - "software installation and configuration"
 description: "Discourse is a popular discussion application that allows users to discuss topics. It is one of the most popular discussion applications with lots of features and a user friendly interface. To try out the features provided by Discourse, see the Discourse Demo."

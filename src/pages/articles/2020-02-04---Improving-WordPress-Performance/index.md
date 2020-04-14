@@ -4,7 +4,6 @@ date: "2018-06-23"
 layout: post
 draft: false
 path: "/posts/improving-wordpress-performance"
-category: "wordpress"
 tags:
   - "wordpress"
   - "website testing"

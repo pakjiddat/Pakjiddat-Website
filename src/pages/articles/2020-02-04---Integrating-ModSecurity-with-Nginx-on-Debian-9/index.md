@@ -4,7 +4,6 @@ date: "2019-04-13"
 layout: post
 draft: false
 path: "/posts/integrating-modsecurity-with-nginx-on-debian-9"
-category: "server security"
 tags:
   - "server security"
   - "web servers"

@@ -4,7 +4,6 @@ date: "2017-04-11"
 layout: post
 draft: false
 path: "/posts/integrating-rocket-chat-and-trello"
-category: "collaboration tools"
 tags:
   - "collaboration tools"
 description: "Rocket Chat is an excellent open source collaboration tool. It is similar to the close source commercial application Slack. Trello is a commercial Kanban board that allows managing tasks and task lists. It has an attractive interface with many features and a well documented API."

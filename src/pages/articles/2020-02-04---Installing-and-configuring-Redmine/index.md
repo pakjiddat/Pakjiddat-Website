@@ -4,7 +4,6 @@ date: "2017-04-11"
 layout: post
 draft: false
 path: "/posts/installing-and-configuring-redmine"
-category: "collaboration tools"
 tags:
   - "collaboration tools"
 description: "Redmine is a web based project management and collaboration platform. It is based on the Ruby programming language and the Ruby on Rails framework. Its user friendly and easy to install and configure."

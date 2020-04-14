@@ -4,7 +4,6 @@ date: "2019-04-03"
 layout: post
 draft: false
 path: "/posts/converting-mysql-database-to-sqlite3-format"
-category: "command line tools"
 tags:
   - "command line tools"
   - "database management"

@@ -4,7 +4,6 @@ date: "2017-12-01"
 layout: post
 draft: false
 path: "/posts/installing-wireshark-on-ubuntu-artful"
-category: "software installation and configuration"
 tags:
   - "software installation and configuration"
 description: "Wireshark is a network protocol analyzer which allows inspecting network traffic at different levels. It supports all the well known network protocols and is commonly used for troubleshooting network related problems."

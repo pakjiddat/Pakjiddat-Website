@@ -4,7 +4,6 @@ date: "2017-11-24"
 layout: post
 draft: false
 path: "/posts/running-multiple-versions-of-mailx-command"
-category: "command line tools"
 tags:
   - "command line tools"
   - "server management"

@@ -4,7 +4,6 @@ date: "2018-06-28"
 layout: post
 draft: false
 path: "/posts/upgrading-from-debian-jessie-to-debian-stretch"
-category: "server management"
 tags:
   - "server management"
   - "cloud computing"

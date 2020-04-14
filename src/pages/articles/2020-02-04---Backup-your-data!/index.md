@@ -4,7 +4,6 @@ date: "2017-04-11"
 layout: post
 draft: false
 path: "/posts/backup-your-data"
-category: "server management"
 tags:
   - "server management"
 description: "Recently I had the misfortune of losing months of precious work. This blog post is about my unlucky experience of loosing data. Hopefully it reminds the I.T people who read this article about the importance of a good backup."

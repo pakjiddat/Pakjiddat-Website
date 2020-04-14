@@ -4,7 +4,6 @@ date: "2017-04-11"
 layout: post
 draft: false
 path: "/posts/installing-w3c-markup-validator-and-validator-nu-on-debian-jessie"
-category: "website testing"
 tags:
   - "website testing"
 description: "W3C Markup Validator and Validator.nu are two useful tools that can be used to validate HTML code. W3C Markup validator allows validating xhtml, html, xml, mathml and more. Validator.nu allows validating HTML 5 code. The W3C Markup validator is written in Perl, while the Validator.nu is written in Java. Both tools are actively being developed."

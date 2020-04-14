@@ -4,7 +4,6 @@ date: "2017-01-12"
 layout: post
 draft: false
 path: "/posts/rocket-chat-installation-tips"
-category: "software installation and configuration"
 tags:
   - "software installation and configuration"
 description: "The following script can be used to run an instance of Rocket Chat"

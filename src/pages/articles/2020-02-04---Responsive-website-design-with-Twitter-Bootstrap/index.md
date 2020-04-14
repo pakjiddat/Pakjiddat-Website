@@ -4,7 +4,6 @@ date: "2017-04-11"
 layout: post
 draft: false
 path: "/posts/responsive-website-design-with-twitter-bootstrap"
-category: "responsive website design"
 tags:
   - "responsive website design"
 description: "Designing your website so it is accessible on all type of devices is a popular topic and is often referred to as Responsive Website Design. This blog post describes my experience of developing a website according to Responsive Website Design principles."

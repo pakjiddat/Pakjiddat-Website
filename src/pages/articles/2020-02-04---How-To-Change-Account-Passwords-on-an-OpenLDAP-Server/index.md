@@ -4,7 +4,6 @@ date: "2018-10-19"
 layout: post
 draft: false
 path: "/posts/how-to-change-account-passwords-on-an-openldap-server"
-category: "command line tools"
 tags:
   - "command line tools"
   - "server management"

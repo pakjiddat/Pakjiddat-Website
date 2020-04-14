@@ -4,7 +4,6 @@ date: "2018-06-28"
 layout: post
 draft: false
 path: "/posts/installing-latest-version-of-php"
-category: "php"
 tags:
   - "php"
   - "server management"

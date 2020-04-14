@@ -4,7 +4,6 @@ date: "2017-04-14"
 layout: post
 draft: false
 path: "/posts/what-are-css-media-queries"
-category: "responsive website design"
 tags:
   - "responsive website design"
 description: "CSS Media Queries allow us to use CSS rules for particular media"

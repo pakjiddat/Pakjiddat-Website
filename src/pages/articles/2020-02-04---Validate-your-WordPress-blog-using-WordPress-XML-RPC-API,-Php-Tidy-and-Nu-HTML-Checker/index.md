@@ -4,7 +4,6 @@ date: "2017-04-11"
 layout: post
 draft: false
 path: "/posts/validate-your-wordpress-blog-using-wordpress-xml-rpc-api--php-tidy-and-nu-html-checker"
-category: "wordpress"
 tags:
   - "wordpress"
   - "website testing"

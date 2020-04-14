@@ -4,7 +4,6 @@ date: "2018-03-24"
 layout: post
 draft: false
 path: "/posts/displaying-contents-of-an-array-in-nxm-html-table"
-category: "php"
 tags:
   - "php"
   - "algorithms"

@@ -4,7 +4,6 @@ date: "2017-04-11"
 layout: post
 draft: false
 path: "/posts/tuning-wordpress-performance-using-varnish"
-category: "wordpress"
 tags:
   - "wordpress"
   - "website testing"

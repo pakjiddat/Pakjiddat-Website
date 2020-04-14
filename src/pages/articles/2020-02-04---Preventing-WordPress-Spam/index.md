@@ -4,7 +4,6 @@ date: "2019-04-16"
 layout: post
 draft: false
 path: "/posts/preventing-wordpress-spam"
-category: "wordpress"
 tags:
   - "wordpress"
   - "server security"

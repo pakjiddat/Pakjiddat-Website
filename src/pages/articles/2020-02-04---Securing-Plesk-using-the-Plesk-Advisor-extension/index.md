@@ -4,7 +4,6 @@ date: "2018-10-19"
 layout: post
 draft: false
 path: "/posts/securing-plesk-using-the-plesk-advisor-extension"
-category: "cloud computing"
 tags:
   - "cloud computing"
   - "server security"

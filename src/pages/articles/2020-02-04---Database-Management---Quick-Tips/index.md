@@ -4,7 +4,6 @@ date: "2019-04-03"
 layout: post
 draft: false
 path: "/posts/database-management---quick-tips"
-category: "quick tips"
 tags:
   - "quick tips"
   - "database management"
