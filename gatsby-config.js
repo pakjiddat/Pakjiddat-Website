@@ -136,6 +136,15 @@ module.exports = {
     'gatsby-plugin-catch-links',
     'gatsby-plugin-react-helmet',
     {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: 'https://pakjiddat.netlify.com',
+        sitemap: 'https://pakjiddat.netlify.com/sitemap.xml',
+        policy: [{ userAgent: '*', disallow: '' }],
+        output: '/robots.txt'
+      }
+    },
+    {
       resolve: 'gatsby-plugin-sass',
       options: {
         postCssPlugins: [
