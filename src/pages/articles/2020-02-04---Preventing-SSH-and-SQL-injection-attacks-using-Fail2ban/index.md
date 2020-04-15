@@ -16,7 +16,25 @@ description: "Fail2Ban is an intrusion detection and prevention tool for Linux o
 Fail2Ban is usually used to prevent Brute force SSH attacks. It can also be used to prevent attacks on other services such as web server, ftp server, mail server or even a custom service.
 
 ### Installation
-Fail2Ban can be installed on Debian 9 (stretch) using the command: **sudo apt-get install fail2ban**. This configures fail2ban to automatically start on system boot. Fail2ban service can be controlled using the fail2ban-client command. For example the command: **fail2ban-client start** starts the Fail2Ban service. The command: **fail2ban-client status**, lists the active Fail2Ban jails.
+Fail2Ban can be installed on Debian 9 (stretch) using the command:
+
+```
+sudo apt-get install fail2ban
+```
+
+This configures fail2ban to automatically start on system boot. Fail2ban service can be controlled using the fail2ban-client command. For example the command:
+
+```
+fail2ban-client start
+```
+
+starts the Fail2Ban service. The command:
+
+```
+fail2ban-client status
+```
+
+lists the active Fail2Ban jails.
 
 ### Configuration
 Fail2Ban uses the concept of filters, actions and jails. A filter defines the regular expression used to search for invalid entries in a log file. An action is taken to ban an IP address that matches a filter. The default action is to add the IP address to the system firewall.
@@ -46,7 +64,7 @@ The **enabled** line indicates that the filter should be active. **logpath** is 
 
 [Definition]
 
-failregex = ^&lt;HOST&gt; - - \[.*\] "GET \/company\.php.*select count.* HTTP.*"$
+failregex = ^<HOST> - - \[.*\] "GET \/company\.php.*select count.* HTTP.*"$
 ```
 
 The **failregex** line indicates the regular expression to use to check for invalid entries in the Nginx access log file. Entries that match the regular expression are banned.
@@ -59,11 +77,11 @@ The command takes two arguments. The first one is the log file entry. The second
 
 ```
 fail2ban-regex '162.144.34.147 - - [09/Sep/2019:10:02:55 +0000]
-"GET /company.php?id=1019999999999 or
-(select count(*)from(select 1 union select 2 union select 3)x
+ "GET /company.php?id=1019999999999 or
+ (select count(*)from(select 1 union select 2 union select 3)x
 group by concat(mid((select vErsion()
-limit 0,1),1,0),floor(rand(0)*2))) -- x=x HTTP/1.1" 301 169 "-" "-" "-"'
-'^&lt;HOST&gt; - - \[.*\] "GET \/company\.php.*select count.* HTTP.*"$'
+  limit 0,1),1,0),floor(rand(0)*2))) -- x=x HTTP/1.1" 301 169 "-" "-" "-"'
+'^<HOST> - - \[.*\] "GET \/company\.php.*select count.* HTTP.*"$'
 ```
 
 ### Conclusion

@@ -35,8 +35,8 @@ The following steps can be used to install the "Islam Companion Desktop API":
 
 * Create a new virtual environment using the [virtualenv](https://virtualenv.pypa.io/en/latest/) tool. This can be done with the command: **virualenv -p python3.7 ic-desktop-api**
 * Change directory to the ic-desktop-api folder. Download the [source code](https://github.com/nadirlc/islam-companion-desktop-api/archive/master.zip) from GitHub or install from Python Package index using the command: **pip install ic-desktop-api**
-* Download the [quran](https://islamcompanion.pakjiddat.pk/islamcompanion/data/holy-quran.db.tar.bz2) sqlite database. Extract the downloaded file to **quran/lib/data/holy-quran.db**
-* Download the [hadith](https://islamcompanion.pakjiddat.pk/islamcompanion/data/hadith.db.tar.bz2) sqlite database. Extract the downloaded file to **hadith/lib/data/hadith.db**
+* Download the [quran](https://drive.google.com/open?id=11a_dQ4i0__--x5PkFjlmwMUxgMdTWbIa) sqlite database. Extract the downloaded file to **quran/lib/data/holy-quran.db**
+* Download the [hadith](https://drive.google.com/open?id=1pHo5auUuKiNEi9jlmQJ0-n3oqDEdbDR0) sqlite database. Extract the downloaded file to **hadith/lib/data/hadith.db**
 * Install the [unittest2](https://pypi.org/project/unittest2/) Python package using the command: **pip install unittest2**. It will be used to unit test the API
 * Test the quran api using the command: **python -m unittest test/quran_api.py**
 * Test the hadith api using the command: **python -m unittest test/hadith_api.py**

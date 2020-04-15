@@ -9,7 +9,7 @@ tags:
 description: "The Islam Companion Web API project is a RESTFul API (Application Programming Interface) that allows users to add Holy Quran and Hadith data to their applications. It provides Holy Quran translation in 42 languages."
 ---
 
-![Islam Companion Web API](islamcompanion-web-api.png)
+![Islam Companion Web API](./islamcompanion-web-api.png)
 
 ### Introduction
 The "**Islam Companion Web API**" project is a RESTFul API (Application Programming Interface) that allows users to add Holy Quran and Hadith data to their applications.
@@ -31,14 +31,14 @@ The Islam Companion Web API has the following features:
 * The source code is well commented and easy to update
 
 ### Requirements
-The Islam Companion Web API requires Php >= 7.2. It also requires MySQL server >= 5.6.
+The Islam Companion Web API requires PHP >= 7.2. It also requires MySQL server >= 5.6.
 
 ### Installation
 The following steps can be used to install the "Islam Companion Web API" project on your own server:
 
 * Download the [source code](https://github.com/nadirlc/islamcompanion-web-api/archive/master.zip) from GitHub
 * Move the source code to the document root of a virtual host
-* Download the contents of the database from: [here](https://islamcompanion.pakjiddat.pk/islamcompanion/data/islamcompanion-website.sql.tar.bz2)
+* Download the contents of the database from: [here](https://drive.google.com/open?id=1Lq0xjVPiTso1io-uhKxz7aT7McIlBwj6)
 * Extract the downloaded file
 * Create a database and import the contents of the SQL file to the database. Note down the credentials used for connecting to the database
 * Enter the database credentials in the file **api/config/RequiredObjects.php**
@@ -48,9 +48,9 @@ The following steps can be used to install the "Islam Companion Web API" project
 ### Download data
 We have compiled a Hadith database with the purpose of spreading knowledge of Hadith. The database should be used by developers in their own applications. The Hadith database contains text in Urdu, English and Arabic languages.
 
-* [Click here](https://islamcompanion.pakjiddat.pk/islamcompanion/data/hadith.sql.tar.bz2) to download the Hadith database in **.sql** format for MySQL server.
-* [Click here](https://islamcompanion.pakjiddat.pk/islamcompanion/data/hadith.db.tar.bz2) to download the Hadith database in **.db** format for SQLite server.
-* [Click here](https://islamcompanion.pakjiddat.pk/islamcompanion/data/holy-quran.db.tar.bz2) to download the Quranic database in **.db** format for SQLite server.
+* [Click here](https://drive.google.com/open?id=1gd8B0C-N7LcppMNikv1FNQoL_XJ2nuQv) to download the Hadith database in **.sql** format for MySQL server.
+* [Click here](https://drive.google.com/open?id=1pHo5auUuKiNEi9jlmQJ0-n3oqDEdbDR0) to download the Hadith database in **.db** format for SQLite server.
+* [Click here](https://drive.google.com/open?id=11a_dQ4i0__--x5PkFjlmwMUxgMdTWbIa) to download the Quranic database in **.db** format for SQLite server.
 
 ### Frequently asked questions
 
