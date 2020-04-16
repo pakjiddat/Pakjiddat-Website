@@ -11,7 +11,7 @@ class Layout extends React.Component {
       <div className="layout">
         <Helmet defaultTitle="Pak Jiddat - Learn and Progress">
           <link rel="icon" href={favicon} />
-          <meta name="google-site-verification" content="F4i1hq2Cfsxv7p5wBeFoZGQsH5co6BfC5qZMjL2xb3A" />
+          <meta name="google-site-verification" content="vJZUzi1H1a0z6CLi75JiJhxAZGPdkbwDAuSHOpdZGyA" />
         </Helmet>
         {children}
       </div>
