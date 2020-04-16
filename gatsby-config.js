@@ -1,7 +1,7 @@
 const lost = require('lost')
 const pxtorem = require('postcss-pxtorem')
 
-const url = 'https://pakjiddat.netlify.com'
+const url = 'https://pakjiddat.netlify.app'
 
 module.exports = {
   siteMetadata: {
@@ -138,8 +138,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
-        host: 'https://pakjiddat.netlify.com',
-        sitemap: 'https://pakjiddat.netlify.com/sitemap.xml',
+        host: 'https://pakjiddat.netlify.app',
+        sitemap: 'https://pakjiddat.netlify.app/sitemap.xml',
         policy: [{ userAgent: '*', disallow: '' }],
         output: '/robots.txt'
       }
