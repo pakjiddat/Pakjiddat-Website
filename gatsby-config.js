@@ -27,8 +27,8 @@ module.exports = {
       }
     ],
     author: {
-      name: 'Nadir Latif',
-      email: 'nadir@pakjiddat.pk',
+      name: 'Pak Jiddat',
+      email: 'pakjiddat@gmail.com',
       github: 'nadirlc',
       rss: '/rss.xml'
     },
