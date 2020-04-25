@@ -2,8 +2,10 @@ import React from 'react'
 import { Link } from 'gatsby'
 import moment from 'moment'
 import { DiscussionEmbed } from "disqus-react"
-
+import Toc from '../Toc'
 import './style.scss'
+
+const toc    = require("@pakjiddat/toc/index");
 
 class PostTemplateDetails extends React.Component {
   render() {
@@ -11,6 +13,8 @@ class PostTemplateDetails extends React.Component {
     const post = this.props.data.markdownRemark
     const tags = post.fields.tagSlugs
     const title = post.frontmatter.title
+    const tocData = toc.Generate(post.html);
+
     const disqusConfig = {
       shortname: 'pak-jiddat',
       config: { identifier: post.fields.slug, title }
@@ -54,7 +58,7 @@ class PostTemplateDetails extends React.Component {
             <div
               className="post-single__body"
               /* eslint-disable-next-line react/no-danger */
-              dangerouslySetInnerHTML={{ __html: post.html }}
+              dangerouslySetInnerHTML={{ __html: tocData.updatedText }}
             />
             <div className="post-single__date">
               <em>
@@ -62,6 +66,12 @@ class PostTemplateDetails extends React.Component {
               </em>
             </div>
           </div>
+
+          <Toc tocList={tocData.tocList} />
+
+          <button id="scroll-btn" className="sidebar-btns" title="Scroll to top"></button>
+          <button id="toggle-toc-btn" className="sidebar-btns" title="Toggle Table of Contents"></button>
+
           <div className="post-single__footer">
             {tagsBlock}
             <hr />

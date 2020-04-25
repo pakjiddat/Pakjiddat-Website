@@ -58,3 +58,14 @@ git push --tags
 
 #### [Storing password in SVN](http://stackoverflow.com/questions/2899209/how-to-save-password-when-using-subversion-from-the-console)
 To store password for SVN commit commands, set store-passwords and store-plaintext-passwords to yes in **/home/home_folder_name/.subversion/servers**. To set the user name in the commit command, append **--username {your-user-name}** to the SVN commit command.
+
+#### [Update commit message history](https://help.github.com/en/github/committing-changes-to-your-project/changing-a-commit-message)
+To rename previous commit messages, enter the command:
+
+```
+git rebase -i HEAD~n
+```
+
+In the above command **n** is the number of commits back in history since the last commit. The command will cause the command line editor to open with the last **n** commit messages. Each commit message is prefix with the text: **pick**. Replace this with **reword** for the commit message that needs to be updated.
+
+Next save the changes and exit the editor. This will cause a new editor window to open allowing editing of a commit message. After changing the commit message, save the changes and exit the editor. The editor will open up again allowing editing of the next commit message. Do this for each commit message that needs to be updated.
