@@ -12,7 +12,7 @@ class Layout extends React.Component {
       <div className="layout">
         <Helmet defaultTitle="Pak Jiddat - Learn and Progress">
           <link rel="icon" href={favicon} />
-          <meta name="google-site-verification" content="vJZUzi1H1a0z6CLi75JiJhxAZGPdkbwDAuSHOpdZGyA" />
+          <meta name="google-site-verification" content="CAokBpzRMO8MEvNysqxb-CtlLXdz-mVmtyun26wXCPw" />
           <script src={withPrefix('sidebar-btns.js')} type="text/javascript" />
         </Helmet>
         {children}
