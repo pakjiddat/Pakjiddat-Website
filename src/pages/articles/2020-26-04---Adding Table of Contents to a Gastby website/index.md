@@ -15,10 +15,10 @@ Gatsby is a modern CMS that is well suited for publishing Blog posts. However ma
 
 One of the useful features of Gatsby is that it provides a clean separation between the different stages involved in Web Development. For example connecting the blog to a data source, adding features using plugins etc. Features such as Sitemaps, Search Engine Optimization (SEO), Pagination etc can be easily added by installing and configuring plugins. In an earlier post I described my experience with [migrating my blog to Gatsby](/posts/migrating-blog-to-gatsby).
 
-In this blog post I will describe how I managed to add Table of contents to my Gatsby website.
+Readers of Blog posts can sometime lose the overall picture when reading long articles. A table of contents describes the main components of an article. In this blog post I will describe how I managed to add Table of contents to my Gatsby Blog.
 
 ### Table of contents script
-My blog was initially based on a custom Php framework called [Pak Php Framework](/posts/pak-php-framework). I had created a script in Php language for [generating table of contents from HTML text](https://gist.github.com/nadirlc/9d1368f86fa3d96bca70a7cd626c8890). After moving my blog to Gatsby, I needed a table of contents for each article.
+My Blog was initially based on a custom Php framework called [Pak Php Framework](/posts/pak-php-framework). I had created a script in Php language for [generating table of contents from HTML text](https://gist.github.com/nadirlc/9d1368f86fa3d96bca70a7cd626c8890). After moving my blog to Gatsby, I needed a table of contents for each article.
 
 Gatsby provides a plugin called [Remark Table of Contents](https://www.gatsbyjs.org/packages/gatsby-remark-table-of-contents/), which allows adding a Table of Contents to markdown files. My blog posts were in markdown format. There are about 150 posts on my blog, so it would take some time to add the table of contents code to each file. Also if I wanted to customize the table of contents, it would require editing all 150+ files.
 
@@ -26,7 +26,7 @@ My Gatsby website is based on the [Lumen Starter Theme](gatsbyjs.org/starters/ga
 
 To generate a table of contents I would need JavaScript which extracts HTML headings from HTML text and displays them inside the React Js template. The solution was to convert my [Table of Contents script](https://gist.github.com/nadirlc/9d1368f86fa3d96bca70a7cd626c8890) from Php to JavaScript.
 
-I managed to convert the script and publish it as a NPM module. The NPM package is called [Node.js Table of Contents Generator (TOC)](https://www.npmjs.com/package/@pakjiddat/toc). The script can be used to add table of contents to a Gastby website. It can also be used on other headless CMSs.
+I managed to convert the script and publish it as a NPM module. The NPM package is called [Node.js Table of Contents Generator](https://www.npmjs.com/package/@pakjiddat/toc). The script can be used to add table of contents to a Gastby website. It can also be used on other headless CMSs.
 
 The script takes as input article text in HTML format and produces an unordered nested HTML list, which is the table of contents. The script also returns updated article text, which includes heading ids.
 

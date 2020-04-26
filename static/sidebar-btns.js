@@ -3,7 +3,7 @@ class SideBarBtns {
 
   /** Used to register the scroll event handler */
   Initialize() {
-    /** When the user scrolls down 200px from the top of the document, show the buttons */
+    /** When the user scrolls down 300px from the top of the document, show the buttons */
     window.addEventListener("scroll", this.ToggleButtons)
     /** Event handler for toogle toc button */
     document.getElementById("toggle-toc-btn").addEventListener("click", this.ToggleTocBox);
@@ -13,8 +13,8 @@ class SideBarBtns {
 
   /** Displays/Hides the buttons */
   ToggleButtons() {
-    /** If the current current scroll is 200px or more */
-    if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+    /** If the current current scroll is 300px or more */
+    if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
       /** The scroll to top button is displayed */
       document.getElementById("scroll-btn").style.display = "block";
       /** The toggle toc button is displayed */
