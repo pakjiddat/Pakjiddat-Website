@@ -35,7 +35,7 @@ The Pak Php CRM is based on PHP and MySQL. Installing the website on your own se
 ### Installation
 The following steps can be used to install the Pak Php CRM application on your own server:
 
-* Download the [source code](https://github.com/nadirlc/pak-php-crm.git) from GitHub
+* Download the [source code](https://github.com/pakjiddat/pak-php-crm.git) from GitHub
 * Move the source code to the document root of a virtual host
 * Create a database and import the contents of the file: **crm/data/pak-php-crm.sql** to the database. Note down the credentials used for connecting to the database
 * Enter the database credentials in the file **crm/config/RequiredObjects.php**

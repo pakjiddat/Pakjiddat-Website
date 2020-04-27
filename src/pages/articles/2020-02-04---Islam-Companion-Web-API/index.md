@@ -27,7 +27,7 @@ The Islam Companion Web API has the following features:
 * It provides translations of Hadith in Urdu, English and Arabic languages
 * It provides 8 API functions for fetching Quranic data
 * It provides 7 API functions for fetching Hadith data
-* The source code is available under [GPL License](https://github.com/nadirlc/islamcompanion-web-api/blob/master/LICENSE)
+* The source code is available under [GPL License](https://github.com/pakjiddat/islamcompanion-web-api/blob/master/LICENSE)
 * The source code is well commented and easy to update
 
 ### Requirements
@@ -36,7 +36,7 @@ The Islam Companion Web API requires PHP >= 7.2. It also requires MySQL server >
 ### Installation
 The following steps can be used to install the "Islam Companion Web API" project on your own server:
 
-* Download the [source code](https://github.com/nadirlc/islamcompanion-web-api/archive/master.zip) from GitHub
+* Download the [source code](https://github.com/pakjiddat/islamcompanion-web-api/archive/master.zip) from GitHub
 * Move the source code to the document root of a virtual host
 * Download the contents of the database from: [here](https://drive.google.com/open?id=1Lq0xjVPiTso1io-uhKxz7aT7McIlBwj6)
 * Extract the downloaded file
@@ -96,6 +96,6 @@ print_r($result);
 The Islam Companion Web API supports the following functions. All function response values are in JSON format.
 To test the API, use the following url: [https://your-host-name/api/](https://your-host-name/api/) for making API requests. All API requests must be of type HTTP POST and should include the required API parameters.
 
-[API calls for fetching Holy Quran data](https://github.com/nadirlc/islam-companion-web-api#api-calls-for-fetching-holy-quran-data)
+[API calls for fetching Holy Quran data](https://github.com/pakjiddat/islam-companion-web-api#api-calls-for-fetching-holy-quran-data)
 
-[API calls for fetching Hadith data](https://github.com/nadirlc/islam-companion-web-api#api-calls-for-fetching-hadith-data)
+[API calls for fetching Hadith data](https://github.com/pakjiddat/islam-companion-web-api#api-calls-for-fetching-hadith-data)

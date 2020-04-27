@@ -32,16 +32,36 @@ Snaps are published to channels depending on their development status. Snaps may
 
 Snaps are managed using the snapd tool. Using snapd, we can install, remove, backup and restore snaps. Snaps are automatically updated. They can also be rolled back to previous versions. A snap app can be deployed in deltas, meaning that only the parts of the application that have changed need to be updated.
 
-A Snap app consists of a single **.snap** file. All applications dependencies are contained within this file. A snap file is based on the squashfs file system. [Squashfs](https://en.wikipedia.org/wiki/Squashfs) is a compressed read-only file system used by containers such as Docker. It allows several directories to be merged and mounted as a single directory. A squashfs file may consist of several directories mounted from different locations. The contents of the file can be viewed using the command: **unsquashfs -l file-name**.
+A Snap app consists of a single **.snap** file. All applications dependencies are contained within this file. A snap file is based on the squashfs file system. [Squashfs](https://en.wikipedia.org/wiki/Squashfs) is a compressed read-only file system used by containers such as Docker. It allows several directories to be merged and mounted as a single directory. A squashfs file may consist of several directories mounted from different locations. The contents of the file can be viewed using the command:
+
+```bash
+unsquashfs -l file-name
+```
 
 When a Snap App is installed, it is mounted read only at the location: **/snap/snap-name/revision/**
 
 ### Developing Snaps
 Snaps are developed using the snapcraft tool. Snaps can be developed on LXC/LXD containers, Docker containers or the host system. The Snapcraft tool has [useful documentation on creating Snaps.](https://snapcraft.io/docs/getting-started)
 
-The article [Create your first Snap](https://tutorials.ubuntu.com/tutorial/create-your-first-snap#0) is an excellant starting point for getting started with Snap application development. First we need to install snapcraft using the command: **sudo snap install --classic snapcraft**. This installs snapcraft as a snap app. The snap command requires the snapd tool. Snapd may be installed on Ubuntu using the command: **sudo apt-get install snapd**.
+The article [Create your first Snap](https://tutorials.ubuntu.com/tutorial/create-your-first-snap#0) is an excellant starting point for getting started with Snap application development. First we need to install snapcraft using the command:
 
-Once the snapcraft snap has been installed, we can create a snap using the command: **snapcraft init**. This command creates a snap folder in the current directory. The snap folder has a single file called **snapcraft.yaml**. This is the main configuration file for the Snap App. It contains all information that is needed to build the Snap. The end result of building a snap is a **.snap** file. This file may be installed locally using the snap command or it may be published to a snap store.
+```bash
+sudo snap install --classic snapcraft
+```
+
+This installs snapcraft as a snap app. The snap command requires the snapd tool. Snapd may be installed on Ubuntu using the command:
+
+```bash
+sudo apt-get install snapd
+```
+
+Once the snapcraft snap has been installed, we can create a snap using the command:
+
+```bash
+snapcraft init
+```
+
+This command creates a snap folder in the current directory. The snap folder has a single file called **snapcraft.yaml**. This is the main configuration file for the Snap App. It contains all information that is needed to build the Snap. The end result of building a snap is a **.snap** file. This file may be installed locally using the snap command or it may be published to a snap store.
 
 #### The snapcraft.yaml file
 The main parts of the **snapcraft.yaml** file are as follows:
@@ -54,16 +74,52 @@ The main parts of the **snapcraft.yaml** file are as follows:
 * **grade**. This indicates the development status of the snap. It is set to **devel** by default. When set to **stable**, the snap may be published to the stable and candidate channels
 * **confinement**. This indicates the security level required to run the snap. The value **devmode** provides flexible security level that is useful during development. **strict** should be used for snaps that are ready to be published. **classic** removes security restrictions and affectively provides device ownership to the snap.
 * **parts**. A snap consists of one or more [parts](https://snapcraft.io/docs/adding-parts), which describe the application. For example a snap may consist of a server part which provides a daemon service or a gui part which provides a graphical frontend. Each part contains the part name, the location of the source code for the part and a [plugin](https://snapcraft.io/docs/snapcraft-plugins) that describes how the part should be built. For example Python applications are build using the [python plugin](https://snapcraft.io/docs/python-apps). A part also contains the dependencies required for building the part. Parts may be published to a Git repository so it can be reused by other developers.
-* **apps**. The **apps** section defines one or more applications. Each application has a name and a command which gives the location of the executable to run, when the command is entered. A Snap may contain several applications. Applications are run using the command: **snap-name.app-name**. If the app name is same as the snap name, then it may be run using the command: **snap-name**.
+* **apps**. The **apps** section defines one or more applications. Each application has a name and a command which gives the location of the executable to run, when the command is entered. A Snap may contain several applications. Applications are run using the command:
+
+```bash
+snap-name.app-name
+```
+
+If the app name is same as the snap name, then it may be run using the command:
+
+```bash
+snap-name
+```
 
 #### Building the snap
-After the snapcraft.yaml file has been updated, the command: **sudo snapcraft** should be run from the directory containing the snap folder. This command creates a **.snap** file using the information given in the **snapcraft.yaml** file. If the Snap is being developed within a LXC/LXD container, then the command should be: **sudo snapcraft --destructive-mode**.
+After the snapcraft.yaml file has been updated, the command:
+
+```bash
+sudo snapcraft
+```
+
+should be run from the directory containing the snap folder. This command creates a **.snap** file using the information given in the **snapcraft.yaml** file. If the Snap is being developed within a LXC/LXD container, then the command should be:
+
+```bash
+sudo snapcraft --destructive-mode
+```
 
 By default without the **--destructive-mode** switch, snapcraft uses [Multipass](https://snapcraft.io/multipass) to build the snap file. Multipass is a virtual machine management system. It allows launching and managing Virtual Machines on Linux, Mac and Windows. If the snap is being built from within a LXC/LXD container, then it makes sense to build the Snap on the current system, instead of within a virtual machine running within the container.
 
-The building of a Snap can take significant time. If minor changes have been made to a Snap, then instead of rebuilding the entire snap, we can build only the parts that have changed using the command: **snapcraft prime**. Once the parts have been rebuilt, we can test the snap using the command: **sudo snap try --devmode prime**. This command mounts the contents of the snap prime folder allowing us to test the snap without installing it.
+The building of a Snap can take significant time. If minor changes have been made to a Snap, then instead of rebuilding the entire snap, we can build only the parts that have changed using the command:
 
-Once the snap has been created, we can install it using the command: **sudo snap install --devmode snap-file-name**.
+```bash
+snapcraft prime
+```
+
+Once the parts have been rebuilt, we can test the snap using the command:
+
+```
+sudo snap try --devmode prime
+```
+
+This command mounts the contents of the snap prime folder allowing us to test the snap without installing it.
+
+Once the snap has been created, we can install it using the command:
+
+```bash
+sudo snap install --devmode snap-file-name
+```
 
 #### Example snapcraft.yaml file for executable files
 A sample snapcraft.yaml file for executable files is as follows:
@@ -151,7 +207,11 @@ parts:
       - fcitx-frontend-qt5
 ```
 
-The above file contains all the information needed to create a snap file for a PyQt5 executable file. It may be used for any executable file. However non PyQt5 executable files will have different run-time dependencies that are specified under stage-packages. The list of dependencies is usually listed when we run the **sudo snapcraft** command.
+The above file contains all the information needed to create a snap file for a PyQt5 executable file. It may be used for any executable file. However non PyQt5 executable files will have different run-time dependencies that are specified under stage-packages. The list of dependencies is usually listed when we run the command:
+
+```bash
+sudo snapcraft
+```
 
 Since we donot have any source code to build, the source entry for the desktop-gui part should point to the folder containing the executable file. This folder also contains the desktop icon file, a desktop launcher file and a data file. The data file is read by the executable file.
 
@@ -183,9 +243,35 @@ The **snapcraft.yaml** file also needs to specify the desktop environments, in w
 In the above example the line: **desktop: /usr/share/applications/file-name.desktop** indicates the desktop launcher file
 
 #### Publishing the snap
-Once the Snap has been created and tested, it can be pushed to the [Ubuntu Snap Store](https://dashboard.snapcraft.io/). In order to publish the Snap to the store, we need to first register an account. Next we need to login to the snap store from the command line using: **snapcraft login**. After that we need to register our snap using the command: **snapcraft register snap-name**.
+Once the Snap has been created and tested, it can be pushed to the [Ubuntu Snap Store](https://dashboard.snapcraft.io/). In order to publish the Snap to the store, we need to first register an account. Next we need to login to the snap store from the command line using:
 
-After that we need to set the grade to stable in **snapcraft.yaml**. Next we need to rebuild the snap using **snapcraft** command. After that we can push our snap to the snap store using the command: **snapcraft push snap-file-name --release=candidate**. This command publishes our snap on the candidate channel. We may specify the stable channel once the snap is ready. We should then be able to install our snap from the snap store using the command **sudo snap install snap-name --channel=candidate**.
+```bash
+snapcraft login
+```
+
+After that we need to register our snap using the command:
+
+```bash
+snapcraft register snap-name
+```
+
+After that we need to set the grade to stable in **snapcraft.yaml**. Next we need to rebuild the snap using command:
+
+```bash
+snapcraft
+```
+
+After that we can push our snap to the snap store using the command:
+
+```bash
+snapcraft push snap-file-name --release=candidate
+```
+
+This command publishes our snap on the candidate channel. We may specify the stable channel once the snap is ready. We should then be able to install our snap from the snap store using the command:
+
+```bash
+sudo snap install snap-name --channel=candidate
+```
 
 ### Conclusion
 Snaps are a popular application format. They allow portable distribution of applications. Snaps have several useful features such as interfaces, layouts, hooks and data snapshots. Applications deployed as snaps are secure and easy to maintain.

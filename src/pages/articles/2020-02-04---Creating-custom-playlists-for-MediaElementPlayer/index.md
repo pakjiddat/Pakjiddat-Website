@@ -71,7 +71,7 @@ Second issue was a [full screen error when using the playlist plugin](https://gi
 
 We used the playlist plugin to develop our own YouTube playlist. See the [YouTube Playlist article](/posts/youtube-playlist) for details on how the YouTube playlist works.
 
-We felt that the YouTube Playlist project could benefit from the open source community's support. We therefore decided to publish the source code for the project on [GitHub](https://github.com/nadirlc/youtube-playlist).
+We felt that the YouTube Playlist project could benefit from the open source community's support. We therefore decided to publish the source code for the project on [GitHub](https://github.com/pakjiddat/youtube-playlist).
 
 ### Conclusion
 MediaElement Player is a useful video and audio player for the web. It is being actively developed and is supported by a large open source community

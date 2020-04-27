@@ -18,9 +18,9 @@ These tools can be used in different ways leading to different possible workflow
 The main idea behind the workflow is to keep the application source code on the host computer and mount the source code folder in the Docker container. The Docker container runs all the required services. Each development environment has its own Docker image. For example to develop Ionic applications, you need to use the Ionic Docker image. To develop LAMP based applications, you need to use the LAMP docker image.
 
 ### Usage
-* [Guide for creating LAMP applications](https://github.com/nadirlc/docker-workflows/tree/master/lamp)
-* [Guide for creating Ionic applications](https://github.com/nadirlc/docker-workflows/tree/master/ionic)
-* [Guide for creating NodeJs applications](https://github.com/nadirlc/docker-workflows/tree/master/nodejs)
+* [Guide for creating LAMP applications](https://github.com/pakjiddat/docker-workflows/tree/master/lamp)
+* [Guide for creating Ionic applications](https://github.com/pakjiddat/docker-workflows/tree/master/ionic)
+* [Guide for creating NodeJs applications](https://github.com/pakjiddat/docker-workflows/tree/master/nodejs)
 
 ### Conclusions
 Docker is a useful tool that simplifies developer workflow. It allows developers to focus on developing applications instead of managing the development environment.

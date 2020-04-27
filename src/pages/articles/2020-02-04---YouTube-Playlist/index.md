@@ -31,4 +31,4 @@ The YouTube Playlist was developed by modifying the MediaElement [Playlist plugi
 Minor changes to the MediaElement Player were also made. The article [Mediaelements: Add a share button to video elements using jQuery](https://xparkmedia.com/blog/mediaelements-add-a-share-button-to-video-elements-using-jquery/) was used to add Social Sharing buttons to the player. The player also uses the [jQuery thumbnail scroller](http://manos.malihu.gr/jquery-thumbnail-scroller/) library for the scroll-able playlist.
 
 ### Installation
-Download the source code by running the command: **git clone https://github.com/nadirlc/youtube-playlist.git**. Place the source code in a virtual host directory, so that the **index.html** file is served by a web server. Navigate to the index.html file in a browser. You should see this [screen](#youtube-screen).
+Download the source code by running the command: **git clone https://github.com/pakjiddat/youtube-playlist.git**. Place the source code in a virtual host directory, so that the **index.html** file is served by a web server. Navigate to the index.html file in a browser. You should see this [screen](#youtube-screen).

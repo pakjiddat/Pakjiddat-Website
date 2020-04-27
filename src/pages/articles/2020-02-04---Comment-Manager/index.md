@@ -238,4 +238,4 @@ The Comment Manager package consists of the following files:
 
 ### Installation
 * Run the command: **composer require nadirlc/comment-manager** (installation using Composer) **OR**
-* Run the command: **git clone https://github.com/nadirlc/comment-manager.git** (Download from [GitHub Repository](https://github.com/nadirlc/comment-manager))
+* Run the command: **git clone https://github.com/pakjiddat/comment-manager.git** (Download from [GitHub Repository](https://github.com/pakjiddat/comment-manager))

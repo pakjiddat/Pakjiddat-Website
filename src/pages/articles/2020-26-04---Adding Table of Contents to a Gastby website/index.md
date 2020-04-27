@@ -7,7 +7,7 @@ path: "/posts/adding-table-of-contents-to-gatsby-website"
 tags:
   - "headless cms"
 
-description: "Gatsby is a modern CMS that is well suited for publishing Blog posts. However managing a Gatsby Blog is like managing a web application and can be difficult for those not familiar with Software Development. In this blog post I will describe how I managed to add Table of contents to my Gatsby Blog."
+description: "Gatsby is a modern CMS that is well suited for publishing Blog posts. However managing a Gatsby Blog is like managing a web application and can be difficult for those not familiar with Software Development. In this blog post I will describe my experience of adding table of contents to my Gatsby Blog."
 ---
 
 ### Introduction
@@ -15,16 +15,14 @@ Gatsby is a modern CMS that is well suited for publishing Blog posts. However ma
 
 One of the useful features of Gatsby is that it provides a clean separation between the different stages involved in Web Development. For example connecting the blog to a data source, adding features using plugins etc. Features such as Sitemaps, Search Engine Optimization (SEO), Pagination etc can be easily added by installing and configuring plugins. In an earlier post I described my experience with [migrating my blog to Gatsby](/posts/migrating-blog-to-gatsby).
 
-Readers of Blog posts can sometime lose the overall picture when reading long articles. A table of contents describes the main components of an article. In this blog post I will describe how I managed to add Table of contents to my Gatsby Blog.
+Readers of Blog posts can sometime lose the overall picture when reading long articles. A table of contents describes the main components of an article. In this blog post I will describe my experience of adding table of contents to my Gatsby Blog.
 
 ### Table of contents script
-My Blog was initially based on a custom Php framework called [Pak Php Framework](/posts/pak-php-framework). I had created a script in Php language for [generating table of contents from HTML text](https://gist.github.com/nadirlc/9d1368f86fa3d96bca70a7cd626c8890). After moving my blog to Gatsby, I needed a table of contents for each article.
-
-Gatsby provides a plugin called [Remark Table of Contents](https://www.gatsbyjs.org/packages/gatsby-remark-table-of-contents/), which allows adding a Table of Contents to markdown files. My blog posts were in markdown format. There are about 150 posts on my blog, so it would take some time to add the table of contents code to each file. Also if I wanted to customize the table of contents, it would require editing all 150+ files.
+Gatsby provides a plugin called [Remark Table of Contents](https://www.gatsbyjs.org/packages/gatsby-remark-table-of-contents/), which allows adding a table of contents to markdown files. To use the plugin, I would have to add table of contents markdown to 150+ files. This would take a long time. Also if I wanted to update the table of contents layout or position, then I would have to edit all markdown files.
 
 My Gatsby website is based on the [Lumen Starter Theme](gatsbyjs.org/starters/gatsbycentral/gatsby-v2-starter-lumen/). The theme fetches data from Markdown files using GraphQL. It converts the Markdown to HTML and displays the HTML inside React Js template files.
 
-To generate a table of contents I would need JavaScript which extracts HTML headings from HTML text and displays them inside the React Js template. The solution was to convert my [Table of Contents script](https://gist.github.com/nadirlc/9d1368f86fa3d96bca70a7cd626c8890) from Php to JavaScript.
+My Blog was initially based on a custom PHP framework called [Pak Php Framework](/posts/pak-php-framework). I had created a script in PHP language for [generating table of contents from HTML text](https://gist.github.com/nadirlc/9d1368f86fa3d96bca70a7cd626c8890). I converted this script to JavaScript and used it to generate the table of contents for my new Blog.
 
 I managed to convert the script and publish it as a NPM module. The NPM package is called [Node.js Table of Contents Generator](https://www.npmjs.com/package/@pakjiddat/toc). The script can be used to add table of contents to a Gastby website. It can also be used on other headless CMSs.
 

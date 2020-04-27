@@ -107,7 +107,7 @@ if __name__ == "__main__":
     sys.exit(app.exec_())
 ```
 
-See the source code for the [Islam Companion Desktop Reader](https://github.com/nadirlc/islam-companion-desktop-reader) application on Git Hub for an example of a simple PyQt5 application.
+See the source code for the [Islam Companion Desktop Reader](https://github.com/pakjiddat/islam-companion-desktop-reader) application on Git Hub for an example of a simple PyQt5 application.
 
 ### Using the Qt Designer
 The Qt Designer allows generating user interface for Qt5 applications. It allows user interfaces to be created by dragging and dropping widgets. It supports several widgets such as **ComboBoxes, Lists, Tables, Buttons, Labels** and more. It supports four types of layouts which are **Horizontal Layout, Vertical Layout, Grid Layout and Form Layout**. These layouts allow widgets to be arranged correctly.

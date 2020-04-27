@@ -24,7 +24,7 @@ The Islam Companion website has the following features:
 * It allows users to get Quranic verses and Hadith by email
 * It allows downloading Hadith database in **.sql** format
 * It allows users of the website to send a message to the website administrator
-* The source code is available under [GPL License](https://github.com/nadirlc/islam-companion-website/blob/master/LICENSE)
+* The source code is available under [GPL License](https://github.com/pakjiddat/islam-companion-website/blob/master/LICENSE)
 * The source code is well commented, modular and easy to update
 
 ### Limitations
@@ -38,7 +38,7 @@ The Islam Companion website requires PHP >= 7.2. It also requires MySQL server >
 ### Installation
 The following steps can be used to install the "Islam Companion" project on your own server:
 
-* Download the [source code](https://github.com/nadirlc/islam-companion-website/archive/master.zip) from GitHub
+* Download the [source code](https://github.com/pakjiddat/islam-companion-website/archive/master.zip) from GitHub
 * Move the source code to the document root of a virtual host
 * Download the contents of the database from: [here](https://drive.google.com/open?id=1Lq0xjVPiTso1io-uhKxz7aT7McIlBwj6)
 * Extract the downloaded file

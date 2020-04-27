@@ -29,7 +29,7 @@ module.exports = {
     author: {
       name: 'Pak Jiddat',
       email: 'pakjiddat@gmail.com',
-      github: 'nadirlc',
+      github: 'pakjiddat',
       rss: '/rss.xml'
     },
   },

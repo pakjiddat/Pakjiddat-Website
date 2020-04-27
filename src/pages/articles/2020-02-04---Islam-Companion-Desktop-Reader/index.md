@@ -19,7 +19,7 @@ The Islam Companion Desktop Reader has the following features:
 
 * It provides a reader that displays Holy Quran verses
 * It provides a reader that displays Hadith text
-* The source code is available under [GPL License](https://github.com/nadirlc/islam-companion-desktop/blob/master/LICENSE)
+* The source code is available under [GPL License](https://github.com/pakjiddat/islam-companion-desktop/blob/master/LICENSE)
 * The source code is written in Python language. It is well commented, modular and easy to update
 * The source code can be run on any operating system that supports Python and the Qt graphical framework. It should run without problems on Linux, Windows and MacOS
 * Binary executables files are provided for 64 bit Linux operating systems
@@ -54,7 +54,7 @@ The following steps can be used to build the "Islam Companion Desktop Reader" ap
 * Create a virtual environment for the application using the command: **virtualenv islam-companion**
 * Import the virtual environment variables using the command: **source bin/activate**
 * Create a folder called source within the islam-companion folder
-* Download the [source code](https://github.com/nadirlc/islam-companion-desktop-reader/archive/master.zip) from GitHub. Copy the source code to the source folder    
+* Download the [source code](https://github.com/pakjiddat/islam-companion-desktop-reader/archive/master.zip) from GitHub. Copy the source code to the source folder    
 * Install the PyQt 5 framework using the command: **pip install PyQt5**
 * Install the Islam Companion Desktop API using the command: **pip install ic-desktop-api**        * Download the [quran](https://drive.google.com/open?id=11a_dQ4i0__--x5PkFjlmwMUxgMdTWbIa) SQLite database. Extract the downloaded file to **source/quran/data/holy-quran.db**
 * Download the [hadith](https://drive.google.com/open?id=1pHo5auUuKiNEi9jlmQJ0-n3oqDEdbDR0) SQLite database. Extract the downloaded file to **source/hadith/data/hadith.db**

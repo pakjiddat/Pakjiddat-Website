@@ -68,7 +68,7 @@ class PostTemplateDetails extends React.Component {
           </div>
 
           <Toc tocList={tocData.tocList} />
-
+          
           <button id="scroll-btn" className="sidebar-btns" title="Scroll to top"></button>
           <button id="toggle-toc-btn" className="sidebar-btns" title="Toggle Table of Contents"></button>
 

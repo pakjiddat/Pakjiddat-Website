@@ -27,6 +27,8 @@ Freelancers in most cases have the freedom to choose their work hours and work p
 
 Another benefit of working as a Freelancer is that one does not have to commute to work and therefore does not have to spend as much on transportation and clothes. Also Freelancers suffer less from work related stress.
 
+Working from home is the new normal and is part of the modern gig economy. The article [6 signs that the future of work is here today](https://gigster.com/thought-leadership/6-signs-that-the-future-of-work-is-here-today/) describes how elastic staffing and working from home are affecting the modern corporate work environment.
+
 ### Drawbacks of Freelancing over the internet
 Freelance workers who work remotely cannot interact with their contractees in person. This is a major drawback since it means they cannot get as good an understanding of their work as compared to a person who works onsite.
 

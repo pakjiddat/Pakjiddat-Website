@@ -54,7 +54,7 @@ The following screenshot shows the MySQL query log displayed by the error handle
 
 ### Installation
 * Run the command: **composer require nadirlc/utilities-framework** (installation using Composer) **OR**
-* Run the command: **git clone https://github.com/nadirlc/utilities-framework.git** (Download from [GitHub Repository](https://github.com/nadirlc/utilities-framework))
+* Run the command: **git clone https://github.com/pakjiddat/utilities-framework.git** (Download from [GitHub Repository](https://github.com/pakjiddat/utilities-framework))
 
 ### Usage
 All components of the Utilities Framework can be accessed using factory functions. To use a feature, we need to first create an object of the relevant component. For example: **UtilitiesFramework::Factory("email", $parameters);**. To send an email the following code can be used:

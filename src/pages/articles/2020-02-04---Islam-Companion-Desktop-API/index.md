@@ -23,7 +23,7 @@ The Islam Companion Desktop API has the following features:
 
 * It provides translations of Holy Quran and Hadith in Urdu language. Support for more languages is planned
 * It provides meta data about Holy Quran and Hadith data
-* The source code is available under [GPL License](https://github.com/nadirlc/islam-companion-desktop-api/blob/master/LICENSE)
+* The source code is available under [GPL License](https://github.com/pakjiddat/islam-companion-desktop-api/blob/master/LICENSE)
 * The source code is well commented and easy to update
 * The data is stored in sqlite3 database and can easily be accessed using the sqlite3 Python package  
 
@@ -34,7 +34,7 @@ The Islam Companion Desktop API requires the OS and sqlite3 Python packages. The
 The following steps can be used to install the "Islam Companion Desktop API":
 
 * Create a new virtual environment using the [virtualenv](https://virtualenv.pypa.io/en/latest/) tool. This can be done with the command: **virualenv -p python3.7 ic-desktop-api**
-* Change directory to the ic-desktop-api folder. Download the [source code](https://github.com/nadirlc/islam-companion-desktop-api/archive/master.zip) from GitHub or install from Python Package index using the command: **pip install ic-desktop-api**
+* Change directory to the ic-desktop-api folder. Download the [source code](https://github.com/pakjiddat/islam-companion-desktop-api/archive/master.zip) from GitHub or install from Python Package index using the command: **pip install ic-desktop-api**
 * Download the [quran](https://drive.google.com/open?id=11a_dQ4i0__--x5PkFjlmwMUxgMdTWbIa) sqlite database. Extract the downloaded file to **quran/lib/data/holy-quran.db**
 * Download the [hadith](https://drive.google.com/open?id=1pHo5auUuKiNEi9jlmQJ0-n3oqDEdbDR0) sqlite database. Extract the downloaded file to **hadith/lib/data/hadith.db**
 * Install the [unittest2](https://pypi.org/project/unittest2/) Python package using the command: **pip install unittest2**. It will be used to unit test the API

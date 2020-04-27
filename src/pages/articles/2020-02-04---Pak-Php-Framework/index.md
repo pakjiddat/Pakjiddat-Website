@@ -254,7 +254,7 @@ The vendors folder contains third party libraries such as [Twitter Bootstrap](ht
 
 ```bash
 composer require nadirlc/pak-php-framework (Installation using Composer) OR
-git clone https://github.com/nadirlc/pak-php-framework.git (Download from [GitHub Repository](https://github.com/nadirlc/pak-php-framework))
+git clone https://github.com/pakjiddat/pak-php-framework.git (Download from [GitHub Repository](https://github.com/pakjiddat/pak-php-framework))
 ```
 
 After the source code has been downloaded, create a MySQL database called **pakjiddat_pakphp** and import the contents of the file **framework/data/pak-php-framework.sql** to the database. This will create the database tables used by the Pak Php Framework. These tables are used for saving error data, access logs, test data and test results.
@@ -264,6 +264,6 @@ The **helloworld** sample application shows how to get started with the Pak Php 
 
 For a more complex example you can download and install one of the following:
 
-* [Developers Site](https://github.com/nadirlc/developers-site). It is a simple website that allows web developers to publish their work
-* [Islam Companion Website](https://github.com/nadirlc/islam-companion-website). It allows users to read the Holy Quran and Hadith. Also allows subscribing to Holy Quran and Hadith by email
-* [Islam Companion Web API](https://github.com/nadirlc/islam-companion-web-api). It provides a RESETFul API for fetching Holy Quran and Hadith data
+* [Developers Site](https://github.com/pakjiddat/developers-site). It is a simple website that allows web developers to publish their work
+* [Islam Companion Website](https://github.com/pakjiddat/islam-companion-website). It allows users to read the Holy Quran and Hadith. Also allows subscribing to Holy Quran and Hadith by email
+* [Islam Companion Web API](https://github.com/pakjiddat/islam-companion-web-api). It provides a RESETFul API for fetching Holy Quran and Hadith data

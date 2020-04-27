@@ -58,7 +58,7 @@ Enter following commands to verify correct installation. **Samba -V** and **smbc
 * #### Start samba.
   Setup a startup script for Samba. You can use the [Samba4/InitScript](https://wiki.samba.org/index.php/Managing_the_Samba_AD_DC_Service_Using_Systemd). Start Samba. e.g on Centos enter the command:
 
-  ```bashbash
+  ```bash
   systemctl start samba-ad-dc
   ```
 

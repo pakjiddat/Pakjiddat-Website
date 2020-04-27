@@ -104,7 +104,7 @@ The following command can be used to recursively list all empty folders within a
 find . -type d -empty
 ```
 
-#### [Adding text to all files with BASH](https://askubuntu.com/a/643410/547282)
+#### [Renaming multiple files in folder with BASH](https://askubuntu.com/a/643410/547282)
 We often have a need to rename all files at once. For example we may need to add a certain text to all files within a folder. We can do this using a programming language. However the Bash programming language allows us to do this very easily using the **rename** command.
 
 For example to add the text "_test" before the file extension to all mp3 files in a directory, we can use the following command:
@@ -120,4 +120,11 @@ If you want to change the permissions of all folders under current directory to 
 
 ```bash
 find . -type d -exec chmod 755 {} \;
+```
+
+#### [Appending text to end of file with Bash](https://www.cyberciti.biz/faq/linux-append-text-to-end-of-file/)
+To append text to the end of a file in Linux:
+
+```bash
+echo "Some new text" >> /tmp/file_name.txt
 ```

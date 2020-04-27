@@ -70,7 +70,7 @@ This will start the testing of each page listed in the database table.
 
 ### Installation
 The following steps can be used to install the "Developers Site" project on your own server:  
-* Download the [source code](https://github.com/nadirlc/developers-site/archive/master.zip) from GitHub
+* Download the [source code](https://github.com/pakjiddat/developers-site/archive/master.zip) from GitHub
 * Move the source code to the document root of a virtual host
 * Create a database and import the contents of the file: **pakjiddat/data/developers-site.sql** to the database. Note down the credentials used for connecting to the database
 * Enter the database credentials in the file **pakjiddat/config/RequiredObjects.php**
