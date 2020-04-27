@@ -13,6 +13,8 @@ class SideBarBtns {
 
   /** Displays/Hides the buttons */
   ToggleButtons() {
+    /** If the scroll top button does not exist, then function returns */
+    if (!document.getElementById("scroll-btn")) return;
     /** If the current current scroll is 300px or more */
     if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
       /** The scroll to top button is displayed */

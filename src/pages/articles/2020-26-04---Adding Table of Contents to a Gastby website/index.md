@@ -34,7 +34,7 @@ The script takes as input article text in HTML format and produces an unordered 
 To add Table of Contents, you need to follow these steps:
 
 - Install the table of contents script using the command:
-```
+```bash
 npm i @pakjiddat/toc --save
 ```
 - Create a new Gatsby component called Toc. To create the component, create folder called Toc under the **src/components/** folder. Add a file to this folder called **index.jsx** with following contents:
@@ -103,7 +103,7 @@ const toc    = require("@pakjiddat/toc/index");
 ```
 
 - Next within your blog post template file, generate the table of contents from your article HTML text using:
-```
+```js
 const tocData = toc.Generate(post.html);
 ```
 

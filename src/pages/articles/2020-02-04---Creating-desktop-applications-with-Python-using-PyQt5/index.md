@@ -19,11 +19,41 @@ The obvious benefit of GUI applications is that they allow the data to remain on
 [Qt 5 Developments Tools](https://packages.debian.org/stretch/qttools5-dev-tools) is a package that provides tools for the Qt5 framework. It includes the Qt5 Desginer which is a graphical designer for Qt5 applications.
 
 ### Installation
-Both the PyQt5 framework and PyQt5 Tools may be installed within a Python virtual environment. For example the command: **virtualenv path-to-project** will create a folder with standard Python libraries and binaries. This folder works as an isolated environment within which Python applications can be developed.
+Both the PyQt5 framework and PyQt5 Tools may be installed within a Python virtual environment. For example the command:
 
-The benefit of using virtual environments is that they allow packages to be installed independently of other virtual environments or the system wide packages. Once a virtual environment has been created, it needs to activated using the command: **source bin/activate**. This will import the necessary environment.
+```bash
+virtualenv path-to-project
+```
 
-To install the PyQt5 package, we need to run the command: **pip install PyQt5**. The PyQt5 tools package may be installed with the command: **pip install qttools5-dev-tools**. To test if the PyQt5 package has been successfully installed, enter the command: **import PyQt5** from the Python shell. If the command does not give errors, then the PyQt5 has been successfully installed
+will create a folder with standard Python libraries and binaries. This folder works as an isolated environment within which Python applications can be developed.
+
+The benefit of using virtual environments is that they allow packages to be installed independently of other virtual environments or the system wide packages. Once a virtual environment has been created, it needs to activated using the command:
+
+```bash
+source bin/activate
+```
+
+This will import the necessary environment.
+
+To install the PyQt5 package, we need to run the command:
+
+```bash
+pip install PyQt5
+```
+
+The PyQt5 tools package may be installed with the command:
+
+```bash
+pip install qttools5-dev-tools
+```
+
+To test if the PyQt5 package has been successfully installed, enter the command:
+
+```bash
+import PyQt5
+```
+
+from the Python shell. If the command does not give errors, then the PyQt5 has been successfully installed
 
 ### Creating PyQt5 applications
 Python GUI applications are run in the same way as command line applications. The main difference is that instead of output being shown on the console, a graphical window pops up.
@@ -86,12 +116,30 @@ Each layout in the Qt Designer is saved in XML format as a separate file with **
 
 Using Python code for arranging widgets can be difficult, since a preview of the user interface is not immediately available. Fortunately the PyQt5 framework contains a tool called **pyuic5** which allows converting the **.ui** files of the Qt Designer to Python code.
 
-For example the command: **bin/pyuic5 -x -o MainWindow.py MainWindow.ui** will generate the Python file MainWindow.py from the Qt Designer file: MainWindow.ui. The Python file can then be run using the command: **python MainWindow.py**. This should run the GUI application. The application should look exactly like the preview in the Qt Designer.
+For example the command:
+
+```bash
+bin/pyuic5 -x -o MainWindow.py MainWindow.ui
+```
+
+will generate the Python file MainWindow.py from the Qt Designer file: MainWindow.ui. The Python file can then be run using the command:
+
+```bash
+python MainWindow.py
+```
+
+This should run the GUI application. The application should look exactly like the preview in the Qt Designer.
 
 ### Generating executable files using pyqtdeploy
 [pyqtdeploy](https://www.riverbankcomputing.com/software/pyqtdeploy/intro) is a tool that allows deploying PyQt applications. It supports deploying applications to desktop platforms and mobile platforms. It supports Linux, Windows, MacOs and Android. pyqtdeploy creates a standalone binary file that can be run on the target platform.
 
-pyqtdeploy can be installed as a Python package using the command: **pip install pyqtdeploy**. It requires the PyQt5 and Python 3.5 and later.
+pyqtdeploy can be installed as a Python package using the command:
+
+```bash
+pip install pyqtdeploy
+```
+
+It requires the PyQt5 and Python 3.5 and later.
 
 A useful way to learn about pyqtdeploy is to deploy the [demo application](https://www.riverbankcomputing.com/static/Docs/pyqtdeploy/demo.html) that is packaged with pyqtdeploy. The demo application is a simple application written using PyQt5 and Python. The documentation for the demo application describes how to build the application on the target platform.
 
@@ -99,12 +147,36 @@ Generating a standalone binary file using pyqtdeploy requires the following step
 
 * Identify the PyQt modules and other third party components that are required by the application. These components are specified in the **sysroot.json** file. The sysroot.json file that is provided with the demo application is a good starting point.
 
-The systemroot contains the Python libraries and third part components required by the application. The document [Building a System Root Directory](https://www.riverbankcomputing.com/static/Docs/pyqtdeploy/sysroot.html#ref-building-a-sysroot) describes how to build a sysroot. Building a sysroot can take several hours depending on the components selected. The system root is then built using the command: **pyqtdeploy-sysroot  --sysroot sysroot-linux-64/ --source-dir lib --verbose  sysroot.json**. The **pyqtdeploy-sysroot** command is part of the pyqtdeploy package.
+The systemroot contains the Python libraries and third part components required by the application. The document [Building a System Root Directory](https://www.riverbankcomputing.com/static/Docs/pyqtdeploy/sysroot.html#ref-building-a-sysroot) describes how to build a sysroot. Building a sysroot can take several hours depending on the components selected. The system root is then built using the command:
 
-Building a sysroot causes the components specified in sysroot.json to be compiled. Usually qt5, python, sip and pyqt5 are listed in sysroot.json. Compiling qt5 requires certain packages. The article [Building Qt 5 from Git](https://wiki.qt.io/Building_Qt_5_from_Git) describes how to install the dependency packages that are required for building qt5 from source. For example on Ubuntu the dependencies may be installed with the command: **sudo apt-get build-dep qt5-default**. Note that this command requires source entries in the **/etc/apt/sources.list** file. Depending on which qt5 features are needed, other dependency packages may need to be installed.
+```bash
+pyqtdeploy-sysroot  --sysroot sysroot-linux-64/ --source-dir lib --verbose  sysroot.json
+```
+
+The **pyqtdeploy-sysroot** command is part of the pyqtdeploy package.
+
+Building a sysroot causes the components specified in sysroot.json to be compiled. Usually qt5, python, sip and pyqt5 are listed in sysroot.json. Compiling qt5 requires certain packages. The article [Building Qt 5 from Git](https://wiki.qt.io/Building_Qt_5_from_Git) describes how to install the dependency packages that are required for building qt5 from source. For example on Ubuntu the dependencies may be installed with the command:
+
+```bash
+sudo apt-get build-dep qt5-default
+```
+
+Note that this command requires source entries in the **/etc/apt/sources.list** file. Depending on which qt5 features are needed, other dependency packages may need to be installed.
 
 * The next step is to create a project file that identifies the application source code and all the components used by the application. The project file has a **.pdy** file extension. It can be created using the **pyqtdeploy** command. This command opens a graphical application that allows generating the project file. For example use the command: **pyqtdeploy pyqt-demo.pdy** to edit the project file for the demo application. The document [Creating a pyqtdeploy Project](https://www.riverbankcomputing.com/static/Docs/pyqtdeploy/pyqtdeploy.html#ref-creating-a-project) describes how to create a pyqtdeploy project.
 
-* The next step is to freeze the Python modules and generate a **.pro** file for **qmake**. This can be done using the command: **pyqtdeploy-build --sysroot sysroot-linux-64/  --verbose pyqt-demo.pdy**. The article [Building the Application](https://www.riverbankcomputing.com/static/Docs/pyqtdeploy/building.html#ref-building-an-application) describes how to do generate the **.pro** file.
+* The next step is to freeze the Python modules and generate a **.pro** file for **qmake**. This can be done using the command:
 
-* The next step is to generate the **MakeFile** using the qmake command. This can be done using the command: **[path-to-qmake] pyqt-demo.pro**. This command should be run from the target build directory which was generated during the previous step. The **path-to-qmake** is the absolute path to the qmake binary file within the sysroot. Once the MakeFile has been generated, the next step is to generate the executable file using the command: **make**.
+```bash
+pyqtdeploy-build --sysroot sysroot-linux-64/  --verbose pyqt-demo.pdy
+```
+
+The article [Building the Application](https://www.riverbankcomputing.com/static/Docs/pyqtdeploy/building.html#ref-building-an-application) describes how to do generate the **.pro** file.
+
+* The next step is to generate the **MakeFile** using the qmake command. This can be done using the command:
+
+```bash
+[path-to-qmake] pyqt-demo.pro
+```
+
+This command should be run from the target build directory which was generated during the previous step. The **path-to-qmake** is the absolute path to the qmake binary file within the sysroot. Once the MakeFile has been generated, the next step is to generate the executable file using the command: **make**.

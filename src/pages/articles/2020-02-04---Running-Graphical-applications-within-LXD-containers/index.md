@@ -30,9 +30,17 @@ echo "root:$UID:1" | sudo tee -a /etc/subuid /etc/subgid
 
 The command adds a mapping entry to the **/etc/subuid** and **/etc/subgid** files.
 
-Next we need to define a user id mapping for our container. Assuming our container is called Projects, the following command creates a mapping between user id $UID on the host and user id 1001 on the container: **sudo lxc config set Projects raw.idmap "both $UID 1001"**.
+Next we need to define a user id mapping for our container. Assuming our container is called Projects, the following command creates a mapping between user id $UID on the host and user id 1001 on the container:
 
-The command allows devices and files belonging to the host user to be used within the container. For the changes to take affect, we need to restart our container with the command: **sudo lxc restart Projects**.
+```bash
+sudo lxc config set Projects raw.idmap "both $UID 1001"
+```
+
+The command allows devices and files belonging to the host user to be used within the container. For the changes to take affect, we need to restart our container with the command:
+
+```bash
+sudo lxc restart Projects
+```
 
 User id 1001 should be replaced with the user id of the user that will run the GUI apps on the container. $UID is an environment variable that contains the user id of the user logged in to the host.
 
@@ -56,13 +64,37 @@ sudo lxc config device set Projects gpu gid 1001
 ```
 
 #### Test the configuration
-Next we need to run a sample GUI app on the container. To do this, we need to install the **x11-apps** package using the command: **sudo apt-get install x11-apps**. The x11-apps package contains the **xclock** sample GUI app.
+Next we need to run a sample GUI app on the container. To do this, we need to install the **x11-apps** package using the command:
 
-Before running the sample app, we need to set the **DISPLAY** environment variable on the container. It should be set to the same value as the **DISPLAY** variable on the host. To get the value of the **DISPLAY** variable on the host, run the command: **echo $DISPLAY** on the host. The value of this variable is usually **":0"**.
+```bash
+sudo apt-get install x11-apps
+```
 
-Next run the command: **export DISPLAY=:0** on the container. It sets the **DISPLAY** variable to **":0"**. Place the command in **~/.bashrc** file so next time the user logs in the **DISPLAY** variable is automatically set.
+The x11-apps package contains the **xclock** sample GUI app.
 
-Run the sample GUI app using the command: **xclock**. It should open a small window containing an analog clock. The window will be opened on the host.
+Before running the sample app, we need to set the **DISPLAY** environment variable on the container. It should be set to the same value as the **DISPLAY** variable on the host. To get the value of the **DISPLAY** variable on the host, run the command:
+
+```bash
+echo $DISPLAY
+```
+
+on the host. The value of this variable is usually **":0"**.
+
+Next run the command:
+
+```bash
+export DISPLAY=:0
+```
+
+on the container. It sets the **DISPLAY** variable to **":0"**. Place the command in **~/.bashrc** file so next time the user logs in the **DISPLAY** variable is automatically set.
+
+Run the sample GUI app using the command:
+
+```bash
+xclock
+```
+
+It should open a small window containing an analog clock. The window will be opened on the host.
 
 ### Running Android emulator within LXD container
 To run an Android emulator within a LXD container, we need to first install the Android SDK on the container. See the article: [Building Ionic Cordova applications for Android on Debian 10 without Android Studio](/posts/building-ionic-cordova-applications-for-android-on-debian-10-without-android-studio) on how to install Android emulator.
