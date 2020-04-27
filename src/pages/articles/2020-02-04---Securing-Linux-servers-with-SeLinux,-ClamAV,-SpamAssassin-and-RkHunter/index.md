@@ -54,7 +54,7 @@ The most common system administration task for SELinux is to allow a process acc
 
 To update the SELinux context of a file or directory temporarily we can use the following command:
 
-```
+```bash
 chcon -t net_conf_t /etc/puppet-resolv.conf
 ```
 
@@ -62,13 +62,13 @@ This command sets the context of the file **puppet-resolv.conf** to **net_conf_t
 
 To make the change permanent we need to update the SELinux user space definition list and then relabel the files. We can update the user space definition list with the command:
 
-```
+```bash
 semanage fcontext -a -t net_conf_t "/etc/puppet-resolv\.conf"
 ```
 
 To relabel the list we use the command:
 
-```
+```bash
 restorecon -R /etc/puppet-resolv.conf /usr/lib/portage/bin
 ```
 

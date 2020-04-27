@@ -17,7 +17,7 @@ The WSO2 API Manager is well documented. Its installation is described in [The W
 
 First we need to install Oracle Java JDK version 1.7 or 1.8. Then we need to set the JAVA_HOME variable. After that we need to download the WSO2 API Manager. Next we need to start the WSO2 API Manager with the command:
 
-```
+```bash
 {APIM_HOME}/bin/wso2server.sh
 ```
 

@@ -37,7 +37,7 @@ class SideBarBtns {
   /** When the user clicks on the button, make the toc box invisible */
   ToggleTocBox() {
     /** If the toc box is hidden */
-    if (document.getElementById("tox-box").style.display == "none") {
+    if (document.getElementById("tox-box").style.display === "none") {
       /** The toc box is displayed */
       document.getElementById("tox-box").style.display = "block";
     } else {
@@ -47,10 +47,13 @@ class SideBarBtns {
   }
 }
 
-/** The SideBarBtns object is created */
-let sidebarbtns = new SideBarBtns();
-/** If the current page is an article page */
-if (window.location.href.indexOf("posts") > 0) {
-  /** The SideBarBtns object is initialized */
-  sidebarbtns.Initialize();
+
+exports.onRouteUpdate = () => {
+  /** The SideBarBtns object is created */
+  let sidebarbtns = new SideBarBtns();
+  /** If the current page is an article page */
+  if (document.getElementById("scroll-btn")) {
+    /** The SideBarBtns object is initialized */
+    sidebarbtns.Initialize();
+  }
 }

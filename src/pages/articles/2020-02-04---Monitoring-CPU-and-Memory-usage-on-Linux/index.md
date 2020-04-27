@@ -22,14 +22,14 @@ The contents of these files can be checked on a regular basis from a simple scri
 ### Monitoring CPU
 CPU usage can also be monitored with the top command which is part of most Linux distributions. The following bash command returns the CPU usage:
 
-```
+```bash
 cpu_usage=$(top -b -d1 -n1|grep -i "Cpu(s)"|head -c21|cut -d ' ' -f3|cut -d '%' -f1);
 ```
 
 ### Monitoring RAM
 Memory usage can be extracted from the **/proc/meminfo** file using the following command:
 
-```
+```bash
 # the total memory. the MemTotal row is extracted using awk. the second column of this row is then extracted and saved to total variable
 total=$( awk '/MemTotal/ {print $2}' < /proc/meminfo )
 # the available memory. the MemAvailable row is extracted using awk. the second column of this row is then extracted and saved to available variable

@@ -15,7 +15,7 @@ Prefetch, Preload and Preconnect are mechanisms supported by modern web browsers
 
 **Preload** allows controlling how resources such as images, CSS and JavaScript files are loaded on the current page. For each resource that we want to preload, we have to use a link tag with rel="preload" attribute. The following examples show how to preload resources:
 
-```
+```html
 <!-- allows preloading an image -->
 <link rel="preload" href="image.png">
 <!-- allows preloading a font file -->

@@ -15,7 +15,7 @@ Table of contents gives an overview of the article. It describes what the articl
 ### Basic Usage
 To generate a table of contents using PHP, the following code can be used:
 
-```
+```php
 $toc = new TOC();
 $toc_data = $toc->GenerateToc($article_text);
 ```

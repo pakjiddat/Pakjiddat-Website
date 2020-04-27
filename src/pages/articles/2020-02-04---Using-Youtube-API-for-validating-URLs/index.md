@@ -23,9 +23,9 @@ For example to access YouTube API using PHP you have to first download the Googl
 
 To check for availability of a movie clip, you can use the function listVideos of the videos property. I used the following code for checking for availability of movie clips on YouTube:
 
-```
+```php
 /**
-* Used to check if the given movie is availabe on youtube
+* Used to check if the given movie is available on youtube
 *
 * It uses youtube api and checks if given movie is available on youtube
 * If a movie is not available then it returns false

@@ -13,7 +13,7 @@ Some times we need to non-interactively run scripts which commit to git source c
 
 We can use credential caching. This will cache our credentials for a given duration. For example use the following command to cache your git credentials for 1 hour:
 
-```
+```bash
 git config --global credential.helper 'cache --timeout 3600'
 ```
 

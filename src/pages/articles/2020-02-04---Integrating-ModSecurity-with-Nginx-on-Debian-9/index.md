@@ -27,7 +27,7 @@ I followed the steps given in the article: [ModSecurity and nginx](https://www.l
 #### Install Nginx
 The installation of Nginx on Debian is documented on the [Nginx website](http://nginx.org/en/linux_packages.html#Debian). The main steps are:
 
-```
+```bash
 # Add the repository url to the apt sources list
 echo "deb http://nginx.org/packages/debian `lsb_release -cs` nginx" | sudo tee /etc/apt/sources.list.d/nginx.list
 # Add the package signing key
@@ -48,14 +48,14 @@ To compile the Libmodsecurity library, we need to first install the dependencies
 ##### Install the dependencies
 Use the following command to install the packages required by Libmodsecurity library:
 
-```
+```bash
 apt-get install libtool autoconf build-essential libpcre3-dev zlib1g-dev libssl-dev libxml2-dev libgeoip-dev liblmdb-dev libyajl-dev libcurl4-openssl-dev libpcre++-dev pkgconf libxslt1-dev libgd-dev
 ```
 
 ##### Download the code
 Use the following commands to download the correct version of Libmodsecurity source code. Note that the command given in the [ModSecurity and nginx](https://www.linuxjournal.com/content/modsecurity-and-nginx) article mentions the old source code. Use the command which is mentioned in the [ModSecurity 3.0 and NGINX: Quick Start Guide](https://www.nginx.com/resources/library/modsecurity-3-nginx-quick-start-guide/)
 
-```
+```bash
 cd /opt/
 # The correct command for downloading the latest Libmodsecurity source code
 git clone --depth 100 -b v3/master --single-branch https://github.com/SpiderLabs/ModSecurity
@@ -67,7 +67,7 @@ git submodule update
 ##### Compile the code
 Use the following command to compile the Libmodsecurity source code:
 
-```
+```bash
 # Generate configure file
 sh build.sh
 # Pre compilation step. Checks for dependencies
@@ -81,7 +81,7 @@ make install
 #### Compile the connector
 It requires downloading the Nginx source code and the source code for ModSecurity-nginx connector. When downloading the Nginx source code, make sure the version matches the currently installed Nginx version. Even though we just need to compile the ModSecurity-nginx connector, we need the Nginx source code. The following steps are involved:
 
-```
+```bash
 # Fetch the Nginx source code. See the directory: **http://nginx.org/download/** for all versions of Nginx
 wget http://nginx.org/download/nginx-1.14.2.tar.gz
 # Extract the downloaded source code
@@ -106,12 +106,12 @@ To configure and enable the ModSecurity-nginx connector, we need to first load t
 ##### Load the module
 Add following line to **/etc/nginx/nginx.conf**:
 
-```
+```bash
 load_module modules/ngx_http_modsecurity_module.so;
 ```
 
 ##### Download the rules
-```
+```bash
 # Create the modsec folder in the Nginx configuration folder. It will contain the ModSec rules
 mkdir /etc/nginx/modsec
 # Change directory
@@ -123,7 +123,7 @@ mv /etc/nginx/modsec/owasp-modsecurity-crs/crs-setup.conf.example /etc/nginx/mod
 ```
 
 ##### Configure the connector
-```
+```bash
 # Copy the default ModSecurity configuration file to the modesec folder
 cp /opt/ModSecurity/modsecurity.conf-recommended /etc/nginx/modsec/modsecurity.conf
 # Create a configuration file that will be loaded by Nginx. This file will load the ModSec rules configuration file and the ModSec configuration file
@@ -146,7 +146,13 @@ modsecurity on;
 modsecurity_rules_file /etc/nginx/modsec/main.conf;
 ```
 
-Next we need to restart the Nginx server using **service nginx restart**. We can test the ModSecurity by sending a suspicious request to the Nginx web server. The following command sends a curl request containing a banned user agent: **curl -H "User-Agent: masscan" http://localhost/**. The following should be logged to the ModSecurity log file which is **/var/log/modsec_audit.log**:
+Next we need to restart the Nginx server using **service nginx restart**. We can test the ModSecurity by sending a suspicious request to the Nginx web server. The following command sends a curl request containing a banned user agent:
+
+```bash
+curl -H "User-Agent: masscan" http://localhost/
+```
+
+The following should be logged to the ModSecurity log file which is **/var/log/modsec_audit.log**:
 
 ```
 ModSecurity: Warning. Matched "Operator `PmFromFile' with parameter `scanners-user-agents.data' against &amp;rarrhkk;variable `REQUEST_HEADERS:User-Agent' (Value: `masscan' )

@@ -25,19 +25,19 @@ To install MediaElement Player, we need to first clone the [mediaelement git rep
 
 To create a sample page showing the player, we need to include following CSS file in the head section of the html page:
 
-```
+```html
 <link rel="stylesheet" type="text/css" href="mediaelementplayer.min.css">
 ```
 
 We also need to include the following file just above the closing **body** tag:
 
-```
+```js
 <script src="mediaelement-and-player.min.js"></script>
 ```
 
 Next, we need to instantiate the video player using the following code:
 
-```
+```html
 <div class="player">
   <video id="player1" width="640" height="360" preload="none"
      style="max-width: 100%"

@@ -59,7 +59,7 @@ The following screenshot shows the MySQL query log displayed by the error handle
 ### Usage
 All components of the Utilities Framework can be accessed using factory functions. To use a feature, we need to first create an object of the relevant component. For example: **UtilitiesFramework::Factory("email", $parameters);**. To send an email the following code can be used:
 
-```
+```php
 /* The Email class requires Mail and Mail_Mime pear package */
 include_once ("Mail.php");
 include_once ("Mail/mime.php");

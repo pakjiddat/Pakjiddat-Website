@@ -19,7 +19,7 @@ Installation of Redmine is easy and is described in the [Redmine Install Guide](
 
 The installation worked without problems. The only issue was installing the Redmine in a sub folder. The Url had to look like **https://companyname.org/companyid/projects/**. Sub folder installation of Redmine is described in the guide: [HowTo Install Redmine in a sub-URI](http://www.redmine.org/projects/redmine/wiki/HowTo_Install_Redmine_in_a_sub-URI). It required adding following lines to the end of the **config/environment.rb** file:
 
-```
+```ruby
 RedmineApp::Application.routes.default_scope = "/companyid/projects"
 Redmine::Utils::relative_url_root = "/companyid/projects"
 ActionController::Base.relative_url_root = "/companyid/projects"
@@ -27,7 +27,7 @@ ActionController::Base.relative_url_root = "/companyid/projects"
 
 After that I had to create the folder **/remine_install_path/companyid**. Then I had to add a symbolic link to the public folder using the command:
 
-```
+```bash
 ln -s /redmine_install_path/public /redmine_install_path/companyid/projects
 ```
 
@@ -42,18 +42,18 @@ Redmine supports plugins and themes which can be used to enhance the functionali
 
 Installation of Redmine plugins is a bit tricky. Each plugin has its own installation guide. Generally Redmine plugins are installed by decompressing the plugin file, then running the command:
 
-```
+```bash
 bundle install
 ```
 
 from the Redmine root directory. After that the command:
 
-```
+```bash
 rake redmine:plugins:migrate RAILS_ENV=production
 ```
 is run to import the plugin configuration information to Redmine. Next we may need to restart Redmine using the commands:
 
-```
+```bash
 touch tmp/restart.txt
 service apache2 restart
 ```

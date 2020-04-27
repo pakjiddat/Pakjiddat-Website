@@ -19,13 +19,13 @@ Graylog2 installation is very simple. It requires a Linux server with Java. Gray
 
 Installing Graylog2 is as simple as installing the package repository and then entering the command:
 
-```
+```bash
 yum install graylog2-server graylog2-web
 ```
 
 on Centos and
 
-```
+```bash
 apt-get install graylog2-server graylog2-web
 ```
 

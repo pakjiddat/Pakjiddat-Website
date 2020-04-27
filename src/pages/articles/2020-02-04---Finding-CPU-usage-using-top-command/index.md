@@ -13,7 +13,7 @@ The top command can be used in combination with bash tools to find CPU usage. Th
 
 The following command extracts CPU usage from the output of top command. The top command is run in batch mode so its output can be extracted:
 
-```
+```bash
 cpu_usage=$(top -b -d1 -n1|grep -i "Cpu(s)"|head -c21|cut -d ' ' -f3|cut -d '%' -f1)
 ```
 
@@ -21,7 +21,7 @@ On some systems, in the above command f3 should be replaced with f2. The command
 
 For example the following command will send an alert email to the system administrator using gmail server:
 
-```
+```bash
 echo "Hello Admin. The CPU usage on server is $cpu_usage%. Please check!" > /tmp/mail_body.txt
 mailx -s "CPU usage on server is more than 70%. Please check!." -r "reply_email" -S \
 smtp="smtp.gmail.com:587" -S smtp-use-starttls -S smtp-auth=login -S \

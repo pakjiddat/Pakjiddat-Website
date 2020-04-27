@@ -15,7 +15,7 @@ We can use the **substr_compare** function to check if a given file name segment
 
 The offset argument of the substr_compare function is set to the length of the file to search multiplied by -1. The length parameter is set to the length of the file name segment to be searched. The following code can be used. It checks if a string occurs at the end of a given string:
 
-```
+```php
 /** The file name segment is prefixed with '/' */
 $file_name         = "/" . ltrim($file_name, "/");
 /** The length of the file name */
@@ -33,7 +33,7 @@ else return false;
 
 Another option is to simply split the string into two parts using explode function and then check if the second array element matches the file name segment. The following code may be used:
 
-```
+```php
 /** The larger string is split on the file name */
 $path_segments = explode($file_name, $item_path);
 /** If the second array element matches the file name, then the function returns true */

@@ -13,7 +13,7 @@ JavaScript Modules are an implementation of ES6 Modules. They allow a useful way
 
 The **export** keyword allows exporting functions, constants, variables, class etc. For example:
 
-```
+```js
 // lib.mjs
 export function Test(param1) {
     return "Hello World !";
@@ -23,7 +23,7 @@ export const testdata = "Test"
 
 The **import** keyword can be used to import exported functions and variables. For example:
 
-```
+```js
 // main.mjs
 import Test from ./lib.mjs;
 Test("test argument");
@@ -33,7 +33,7 @@ In the above example, the lib.mjs must have a relative path or it should be spec
 
 Module files are loaded like normal JavaScript files but with the **type** attribute set to **"module"**. The following example shows how to load a module:
 
-```
+```js
 <script type="module" src="main.mjs"></script>
 <script nomodule src="fallback.js"></script>
 ```
@@ -46,7 +46,7 @@ Another feature of JavaScript modules is that they are loaded by the browser in 
 
 Dynamic import allows loading JavaScript modules from within scripts. The following example shows how to load JavaScript modules dynamically:
 
-```
+```js
 <script type="module">
   (async () => {
     const moduleSpecifier = './lib.mjs';

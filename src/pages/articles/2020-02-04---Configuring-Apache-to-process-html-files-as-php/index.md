@@ -35,7 +35,7 @@ To allow Apache to serve files ending with .html as PHP files, we need following
 
 The above code is for FastCGI configuration. It will differ for other configurations like mod_php. After editing the file we need to run following command for re-configuring the web server:
 
-```
+```bash
 /usr/local/psa/admin/sbin/httpdmng --reconfigure-all
 ```
 

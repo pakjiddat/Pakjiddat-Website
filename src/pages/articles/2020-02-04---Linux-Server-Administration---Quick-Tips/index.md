@@ -23,7 +23,7 @@ The server may not reboot if the UUID of the new disk is different from the UUID
 #### [How to Backup and Restore LXC containers](http://stackoverflow.com/questions/23427129/how-do-i-backup-move-lxc-containers)
 It describes how to backup and restore LXC containers. One option for backing up a LXC container is to create a tar acrhive using the commands:
 
-```
+```bash
 lxc-stop -n ContainerName;
 cd /var/lib/lxc/ContainerName/
 tar --numeric-owner -czvf container_fs.tar.gz ./*
@@ -31,7 +31,7 @@ tar --numeric-owner -czvf container_fs.tar.gz ./*
 
 The backup of the container may be restored using the command:
 
-```
+```bash
 rsync -avh container_fs.tar.gz user@server_name:/var/lib/lxc/
 tar --numeric-owner -xzvf container_fs.tar.gz ./*
 ```
@@ -41,7 +41,7 @@ Memcached is an extension for Php that allows accessing the Memcached daemon fro
 
 To install Memcached for Php 7 we need to first fetch the source code from GitHub by cloning the php7 branch. Then we need to compile it from source using the following commands:
 
-```
+```bash
 git clone -b php7 https://github.com/php-memcached-dev/php-memcached.git
 phpize
 ./configure
@@ -54,7 +54,7 @@ make install
 #### [Sending email through Gmail server using mailx command](https://support.google.com/accounts/answer/6010255?hl=en)
 [Mailx](https://linux.die.net/man/1/mailx) command can be used to send email through the gmail smtp server. For example the following command can be used:
 
-```
+```bash
 mailx -s "Memory usage on server is more than 70%. Please check!." -r "reply_email" -S smtp="smtp.gmail.com:587" -S  \
 smtp-use-starttls -S smtp-auth=login -S smtp-auth-user="gmail_address" -S smtp-auth-password="gmail_password" -S \
 ssl-verify=ignore recepiant_email &lt; /tmp/mail_body.txt
@@ -68,7 +68,7 @@ To list the currently logged in users, we can use the command: **users**.
 #### [Upgrading Rocket Chat to latest version](https://rocket.chat/docs/installation/manual-installation/ubuntu#update)
 To upgrade Rocket Chat to the latest version we need to first download the latest version of Rocket Chat using the command:
 
-```
+```bash
 curl -L https://rocket.chat/releases/latest/download -o rocket.chat.tgz
 ```
 
@@ -81,7 +81,7 @@ If you are trying to copy a large file to a disk that has been formatted with th
 We can use this script to migrate Trello issues to Redmine: [https://github.com/inequation/trello2redmine](https://github.com/inequation/trello2redmine)
 To use the script, we first need to configure it with the Redmine url, project id, default user and a few other parameters. We can run the script with the command:
 
-```
+```bash
 python trello2redmine.py -c
 ```
 
@@ -103,7 +103,7 @@ PSCP is a command that allows uploading files and folders to a remote server. It
 
 The following command can be used to recursively copy a folder to a remote destination:
 
-```
+```bash
 pscp -r {source_folder} {user_name}@{remote_server}:{remote_folder_path}
 ```
 
@@ -126,6 +126,6 @@ A hard disk bad block is a section of the hard disk that cannot be read from or 
 #### [Listing files and directories sorted by size](https://www.tecmint.com/find-top-large-directories-and-files-sizes-in-linux/)
 To find out which files and directories under a given directory are taking up the most space, the following command can be used:
 
-```
+```bash
 du -a /home | sort -n -r | head -n 5
 ```

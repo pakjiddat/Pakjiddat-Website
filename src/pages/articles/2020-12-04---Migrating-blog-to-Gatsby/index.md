@@ -31,25 +31,25 @@ Gatsby provides a component based, declarative approach towards website developm
 ### Installation
 The [Gatsby Quick Start guide](https://www.gatsbyjs.org/docs/quick-start/) describes how to install Gatsby. Gatsby is installed as a Node.js package from the command line using:
 
-```
+```bash
 npm install -g gatsby-cli
 ```
 
 To create a new site, enter the command:
 
-```
+```bash
 gatsby new gatsby-site
 ```
 
 We may specify a starter template in the above command. Gatsby has hundreds of [starter templates](https://www.gatsbyjs.org/starters/) that can be used as a starting point for creating a website. Next start a development server by entering the command:
 
-```
+```bash
 gatsby develop
 ```
 
 This will start a development server on port 8000. You should be able to access the website on: http://localhost:8000. If you edit any files in the **src/pages** folder, It will cause the website to automatically reload in the browser and reflect the changes made to the files. Once the website has been developed it can be deployed as static HTML files using the following commands:
 
-```
+```bash
 gatsby build
 gatsby serve
 ```

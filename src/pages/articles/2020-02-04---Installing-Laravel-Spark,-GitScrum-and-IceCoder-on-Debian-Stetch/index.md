@@ -23,7 +23,7 @@ In this article, I will describe my experience with Installing and configuring L
 ### Installing NodeJs and NPM
 NodeJs and NPM can be installed using the Node Version Management (NVM) script. The script can be downloaded from its [Git Hub repository](https://github.com/creationix/nvm#installation). NVM can be installed using the command:
 
-```
+```bash
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh | bash
 ```
 
@@ -31,19 +31,19 @@ This will install NVM in the home directory. The install location can be customi
 
 Once NVM has been installed, we can use it for installing our required version of NodeJs and NPM. NVM allows installing multiple versions of NodeJS. For example to install the latest version of NodeJs, we can use the command:
 
-```
+```bash
 nvm install node
 ```
 
 To check the version of NodeJs we can use the command:
 
-```
+```bash
 node -v
 ```
 
 Once the pre-requisites have been installed, we can start installing Laravel Spark. The command:
 
-```
+```bash
 composer global require laravel/installer
 ```
 
@@ -51,7 +51,7 @@ will install Laravel globally using Composer.
 
 Next we need to clone the [laravel/spark-installer](https://github.com/laravel/spark-installer) repository from Git Hub. Once the repository has cloned, we need to install the dependencies for Laravel Spark using the command:
 
-```
+```bash
 composer install
 ```
 
@@ -59,7 +59,7 @@ The command should be issued from the root of the cloned repository. The cloned 
 
 Next we need to register our application with the Spark installer. To do this, we need to generate an API token from our Spark account. We can then register our API token using the command:
 
-```
+```bash
 spark register token-value
 ```
 
@@ -67,13 +67,13 @@ where token-value is the generated token
 
 We can now create new Laravel Spark projects by issuing the command:
 
-```
+```bash
 spark new project-name
 ```
 
 where project-name is the name of the folder where the Spark application should be installed. Once we have created a new Spark project, we need to migrate the database for the new project using the command:
 
-```
+```bash
 php artisan migrate
 ```
 
@@ -90,13 +90,13 @@ It also displays charts and graphs describing project and issue progress. It pro
 
 GitScrum installation is well documented on the [GitScrum repository front page](https://github.com/gitscrum-community-edition/laravel-gitscrum#installation). To install GitScrum, we need to first clone the GitScrum source code repository by issuing the command:
 
-```
+```bash
 git clone git https://github.com/gitscrum-community-edition/laravel-gitscrum.git
 ```
 
 Next we need to install the GitScrum dependencies using the commands:
 
-```
+```bash
 cd laravel-gitscrum && composer update
 composer run-script post-root-package-install
 ```
@@ -105,7 +105,7 @@ Next we need to set the Application URL by editing the constant APP_URL in .env 
 
 Next we need to create the database tables for GitScrum by running the commands:
 
-```
+```bash
 php artisan migrate && php artisan db:seed --class=SettingSeeder
 ```
 
@@ -125,7 +125,7 @@ The Laravel Framework has a built in template engine called [Blade](https://lara
 
 To quickly add a template file to Laravel framework, we need to first add a route over which the file will be served. We can do this by adding the following to **routes/web.php**.
 
-```
+```php
 Route::get('/', function () {
     return view('/custom/home1');
 });
@@ -139,7 +139,7 @@ The template file can also contain sections with content that is auto inserted i
 
 Template files can also include other template files. For example the command:
 
-```
+```php
 @include('custom.header')
 ```
 

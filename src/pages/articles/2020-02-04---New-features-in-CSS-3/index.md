@@ -20,7 +20,7 @@ Vendor prefixes are strings that are prepended to CSS 3 properties that are not 
 #### Multiple Columns
 CSS 3 also allows dividing content into columns. For example it can divide content into columns of certain width or certain number of columns. The following code shows how this works:
 
-```
+```html
 <div id="main">
   column 1 text
   column 2 text
@@ -41,7 +41,7 @@ CSS 3 provides the word-wrap style which allows wrapping a word if it exceeds th
 #### Attribute Selectors
 CSS 3 provides attribute selectors. It allows selecting a HTML tag with a certain attribute. e.g:
 
-```
+```css
 img[alt] {
   border: 3px dashed #e15f5f;
 }
@@ -49,7 +49,7 @@ img[alt] {
 
 Applies a dashed border to all images on the page with alt attribute.
 
-```
+```css
 img[alt="film"] {
   border: 3px dashed #e15f5f;
 }
@@ -60,7 +60,7 @@ Applies a dashed border to all images on the page with alt attribute that starts
 #### CSS3 structural pseudo-classes
 CSS 3 also introduces the following selectors known as pseudo-classes: **:nth-child(n), :nth-lastchild(n), :nth-of-type(n), and :nth-last-of-type(n)**, where n can be a number, arithmetic progression, odd, even. e.g:
 
-```
+```css
 nav ul li:nth-child(2n+3) a {
  color: #fe0208;
 }
@@ -68,7 +68,7 @@ nav ul li:nth-child(2n+3) a {
 
 will apply the color to all list items with position 3, 5, 7, 9 and so on.
 
-```
+```css
 nav ul li:not(.internal) a {
  color: #fe0208;
 }
@@ -78,7 +78,7 @@ will apply the color to all list items with class not equal to internal and that
 
 **li:: first-line {color: red;}** will apply the color red to the fist line in the list tag.
 
-```
+```css
 p::after {
     content: " - Remember this";
 }
@@ -89,7 +89,7 @@ will apply the content after the paragraph tag
 #### Custom Web Typograhpy
 CSS 3 also allows the use of custom font types using the @font-face syntax. e.g:
 
-```
+```css
 @font-face {
  font-family: 'BebasNeueRegular';
  src: url('BebasNeue-webfont.eot');

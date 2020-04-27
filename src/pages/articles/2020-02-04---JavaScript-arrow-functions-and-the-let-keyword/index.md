@@ -11,7 +11,7 @@ description: "JavaScript arrow functions are unnamed functions which are best us
 
 JavaScript arrow functions are unnamed functions which are best used as non-method functions. They provide a short hand notation for using functions. An arrow function consists of a list of function parameters followed by an arrow which is followed by an expression to be returned or a code block. The following code shows how to create an arrow function
 
-```
+```js
 let ToUpperWrapper = (value) => {value.toUpperCase();}
 
 ToUpperWrapper("test");

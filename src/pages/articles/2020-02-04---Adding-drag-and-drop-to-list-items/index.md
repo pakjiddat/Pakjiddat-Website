@@ -19,7 +19,7 @@ The **dragover** event is called when the user drags a list item. The event hand
 
 The following code can be used:
 
-```
+```js
 /** Listen for dragstart events */
 list_item.addEventListener('dragstart', function(ev) {
   /** The allowed event is set to move */

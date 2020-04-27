@@ -17,7 +17,7 @@ Wireshark may be installed from source code or from a package management reposit
 
 Installation from package management repository is the simplest option but does not allow the same level of customization as installing from source code. Installing from package management repository on Debian and Ubuntu requires running the commands:
 
-```
+```bash
 sudo apt-get update
 sudo apt-get install wireshark-gtk
 ```
@@ -27,7 +27,7 @@ To install from source code, we need to first download the Wireshark source code
 ### Compiling the source code
 Wireshark supports two graphical interfaces. One is based on **GTK+**, while the other is based on **QT**. To generate the Wireshark binary based on GTK+, we need to run the following command:
 
-```
+```bash
 sudo apt-get install pkg-config
 sudo apt-get install gtk+-3
 apt-get install libgtk-3-dev
@@ -47,7 +47,7 @@ wireshark: error while loading shared libraries: libwiretap.so.1: cannot open sh
 
 The error can be fixed by entering the command:
 
-```
+```bash
 ldconfig
 ```
 
@@ -58,13 +58,13 @@ Wireshark also has a command line client called **tshark** which is installed al
 ### Generating package for the operating system
 To generate a package for the current operating system for example Debian, we need to run the command:
 
-```
+```bash
 dpkg-buildpackage -us -uc -rfakeroot
 ```
 
 The command requires several dependencies which may be installed using the command:
 
-```
+```bash
 sudo apt-get install qtbase5-dev qtbase5-dev-tools qttools5-dev qttools5-dev-tools qtmultimedia5-dev libqt5svg5-dev flex python-ply \
 libc-ares-dev xsltproc docbook-xsl docbook-xml libxml2-utils libcap2-dev libcap-dev bison quilt libparse-yapp-perl portaudio19-dev \
 libkrb5-dev liblua5.2-dev libsmi2-dev libgeoip-dev libnl-genl-3-dev libnl-route-3-dev asciidoc cmake w3m libsbc-dev libnghttp2-dev\
@@ -80,7 +80,7 @@ I posted the error to the Amazon API forums. A similar error was reported by oth
 
 I ran the command:
 
-```
+```bash
 tcpdump -w tdump.pcap -i venet0 dst 52.94.216.120
 ```
 

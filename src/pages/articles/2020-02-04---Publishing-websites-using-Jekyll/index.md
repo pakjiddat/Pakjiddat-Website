@@ -22,25 +22,25 @@ Ruby is an interpreted language with a focus on simplicity and productivity. It 
 
 To install [RVM](https://rvm.io/rvm/install), we need to first install the package signing keys using the command:
 
-```
+```bash
 gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB
 ```
 
 Next we need to install RVM using the command:
 
-```
+```bash
 curl -sSL https://get.rvm.io | bash
 ```
 
 Once RVM has been installed, we can use it to install Ruby. For example to list all the available versions of Ruby we can use the command:
 
-```
+```bash
 rvm list known
 ```
 
 To install a specific version of ruby, for example version 2.5.1, we can use the command:
 
-```
+```bash
 rvm install ruby-2.5.1
 ```
 
@@ -51,19 +51,19 @@ To install the website locally, we first need to download the website from Git H
 
 We can do this with the commands:
 
-```
+```bash
 gem install bundle
 ```
 
 followed by:
 
-```
+```bash
 bundle install
 ```
 
 Next we need to run the command:
 
-```
+```bash
 jekyll serve
 ```
 
@@ -85,7 +85,7 @@ Since Jekyll version 3.2, a default theme called [minima](https://github.com/jek
 ### Jekyll Admin
 The [Jekyll Admin](https://github.com/jekyll/jekyll-admin) is a useful web based tool that allows editing Jekyll website files. The Jekyll Admin is a Ruby Gem. To install the Jekyll Admin, we just need to add the lines:
 
-```
+```bash
 gem 'jekyll-admin', group: :jekyll_plugins
 ```
 

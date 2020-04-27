@@ -20,7 +20,7 @@ A free font for Urdu language is provided by a Pakistani Organization called Cen
 #### [How to use CCS rules specific to FireFox](http://stackoverflow.com/questions/952861/targeting-only-firefox-with-css)
 The CSS statement:
 
-```
+```css
 @-moz-document url-prefix() {
   h1 {color:red}
 }
@@ -42,7 +42,7 @@ The btoa function encodes an ASCII encoded string using Base64 encoding scheme. 
 #### [Passing parameters to Jquery event handler function](http://stackoverflow.com/questions/4897368/how-to-use-a-function-that-takes-arguments-with-jquerys-change-method)
 To pass a parameter to Jquery event handler, the parameter should be given as first argument to event function. The argument will be passed on as a property of event.data. For example:
 
-```
+```js
 jQuery(".selector").change({parameter: value}, function(event){
     user_function(event.data.parameter);
 });
@@ -50,15 +50,15 @@ jQuery(".selector").change({parameter: value}, function(event){
 
 #### [Fetching HTML elements using JavaScript](https://www.w3schools.com/jsref/prop_node_parentnode.asp)
 **Fetching parent node element of a HTML node**. We can fetch the parent node of a HTML element using following code:
-```
+```js
 var x = document.getElementById("myLI").parentNode.nodeName;
 ```
 **Fetching HTML elements using CSS class names**. We can fetch HTML elements from CSS classes using following JavaScript code:
-```
+```js
 var x = document.getElementsByClassName("example");
 ```
 **Fetching html elements using CSS selectors with Javascript**. The following Javascript code fetches html elements using CSS selectors:
-```
+```js
 var x = document.querySelectorAll(".example");
 ```
 
@@ -68,7 +68,7 @@ The Javascript function getTime returns the number of milliseconds since Jan 1st
 #### [Adding tilt effect to images using tilt.js](http://gijsroge.github.io/tilt.js/)
 Tilt.js is a library that allows adding tilt effect to HTML elements. For example div and image tags. To add a tilt affect to an image, the following code may be used:
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -109,7 +109,7 @@ Tilt.js is a library that allows adding tilt effect to HTML elements. For exampl
 #### [Scrolling to specific position in page](https://www.w3schools.com/jsref/met_win_scrollto.asp)
 To scroll the page to a particular position, the following code may be used:
 
-```
+```js
 var temp_arr = location.href.split('#');
 var div_id   = temp_arr[1];
 var position = $('#' + div_id).position();
@@ -130,7 +130,7 @@ If the text is still not displayed with correct font, then we can use the Font A
 
 The article [Preloading @font-face fonts?](https://stackoverflow.com/a/46830425) discusses how to preload font files. The following code may be used to preload font files:
 
-```
+```html
 <link rel="preload" href="/ui/font/NafeesWeb.ttf" as="font" crossorigin="anonymous" />
 <style>
 @font-face {

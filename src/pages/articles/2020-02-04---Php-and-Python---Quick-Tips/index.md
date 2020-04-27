@@ -31,7 +31,7 @@ In the PHP FPM configuration, the PHP is managed by a Fast CGI server called PHP
 #### [Fetching Gzip content with PHP Curl](https://stackoverflow.com/questions/310650/decode-gzipped-web-page-retrieved-via-curl-in-php)
 To fetch urls such as RSS Feeds that have been compressed with gzip encoding the following curl option can be used:
 
-```
+```php
 curl_setopt($ch,CURLOPT_ENCODING , "gzip");
 ```
 
@@ -54,13 +54,13 @@ SuPHP is an Apache module that allows executing PHP scripts with the permissions
 #### [Passing command line arguments to Python script](https://www.tutorialspoint.com/python/python_command_line_arguments.htm)
 Command line arguments can be passed to a Python script. For example the parameters passed in the following command:
 
-```
+```python
 python script_name argument1 argument2 argument3
 ```
 
 can be read with the sys module. The sys module provides the command line arguments. To use the sys module, we have to use the command:
 
-```
+```python
 import sys
 ```
 
@@ -69,7 +69,7 @@ The command line arguments can be used as: **sys.argv[0], sys.argv[1], sys.argv[
 #### [PHP 7 error handling](http://php.net/manual/en/language.errors.php7.php)
 PHP 7 uses a different approach for handling errors. It uses a different Error hierarchy then PHP 5. The base error class in PHP 7 is Throwable. So if we want to catch all exceptions that can be raised by a given code, then we should enclose the code in try/catch block. The catch block should use the Throwable class. For example:
 
-```
+```php
 try {
 // some php code
 }

@@ -45,7 +45,7 @@ If you have a production ready app then you may want to run it so the app uses c
 ### Folder structure of an Ionic App
 The **./src** folder contains the source code for our application. It has a file **index.html** which is the main entry point for our app. We do not need to edit this file. The files we need to edit are the Type Script files that end with **".ts"**. For example the file:**src/app/app.module.ts** is the entry point for the app. This file defines the root module which controls the application. The following example code defines the root module:
 
-```
+```js
 @NgModule({
   declarations: [MyApp, HelloIonicPage, ItemDetailsPage, ListPage],
   imports: [BrowserModule, IonicModule.forRoot(MyApp)],

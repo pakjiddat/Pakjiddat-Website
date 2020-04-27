@@ -17,31 +17,31 @@ To install the latest stable version of PHP, we need to use a third part package
 
 After that we can install the latest version of PHP. For example to install PHP 7.2, we need to issue the commands:
 
-```
+```bash
 apt-get update
 ```
 
 followed by:
 
-```
+```bash
 apt-get install php7.2
 ```
 
 To revert to the version of PHP provided by the operating system, we need to remove the file: **/etc/apt/sources.list.d/php.list**. We also need to remove the package singing key for deb.sury. Next we need to run the commands:
 
-```
+```bash
 apt-get update
 ```
 
 followed by:
 
-```
+```bash
 apt-get remove php7.2
 ```
 
 After that we need to install the PHP package using:
 
-```
+```bash
 apt-get install php
 ```
 

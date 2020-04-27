@@ -32,13 +32,13 @@ Next you need to download the source code for the W3C Markup Validator from Gith
 #### Installing mod_perl
 [The Installing mod_perl 2.0](https://perl.apache.org/docs/2.0/user/install/install.html) guide describes how to install mod_perl from source. Mod_perl requires perl headers which can be obtained by installing the **libperl-dev** package using apt-get. After the mod_perl source code has been downloaded, we need to generate the make file using the command:
 
-```
+```bash
 perl Makefile.PL MP_APXS=/usr/local/apache2/bin/apxs
 ```
 
 I got following error when running the command:
 
-```
+```bash
 Your Perl is configured to link against libgdbm,
 but libgdbm.so was not found.
 You could just symlink it to /usr/lib/x86_64-linux-gnu/libgdbm.so.3.0.0
@@ -46,7 +46,7 @@ You could just symlink it to /usr/lib/x86_64-linux-gnu/libgdbm.so.3.0.0
 
 I fixed the error by installing the **libgdbm-dev** package. I ran the command again but got this error:
 
-```
+```bash
 Reading Makefile.PL args from @ARGV
    MP_APXS = /usr/local/apache2/bin/apxs
 no conflicting prior mod_perl version found - good.
@@ -57,7 +57,7 @@ Using APXS => /usr/local/apache2/bin/apxs
 
 I fixed the error by installing the **apxs** package using the command:
 
-```
+```bash
 apt-get install apache2-dev
 ```
 
@@ -65,7 +65,7 @@ The apxs package is a tool for building extensions and modules for Apache 2.4.
 
 The apxs binary was installed in **/usr/bin** so I had to update the command to:
 
-```
+```bash
 perl Makefile.PL MP_APXS=/usr/bin/apxs
 ```
 
@@ -83,7 +83,7 @@ First we need to install the pre requisites which are Git, Python and JDK. The p
 #### Building validator.nu from source
 After the pre requisites have been installed you need to download the [source code for the validator.nu](https://github.com/validator/validator) from Git Hub. Once the source code has been downloaded, it needs to be built using the command:
 
-```
+```bash
 python ./build/build.py all
 ```
 

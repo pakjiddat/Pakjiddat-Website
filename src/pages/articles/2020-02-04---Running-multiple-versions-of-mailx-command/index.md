@@ -14,7 +14,7 @@ Certain commands in Linux can be provided by multiple packages. The command prov
 
 To force the system to use a command from a specific package we can use the **update-alternatives** command. For example the command:
 
-```
+```bash
 update-alternatives --set mailx /usr/bin/heirloom-mailx
 ```
 
@@ -22,7 +22,7 @@ will set the mailx provided by heirloom-mailx as the default mailx command. So w
 
 The above command may give an error on Debian Stretch. If the error suggests that the mailx package has not been registered, then the error can be corrected by registering the heirloom-mailx package using the command:
 
-```
+```bash
 update-alternatives --install /usr/bin/mailx mailx /usr/bin/heirloom-mailx 10
 ```
 

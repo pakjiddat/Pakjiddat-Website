@@ -32,13 +32,13 @@ Python applications written using the PyQt5 framework all have the same basic st
 
 * Import the **QtWidgets** class using:
 
-```
+```python
 from PyQt5 import QtWidgets
 ```
 
 * Create an instance of the **QMainWindow** class using:
 
-```
+```python
 app = QtWidgets.QApplication(sys.argv)
 ```
 
@@ -46,14 +46,14 @@ Command line arguments are passed to the constructor
 
 * Create an instance of the **QMainWindow** class using:
 
-```
+```python
 MainWindow = QtWidgets.QMainWindow()
 ```
 
 This is the actual user interface class
 * Create an instance of the **Ui_MainWindow** class using:
 
-```
+```python
 ui = Ui_MainWindow()
 ```
 
@@ -64,7 +64,7 @@ This class is used to setup the user interface class created in the previous ste
 
 The GUI related code is usually auto generated using the Qt Desginer and pyuic5. We need to keep our custom code such as event handling code separate from the auto generated GUI code. Otherwise the custom code can get overwritten. The benefit of organizing the code in the way described above is that it separates the GUI related code from the code that implements the application logic. This allows the GUI to be managed using the Qt Desginer, without having to worry about the Qt Desginer overwriting the custom code. The following code shows the **"main"** function of a typical PyQt5 application:
 
-```
+```python
 if __name__ == "__main__":    
     app        = QtWidgets.QApplication(sys.argv)
     MainWindow = QtWidgets.QMainWindow()

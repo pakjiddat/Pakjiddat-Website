@@ -35,7 +35,7 @@ To install JDK 8, simply download the JDK 8 zip file from the [Java Oracle websi
 
 Next set the **JAVA_HOME** environment variable in **.bashrc** located in your home folder. Also add the directory containing the **java** binary file to the **PATH** environment variable. This can be done by adding the following commands to the **.bashrc** file:
 
-```
+```bash
 export JAVA_HOME=/opt/jdk1.8.0_231/
 export PATH=/opt/jdk1.8.0_231/bin:$PATH
 ```
@@ -50,7 +50,7 @@ Next download and extract the [Android Development Tools package](https://develo
 
 Also add the folder containing the sdkmanager and emulator binaries to the $PATH environment variable. This can be done by adding the following to **.bashrc** file:
 
-```
+```bash
 export ANDROID_HOME=/opt/sdk-tools-linux
 export ANDROID_SDK_ROOT=$ANDROID_HOME
 export PATH=$ANDROID_SDK_ROOT/tools/bin:$ANDROID_SDK_ROOT/platform-tools:$ANDROID_SDK_ROOT/emulator:$PATH
@@ -59,7 +59,7 @@ export PATH=$ANDROID_SDK_ROOT/tools/bin:$ANDROID_SDK_ROOT/platform-tools:$ANDROI
 #### Installing the Android SDK and Platform Tools
 Next install Platform Tools and the Android Platform SDK. Install the version of the Android Platform SDK that is supported by the installed version of Cordova. Also install the Android SDK Build Tools, Android Emulator, Android SDK Tools and a System Image for your Android Virtual Device (AVD). The AVD will be used by the Android emulator. These packages can be installed with the **sdkmanager** tool, using the following commands:
 
-```
+```bash
 sdkmanager "build-tools;28.0.0" "platform-tools" "tools"
 sdkmanager "system-images;android-28;default;x86_64"
 ```
@@ -67,7 +67,7 @@ sdkmanager "system-images;android-28;default;x86_64"
 #### Creating AVD and running the Android emulator
 After that create an Android Virtual Device (AVD) using the command:
 
-```
+```bash
 avdmanager create avd -n emulator-name -k "system-images;android-28;default;x86_64"
 ```
 

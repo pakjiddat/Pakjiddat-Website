@@ -50,7 +50,7 @@ The Comment Manager package code is compliant with the [PSR-2 coding style](http
 #### Example 1
 The following example shows how to call a function safely with parameter and return value validation:
 
-```
+```php
 /** The safe_function_caller closure is fetched from the CommentManager class */
 $safe_function_caller       = CommentManager::GetClosure();
 
@@ -96,7 +96,7 @@ The custom validation function validates the return value by checking if the len
 #### Example 2
 The following example shows how to extract method DocBlock comments:
 
-```
+```php
 /** The Parser class is included */
 require("Parser.php");
 /** An object of the parser class is created */
@@ -108,7 +108,7 @@ print_R($parsed_comments);
 
 In the above example, $class name and $function_name is the method to check. The following output is produced:
 
-```
+```php
 Array
 (
     [description] => Array

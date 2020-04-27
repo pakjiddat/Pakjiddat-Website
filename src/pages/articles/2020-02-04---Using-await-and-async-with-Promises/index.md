@@ -11,13 +11,13 @@ description: "The async keyword is used when declaring functions. A function dec
 
 The **async** keyword is used when declaring functions. A function declared with async must return a **promise**. If a function is declared with async and it does not return a promise, then the JavaScript engine will automatically convert the return value of the function to a promise object. For example the following functions are both valid async functions:
 
-```
+```js
 async function f() {
   return Promise.resolve(1);
 }
 ```
 
-```
+```js
 async function f() {
   return 1;
 }
@@ -25,7 +25,7 @@ async function f() {
 
 The **await** keyword is used to wait for a promise to resolve. It causes code execution to wait until the promise has been resolved. The await keyword can only be used inside functions declared with async. It cannot be used inside regular functions. The following example shows how to use the await keyword:
 
-```
+```js
 async function Test() {
 
   let promise = new Promise((resolve, reject) => {

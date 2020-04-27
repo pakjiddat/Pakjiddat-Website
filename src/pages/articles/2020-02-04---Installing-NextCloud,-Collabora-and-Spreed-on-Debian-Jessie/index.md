@@ -35,7 +35,7 @@ Collabora Online is a LibreOffice based online document editor. It supports all 
 
 Collabora Online server can be installed easily from a Docker image. The following line of code will start a Docker container running Collabora server. It will download the Docker image of Collabora, if not already downloaded. It will start a container running Collabora server listening on port 9980.
 
-```
+```bash
 docker run -t -d -p 9980:9980 -e "domain=example.com" --cap-add MKNOD collabora/code
 ```
 
@@ -50,7 +50,7 @@ Spreed is a video conferencing server. It implements the WebRTC protocol, which 
 
 Spreed can be installed as a Docker container using the command:
 
-```
+```bash
 docker run --rm --name my-spreed-webrtc -p 8080:8080 -p 8443:8443 -v `pwd`:/srv/extra -i -t spreed/webrtc
 ```
 

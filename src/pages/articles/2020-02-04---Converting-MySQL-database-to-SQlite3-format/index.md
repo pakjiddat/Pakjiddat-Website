@@ -16,7 +16,7 @@ The [mysql2sqlite](https://github.com/dumblob/mysql2sqlite) is a free and open s
 
 To convert a MySQL database to SQLite3, we need to first export the database using PhpMyAdmin or mysqldump. Next we need to run the command:
 
-```
+```bash
 ./mysql2sqlite dump_mysql.sql | sqlite3 mysqlite3.db
 ```
 

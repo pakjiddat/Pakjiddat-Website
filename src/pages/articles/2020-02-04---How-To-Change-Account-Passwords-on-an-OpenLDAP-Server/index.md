@@ -12,13 +12,13 @@ description: "To change the LDAP admin password, we need to first save the rootd
 
 To change the LDAP admin password, we need to first save the rootdn account information. We can do this with the command:
 
-```
+```bash
 ldapsearch -H ldapi:// -LLL -Q -Y EXTERNAL -b "cn=config" "(olcRootDN=*)" dn olcRootDN olcRootPW | tee }/newpasswd.ldif
 ```
 
 Next we need to generate a hash of the password using the slappasswd utility. The password should be appended to the LDAP configuration file. We can do this with the command:
 
-```
+```bash
 /usr/sbin/slappasswd -h {SSHA} >> }/newpasswd.ldif
 ```
 
@@ -36,7 +36,7 @@ The hdb string is the type of LDAP database. It can have other values such as md
 
 After that we need to apply the changes using the command:
 
-```
+```bash
 ldapmodify -H ldapi:// -Y EXTERNAL -f }/newpasswd.ldif
 ```
 
@@ -53,7 +53,7 @@ userPassword: {SSHA}lieJW/YlN5ps6Gn533tJuyY6iRtgSTQw
 
 After that we need to apply the changes using the command:
 
-```
+```bash
 ldapmodify -H ldap:// -x -D "cn=admin,dc=example,dc=com" -W -f }/newpasswd.ldif
 ```
 

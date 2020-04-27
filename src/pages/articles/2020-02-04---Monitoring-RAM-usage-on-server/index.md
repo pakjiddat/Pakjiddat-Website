@@ -13,7 +13,7 @@ The RAM on a server can be monitored using **/proc/meminfo** and awk commands. *
 
 The following bash script can be used to extract memory usage information from **/proc/meminfo**. It uses the **awk** text processing command for parsing memory information. It uses **bc** command for performing floating point operations. The bash scripting language does not support arithmetic operations on floating point numbers so an external tool like **bc** is needed
 
-```
+```bash
 # the total memory. the MemTotal row is extracted using awk. the second column of this row is then extracted and saved to total variable
 total=$( awk '/MemTotal/ {print $2}' &lt; /proc/meminfo )
 # the available memory. the MemAvailable row is extracted using awk. the second column of this row is then extracted and saved to available variable

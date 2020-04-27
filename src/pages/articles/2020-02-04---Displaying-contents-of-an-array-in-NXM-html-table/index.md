@@ -10,9 +10,9 @@ tags:
 description: "The following code allows displaying the contents of an array containing X number of elements in a HTML table. The HTML table contains N rows and M columns. The values of X, N and M can be configured:"
 ---
 
-The following code allows displaying the contents of an array containing X number of elements in a html table. The html table contains N rows and M columns. The values of X, N and M can be configured:
+The following code allows displaying the contents of an array containing X number of elements in a HTML table. The html table contains N rows and M columns. The values of X, N and M can be configured:
 
-```
+```php
 <?php
 
 /** The column counter */

@@ -26,7 +26,7 @@ If you do not have control over the hosting of your website, then you can upgrad
 
 Apache Bench is single threaded which means it only uses one operating system thread so it can be a bit slow at times. The following command load tests the website http://dev.example.com using Apache Bench:
 
-```
+```bash
 ab -n 500 -c 100 http://dev.example.com
 ```
 

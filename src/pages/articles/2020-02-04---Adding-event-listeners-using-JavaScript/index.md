@@ -11,7 +11,7 @@ description: "The addEventListener function can be used to listen for events. Th
 
 The addEventListener function can be used to listen for events. The function can be called on any HTML DOM object such as HTML elements, HTML document, the window object or objects that support events such as xmlHttpRequest. The following example shows how to attach event listener to the window object:
 
-```
+```js
 window.addEventListener("resize", function(){
     document.getElementById("demo").innerHTML = sometext;
 });

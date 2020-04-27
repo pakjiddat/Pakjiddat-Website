@@ -8,7 +8,7 @@ class Toc extends React.Component {
 
     return (
       <div className="toc-list" id="tox-box">
-        <h5 class="toc-header">Table Of Contents</h5>
+        <h5 className="toc-header">Table Of Contents</h5>
         <div dangerouslySetInnerHTML={{__html: tocList}} />
       </div>
     )

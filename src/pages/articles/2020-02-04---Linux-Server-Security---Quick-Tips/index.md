@@ -20,7 +20,7 @@ Some programs such as Odoo ERP can update your **/etc/passwd** and **/etc/group 
 #### [NodeJs permission denied error](http://sourcode.net/sh-1-node-permission-denied/)
 The error: sh: 1: node: Permission denied, usually occurs because the node binary does not allow execution with root privileges. To correct the error we need to run the commands:
 
-```
+```bash
 npm config set user 0
 npm config set unsafe-perm true
 sudo npm install -g sm
@@ -40,7 +40,7 @@ When this option is set to true, a private tmp folder is created for each proces
 #### [Fixing Rootkit Hunter lwp-request warning](https://mmcgrath.fedorapeople.org/rkhunter.conf)
 RKhunter may give the following error about **lwp-request** script:
 
-```
+```bash
 Warning: The command '/usr/bin/lwp-request' has been replaced by a script: /usr/bin/lwp-request: Perl script text executable
 ```
 
@@ -49,7 +49,7 @@ This warning may be ignored because lwp-request is a valid Perl script. It can d
 #### [Rootkit Hunter SSH version warning](https://unix.stackexchange.com/questions/194087/rkhunter-warning-about-ssh-root-access-when-that-access-is-not-allowed-on-the-sy)
 Rootkit Hunter may give the following error related to root user login configuration:
 
-```
+```bash
 Warning: The SSH and rkhunter configuration options should be the same:
          SSH configuration option 'PermitRootLogin': prohibit-password
          Rkhunter configuration option 'ALLOW_SSH_ROOT_USER': no

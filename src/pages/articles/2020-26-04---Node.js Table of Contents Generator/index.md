@@ -16,7 +16,7 @@ The Node.js Table of Contents Generator is a Node.js module for generating table
 
 ### Installation
 
-```
+```bash
 npm i @pakjiddat/toc --save
 ```
 
@@ -24,7 +24,7 @@ The above command will download the package to the **node_modules** folder. It w
 
 ### Usage
 
-```
+```js
 const toc    = require("@pakjiddat/toc/index");
 
 var tocData  = toc.Generate(data);
@@ -60,7 +60,7 @@ The limitations of the package are:
 
 To test the package, extract the file tests/data.zip. This file contains about 150 articles with headings. Copy all articles to the tests/data folder. Next run the command:
 
-```
+```bash
 npm test
 ```
 

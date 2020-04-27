@@ -65,7 +65,7 @@ Discourse is based on RubyOnRails platform. It uses PostgreSQL database. The rec
 
 We first need to install Docker on the server. See the [Docker installation guide](https://docs.docker.com/installation/) for how to install Docker on different operating systems. Next we need to create the folder: **/var/discourse** and download the Discourse Docker source code to the folder. This can be done with the commands:
 
-```
+```bash
 mkdir /var/discourse
 cd /var/discourse
 git clone https://github.com/discourse/discourse_docker.git

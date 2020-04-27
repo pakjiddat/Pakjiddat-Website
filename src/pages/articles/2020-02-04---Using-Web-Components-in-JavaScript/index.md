@@ -15,7 +15,7 @@ A Web Component is created by registering a class which defines the component. T
 
 A custom element can be defined using the following:
 
-```
+```js
 customElements.define('word-count', WordCount, { extends: 'p' });
 ```
 
@@ -23,7 +23,7 @@ The first argument is the name of the component. The second argument is the name
 
 The **Shadow DOM API** allows the custom element to keep its markup, style and code separate without effecting other parts of the page. The **attachShadow** allows a shadow root to be attached to any DOM element. Once the shadow root has been attached, it can be used like any other DOM element. For example, elements and styles can be added to it using JavaScript. The following example shows how to create the shadow root and attach it to the custom element:
 
-```
+```js
 // Create a shadow root
 var shadow = this.attachShadow({mode: 'open'});
 ```
@@ -32,7 +32,7 @@ The **mode** parameter indicates whether the Shadow DOM should be accessible to 
 
 **Templates** and **Slots** are another part of Web Components. A template is an inert block of code which is not directly rendered by the browser. It is defined using **Template** tag. The following code defines a template:
 
-```
+```html
 <template id="my-paragraph">
   <p>My paragraph</p>
 </template>
@@ -40,7 +40,7 @@ The **mode** parameter indicates whether the Shadow DOM should be accessible to 
 
 A template is rendered by fetching its contents and appending it to a DOM element using JavaScript. The following shows how to use a template:
 
-```
+```js
 let template = document.getElementById('my-paragraph');
 let templateContent = template.content;
 document.body.appendChild(templateContent);

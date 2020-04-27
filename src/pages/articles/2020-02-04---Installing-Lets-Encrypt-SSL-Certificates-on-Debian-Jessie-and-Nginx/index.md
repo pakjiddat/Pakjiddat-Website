@@ -17,13 +17,13 @@ To install a certificate from Lets Encrypt, we need to prove that we have contro
 
 Certbot is packaged with Debian Jessie and can be obtained using the back-port repositories. To install Certbot on Debian Jessie, we can use the command:
 
-```
+```bash
 sudo apt-get install certbot -t jessie-backports
 ```
 
 This will install the Certbot client. To obtain a SSL certificate using Certbot, we need to enter the command:
 
-```
+```bash
 sudo certbot certonly
 ```
 
@@ -34,7 +34,7 @@ The webroot plugin can be used to obtain several certificates at a time. The plu
 ### Certificate Renewal
 The certificates issued by Lets Encrypt are only valid for 90 days. After 90 days, the certificates must be renewed. Renewal of the certificates is very simple and simply requires the command:
 
-```
+```bash
 sudo certbot renew
 ```
 

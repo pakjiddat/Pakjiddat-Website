@@ -15,14 +15,14 @@ Following are some quick tips related to Linux Command Line Tools:
 #### [Using SED tool for replacing text in files](http://stackoverflow.com/questions/6945621/using-sed-to-remove-a-block-of-text/36493035#3649303)
 The following script can be used for updating all occurrences of a text inside files:
 
-```
+```bash
 find folder_name -type f -print0 | xargs -0 sed -i 's/current_text/new_text/g'
 ```
 
 #### [Using SED tool for removing line that starts with some text in all files](https://stackoverflow.com/questions/8206280/delete-all-lines-beginning-with-a-from-a-file)
 The following script can be used for updating all occurrences of a text inside files:
 
-```
+```bash
 find . -type f -exec sed -i '/^category:/ d' {} +
 ```
 
@@ -39,7 +39,7 @@ The pdftotext utility which is part of poplar-utils package allows converting pd
 To use the **scp** command non-interactively, for example in a script, we can use the **sshpass** utility.
 The following command can be used to copy a file to a remote server:
 
-```
+```bash
 sshpass -p '{password}' scp {source_file_name} {remote_user}@{remote_server}:{remote_server_path}
 ```
 
@@ -49,7 +49,7 @@ The **delete-after** command line option of wget is used to delete the downloade
 #### [Fetching website resource over https using wget](https://www.gnu.org/software/wget/manual/wget.html)
 To fetch a website resource over https, we can use wget command. If the website's https certificate is not trusted by wget, then we can use the **--no-check-certificate switch with wget**. For example:
 
-```
+```bash
 wget https://example.com/path_to_resource --no-check-certificate
 ```
 
@@ -65,21 +65,21 @@ To combine the file parts back to the original file, we need to use the command:
 #### [Using Rsync over custom SSH port](https://linux-tips.com/t/using-custom-port-for-rsync-over-ssh/467/2)
 Rsync can be used with custom SSH ports. For example to copy data from a remote server that is running SSH server over port 3000, the following command can be used:
 
-```
+```bash
 rsync -avze "ssh -p 3000"  {user}@{server}:{remote_folder} {local_folder}
 ```
 
 #### [Setting file permissions with rsync](https://unix.stackexchange.com/questions/148264/force-new-permissions-on-files-after-rsync-from-seedbox)
 If we need to upload files to a remote server using rsync, and the files need to have certain ownership, then the **chown** option of rsync can be used. For example the following rsync command uploads the contents of the current folder to a remote server and sets the owner and group of the uploaded data to www-data:
 
-```
+```bash
 rsync -avz * {remote_user}@{remote_server}/{remote_server_path} --chown=www-data:www-data
 ```
 
 #### [Rsync over SSH with key authentication](https://andykdocs.de/development/Linux/2013-01-17+Rsync+over+SSH+with+Key+Authentication)
 The following rsync command can be used to copy files on a remote server using SSH key authentication:
 
-```
+```bash
 rsync --progress -avz -e "ssh -i {key_file_location}" \
 remote-user@remote-server:remote-folder local-folder
 ```
@@ -87,20 +87,20 @@ remote-user@remote-server:remote-folder local-folder
 #### [Deleting files older than 1 year using Linux command line tools](https://superuser.com/questions/192425/how-to-delete-files-in-linux-older-than-1-year)
 If you want to recursively delete all files in a folder that were modified over 1 year ago, then the following command can be used:
 
-```
+```bash
 find folder_path -type f -mtime +365 -ls -exec rm -f -- {} \;
 ```
 
 #### [Deleting empty folders recursively using Linux command line tools](https://unix.stackexchange.com/questions/46322/how-can-i-recursively-delete-empty-directories-in-my-home-directory)
 If you want to recursively delete all folders within a given folder that are empty, then the following command may be used:
 
-```
+```bash
 find . -type d -empty -delete
 ```
 
 The following command can be used to recursively list all empty folders within a given folder:
 
-```
+```bash
 find . -type d -empty
 ```
 
@@ -109,7 +109,7 @@ We often have a need to rename all files at once. For example we may need to add
 
 For example to add the text "_test" before the file extension to all mp3 files in a directory, we can use the following command:
 
-```
+```bash
 rename -n 's/(.*)\.mp3/$1_test.mp3/' *.mp3.
 ```
 
@@ -118,6 +118,6 @@ This was suggested in an answer to the question [Add text to end of the filename
 #### [Recursively change folder ownership](https://stackoverflow.com/questions/3740152/how-do-i-change-permissions-for-a-folder-and-all-of-its-subfolders-and-files-in)
 If you want to change the permissions of all folders under current directory to 755
 
-```
+```bash
 find . -type d -exec chmod 755 {} \;
 ```

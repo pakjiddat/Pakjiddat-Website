@@ -13,7 +13,7 @@ View port is the viewable area of a browser where the website is shown.
 
 The device width is physical width of the device where the website is viewed. The view-port can be scaled using the HTML meta tag. e.g the code:
 
-```
+```html
 <meta name="viewport" content="initial-scale=2.0,width=device-width" />
 ```
 

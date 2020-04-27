@@ -15,7 +15,7 @@ Following are some quick tips related to Database Management:
 #### [Ignoring errors during MySQL import](https://stackoverflow.com/questions/11263018/mysql-ignore-errors-when-importing)
 While importing large database backups we may come across errors such as duplicate indexes. It would be useful to ignore such minor errors. The **mysql** command provides the --force switch which allows us to ignore the errors. For example:
 
-```
+```bash
 sudo mysql -u {mysql_user} -p --force &lt; {sql_file}
 ```
 
@@ -31,7 +31,7 @@ To login to MySQL server as root privileges on a Plesk server we can use the fol
 #### [Deleting a Mongo Db database](https://docs.mongodb.com/manual/reference/command/drop/)
 To delete a Mongo Db database called test, enter the command: **mongo**. This will take you to the Mongo Db shell. Then enter the commands:
 
-```
+```js
 use test;
 db.runCommand( { dropDatabase: 1 } );
 ```
@@ -53,7 +53,7 @@ LimitNOFILE=20000
 
 After that restart the MySQL/MariaDB service with the command:
 
-```
+```bash
 systemctl daemon-reload
 systemctl restart mariadb.service
 ```
@@ -79,14 +79,14 @@ The article [In MySQL, how do I batch rename tables within a database?](https://
 
 For example the following SQL query will append the text "_old" to all tables in the "db" database. The query will not actually rename any tables. It will simply generate rename table statements. In order to restrict the renaming to certain tables, we can update the WHERE condition.
 
-```
+```sql
 SELECT concat ('rename table ', table_name, ' to ', table_name, '_old;') FROM information_schema.tables WHERE table_schema='db'
 ```
 
 #### [MySQL query to calculate running balance](https://stackoverflow.com/a/56721288/4508593)
 It is possible to calculate a running balance using only MySQL. A running balance is similar to the last column of a bank statement. Since the running balance depends on the balance of the previous row, we need to use a temporary table. The following three SQL queries can be used to calculate a running balance:
 
-```
+```sql
 1. create TEMPORARY table tbl_temp (select * from tbl);
 2. update tbl t1 set t1.Bal=(SELECT SUM(t2.deposited_amount-t2.issued_amount)
 FROM tbl_temp t2 WHERE t2.id<=t1.id);
@@ -96,7 +96,7 @@ FROM tbl_temp t2 WHERE t2.id<=t1.id);
 #### [Profiling MySQL queries using PhpMyAdmin](https://stackoverflow.com/questions/10066783/in-mysql-how-do-i-batch-rename-tables-within-a-database)
 To see which SQL queries are currently running on your MySQL server, enter the following SQL commands:
 
-```
+```sql
 SET GLOBAL general_log = 'ON';
 SET GLOBAL log_output = 'TABLE';
 ```
@@ -105,7 +105,7 @@ This will log the SQL queries to the table: "general_log" in MySQL database.
 
 To see which slow SQL queries are currently running on your MySQL server, enter the following SQL commands:
 
-```
+```sql
 SET GLOBAL slow_query_log = 'ON';
 SET GLOBAL log_queries_not_using_indexes = 'ON';
 SET GLOBAL log_output = 'TABLE';

@@ -23,25 +23,25 @@ To install the MySQL apt repository we need to first download the repository pac
 
 Next we need to install the repository package using the command:
 
-```
+```bash
 sudo dpkg -i mysql-apt-config_w.x.y-z_all.deb
 ```
 
 During the installation of the package, we will be asked to choose the version of MySQL server and other tools. After the repository package has been installed we can install the MySQL server using the commands:
 
-```
+```bash
 apt-get update
 ```
 
 followed by:
 
-```
+```bash
 apt-get install mysql-server
 ```
 
 This will install the version of the MySQL server that we had selected during the repository package installation. To change the version of MySQL server that we have installed, we need to issue the command:
 
-```
+```bash
 sudo dpkg-reconfigure mysql-apt-config
 ```
 
@@ -50,7 +50,7 @@ The version that we select here will be installed when we install the package fr
 ### Upgrading MySQL server
 As mentioned previously we should upgrade to the next stable release. For example from 5.6 to 5.7. To upgrade MySQL server we should first back up the database. We can do this by exporting the databases to SQL file using the command:
 
-```
+```bash
 mysqldump -u root -p --all-databases > database_file.sql
 ```
 
@@ -58,7 +58,7 @@ This command will export all databases to a SQL file. We may also back up the da
 
 Next we need to remove the MySQL server using the command:
 
-```
+```bash
 apt-get remove mysql-server
 ```
 
@@ -66,13 +66,13 @@ This command will remove the MySQL server binaries from the system. To remove th
 
 After that we need to choose the new version of MySQL server from the MySQl apt configuration tool. We can access the tool with the command:
 
-```
+```bash
 sudo dpkg-reconfigure mysql-apt-config
 ```
 
 Next we need to install the new version of the MySQL server with the command:
 
-```
+```bash
 apt-get install mysql-server
 ```
 
@@ -80,13 +80,13 @@ During installation we will be prompted for the root password for the MySQL serv
 
 If we had used the purge option while removing the MySQL server, then we will need to import the data back to the MySQL server. We can do this with the command:
 
-```
+```bash
 mysql -u root -p > database_file.sql
 ```
 
 After the installation has completed we need to upgrade the server using the command:
 
-```
+```bash
 mysql_upgrade -u root -p
 ```
 

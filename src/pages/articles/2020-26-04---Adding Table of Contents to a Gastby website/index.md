@@ -39,7 +39,7 @@ npm i @pakjiddat/toc --save
 ```
 - Create a new Gatsby component called Toc. To create the component, create folder called Toc under the **src/components/** folder. Add a file to this folder called **index.jsx** with following contents:
 
-```
+```js
 import React from 'react'
 import './style.scss'
 
@@ -62,7 +62,7 @@ export default Toc
 
 Next add a file called style.scss with following contents:
 
-```
+```css
 .toc-list {
   top: 15%;
   left: 76%;
@@ -97,7 +97,7 @@ The **style.scss** file is used to style the table of contents. Update this file
 
 - Next import this component into your blog post template file. This can be done using the following code:
 
-```
+```js
 import Toc from '../Toc'
 const toc    = require("@pakjiddat/toc/index");
 ```
@@ -113,7 +113,7 @@ The above code assumes that your article HTML text is in the **post.html** varia
 
 - Add the table of contents component to your post template file using the following code:
 
-```
+```html
 <Toc tocList={tocData.tocList} />
 ```
 

@@ -63,7 +63,7 @@ We have compiled a Hadith database with the purpose of spreading knowledge of Ha
 
 ### Sample Code
 
-```
+```php
 <?php
 
 $data = array(

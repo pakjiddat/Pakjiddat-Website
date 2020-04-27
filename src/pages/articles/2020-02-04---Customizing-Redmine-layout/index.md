@@ -12,9 +12,9 @@ description: "The user interface of Redmine can be easily customizing using the 
 
 The user interface of Redmine can be easily customizing using the [redmine_custom_css](http://www.redmine.org/plugins/redmine_custom_css) and [redmine_custom_js](http://www.redmine.org/plugins/redmine_custom_js) plugins.
 
-To add a background image to the Redmine login page the following Javascript code can be used:
+To add a background image to the Redmine login page the following JavaScript code can be used:
 
-```
+```js
 $( document ).ready(function() {
   if ($("#top-menu").html().indexOf("Sign out") &lt; 0) {
     document.getElementById('main').classList.add("custom-background");
@@ -26,7 +26,7 @@ $( document ).ready(function() {
 
 The above code checks if the "Sign out" link is present in the header. If it is not present, then it adds a CSS class called "custom-background" to the div with id "main". It also does some minor formatting of the layout. The "custom-background" CSS class may be defined with the help of the redmine_custom_CSS plugin. It can be defined as follows:
 
-```
+```css
 .custom-background {
   background: #ffffff url(https://example.com/background.jpg) no-repeat scroll 50px 0 !important;
 }
@@ -34,7 +34,7 @@ The above code checks if the "Sign out" link is present in the header. If it is 
 
 We can edit the Redmine top menu bar with the help of the redmine_custom_js plugin. For example the following code adds a new menu item to the top menu bar when the user is logged in:
 
-```
+```js
 if ($("#top-menu").html().indexOf("<ul>")>0) {
   var updated_list_items = "<li class='item-0'><a href='https:/example.com/'>Company Name</a></p></li>";
   updated_list_items     = updated_list_items + ($("#top-menu > ul").html());

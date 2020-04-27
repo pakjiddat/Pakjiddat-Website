@@ -20,15 +20,15 @@ An object method is an object property containing a function definition.
 
 Examples of creating JavaScript objects:
 
-```
+```js
 var person = {firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"};
 ```
 
-```
+```js
 var person = new Object();
 ```
 
-```
+```js
 /** The Object.create creates an object from an existing object */
 const me = Object.create(person);
 ```
@@ -42,7 +42,7 @@ All JavaScript objects are descendants of the built in **Object**. All objects i
 
 A major different between function declarations and class declarations is that functions are hoisted while classes are not. When we say that function declarations are hoisted, it means that a function can be called before it is defined, while a class cannot be used before it is defined. Following example shows how to declare and use a JavaScript class:
 
-```
+```js
 class Rectangle {
   constructor(height, width) {
     this.height = height;
@@ -72,7 +72,7 @@ Generators were introduced in ES6. One of the benefits of Generators is that the
 
 The **function*** denotes a generator function. Within the function, the yield keyword can be used. The following code describes how to use generators in JavaScript:
 
-```
+```js
 function* collection_name()
 {
     yield 1;

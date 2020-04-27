@@ -24,7 +24,7 @@ The id of the user that will run the GUI apps on the container needs to be match
 #### Mapping user ids
 This involves creating a mapping between a user on the container and a user on the host. First we need to define a mapping between the root user on the container and the user on the host. This can be done by running the following command on the host:
 
-```
+```bash
 echo "root:$UID:1" | sudo tee -a /etc/subuid /etc/subgid
 ```
 
@@ -39,7 +39,7 @@ User id 1001 should be replaced with the user id of the user that will run the G
 #### Share display device socket and X11 authentication file
 Next we need to share the X11 display socket and X11 authentication file with the container. We can do this with the following commands:
 
-```
+```bash
 sudo lxc config device add Projects X0 disk path=/tmp/.X11-unix/X0 source=/tmp/.X11-unix/X0
 sudo lxc config device add Projects Xauthority disk path=/home/nadir/.Xauthority source=${XAUTHORITY}
 ```
@@ -49,7 +49,7 @@ After running the above commands, the container should be restarted. We should t
 #### Add GPU device to container
 The next step is to add a GPU device to the container. This can be done with the following commands:
 
-```
+```bash
 sudo lxc config device add Projects gpu gpu
 sudo lxc config device set Projects gpu uid 1001
 sudo lxc config device set Projects gpu gid 1001
@@ -69,7 +69,7 @@ To run an Android emulator within a LXD container, we need to first install the 
 
 Once the Android SDK has been installed, enable KVM hardware virtualization on the LXD container. KVM hardware virtualization is required for running Android emulators. To enable the KVM support enter the following commands from the main host that is running the LXD container:
 
-```
+```bash
 sudo lxc config device add ContainerName kvm unix-char path=/dev/kvm
 sudo lxc config device set ContainerName kvm uid UID
 sudo lxc config device set ContainerName kvm gid GID

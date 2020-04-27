@@ -19,7 +19,7 @@ The script editor allows developers to manage their Google Apps scripts online. 
 
 Google Apps Script provides JavaScript classes for interacting with Google products such as Google Sheets. For example the following code returns a sheet object which represents the active Spreadsheet object in GoogleSheets:
 
-```
+```js
 var sheet = SpreadsheetApp.getActiveSheet();
 ```
 

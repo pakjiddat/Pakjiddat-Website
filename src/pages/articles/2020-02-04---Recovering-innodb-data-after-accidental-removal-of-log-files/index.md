@@ -50,7 +50,7 @@ Rename the script to restore_innodb.php. To see the script options run: PHP rest
 
 Run the script with the correct options. For example:
 
-```
+```php
 php restore_innodb.php --src-db="mysql"
 --backup-folder="/root/scripts/data-backup/"
 --mysql_data_dir="/var/lib/mysql"

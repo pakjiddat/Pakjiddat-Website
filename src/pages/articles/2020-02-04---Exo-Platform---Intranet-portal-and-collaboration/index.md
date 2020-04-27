@@ -21,7 +21,7 @@ The [Installing eXo Platform Community Edition](https://docs.exoplatform.org/PLF
 
 To install the Exo Platform from Docker image, we need to run the command:
 
-```
+```bash
 docker run -d -p 8080:8080 --name=exo exoplatform/exo-community:latest
 ```
 
@@ -29,7 +29,7 @@ This will download the latest community edition of Exo Platform and start it on 
 
 By default the Exo Platform uses HSQL database. It is recommended to use MySQL database for production environments. The database connection information, port numbers and other parameters can be set by passing environment variables to the Docker container. For example the command:
 
-```
+```bash
 docker run -d -p 8080:8080 --name=exo -e EXO_ADDONS_LIST="exo-tasks:1.0.0,exo-answers" exoplatform/exo-community:latest
 ```
 
@@ -40,7 +40,7 @@ To install the Exo Platform from source we need to clone the [Exo Platform sourc
 
 Apache Maven is a build tool for Java. Once we have installed the Apache Maven, we need to change to the cloned source code repository. Next we need to run the command:
 
-```
+```bash
 mvn install
 ```
 
@@ -65,7 +65,7 @@ The addon command is used to manage the Exo Platform addons. To list the availab
 
 This will list all the addons that can be installed on the currently installed version of the Exo Platform. An addon can be installed using the command:
 
-```
+```bash
 ./addon install exo-tasks:1.2.4
 ```
 

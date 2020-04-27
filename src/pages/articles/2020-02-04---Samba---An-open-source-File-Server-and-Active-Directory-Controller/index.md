@@ -29,7 +29,7 @@ I used the samba package repository provided by SerNet. SerNet provides package 
 
 Then install the Samba packages. For Centos enter the following command:
 
-```
+```bash
 yum install -y sernet-samba sernet-samba-ad sernet-samba-client
 ```
 
@@ -40,7 +40,7 @@ Enter following commands to verify correct installation. **Samba -V** and **smbc
 
   To start the Samba AD DC provisioning enter the following command:
 
-  ```
+  ```bash
   samba-tool domain provision --use-rfc2307 --interactive
   ```
 
@@ -58,20 +58,20 @@ Enter following commands to verify correct installation. **Samba -V** and **smbc
 * #### Start samba.
   Setup a startup script for Samba. You can use the [Samba4/InitScript](https://wiki.samba.org/index.php/Managing_the_Samba_AD_DC_Service_Using_Systemd). Start Samba. e.g on Centos enter the command:
 
-  ```
+  ```bashbash
   systemctl start samba-ad-dc
   ```
 
 * #### Test Samba Domain Controller
   Enter the command:
 
-  ```
+  ```bash
   smbclient -L localhost -U%
   ```
 
   It should return some information about your Samba configuration. Enter the command: 
 
-  ```
+  ```bash
   smbclient //localhost/netlogon -UAdministrator -c 'ls'
   ```
 
@@ -88,10 +88,12 @@ Add the IP address of your DNS server. This DNS server must have the correct DNS
 * #### Verify DNS configuration.
   Enter the following commands on your Samba server to verify correct working of the DNS. If you receive any errors, check your system log.
 
-  * host -t SRV _ldap._tcp.WIN.EXAMPLE.COM.
-  * host -t SRV _kerberos._udp.WIN.EXAMPLE.COM.
-  * host -t A addc.WIN.EXAMPLE.COM.
-  * host -t A WIN.EXAMPLE.COM.
+```bash
+host -t SRV _ldap._tcp.WIN.EXAMPLE.COM.
+host -t SRV _kerberos._udp.WIN.EXAMPLE.COM.
+host -t A addc.WIN.EXAMPLE.COM.
+host -t A WIN.EXAMPLE.COM.
+```
 
 * #### Kerberos Configuration.
 Kerberos configuration can be quite complex. Thankfully the Provisioning tool takes care of the Kerberos configuration. During provisioning the file**/usr/local/samba/private/krb5.conf** is generated. Location of this file can vary depending on your system. Copy the file **krb5.conf** to **/etc/krb5.conf**. This is the main kerberos configuration file. You can read more about [configuring Kerberos](https://kb.iu.edu/d/aumh) on the Kerberos website.

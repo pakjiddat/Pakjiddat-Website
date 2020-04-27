@@ -13,7 +13,7 @@ A **Promise** is defined as an object representing the eventual completion or fa
 
 The **resolve** function should be called by the executor to resolve the Promise. The **reject** function should be called to reject the promise. The following code shows how to create a Promise object:
 
-```
+```js
 var promise1 = new Promise(function(resolve, reject) {
   setTimeout(function() {
     resolve('foo');
@@ -32,7 +32,7 @@ The **then** function is used to call functions that are called after a Promise 
 
 The catch function allows exceptions thrown inside the executor function to be handled. It takes a single parameter, which is the function to handle the error. The following example shows how the catch function works:
 
-```
+```js
 var promise1 = new Promise(function(resolve, reject) {
   throw 'Uh-oh!';
 });

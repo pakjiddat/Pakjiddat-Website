@@ -18,7 +18,7 @@ The following command can be used to set the URL of a remote git repository: **g
 #### [Error in pushing changes to remote git repository](https://confluence.atlassian.com/stashkb/error-rpc-failed-result-22-push-to-stash-fails-604537633.html)
 If we have a git repository with large files, and we need to push changes to a remote repository, then we might get the following error:
 
-```
+```bash
 Counting objects: 9554, done.
 Delta compression using up to 8 threads.
 Compressing objects: 100% (5064/5064), done.
@@ -32,14 +32,14 @@ Everything up-to-date
 
 To correct this error we need to increase the size of the git configuration variable http.postBuffer. We can do this with the command:
 
-```
+```bash
 git config --global http.postBuffer 157286400
 ```
 
 #### [Updating last commit without changing annotated tags](https://git-scm.com/book/en/v2/Git-Basics-Tagging)
 If you need to make modifications to the last commit of a Git Repository, without making changes to the annotated tags, then the following script may be used. The script also updates the remote repository.
 
-```
+```bash
 # add changes to staging area
 git add .
 # changes in the staging area are added to the last commit. last commit message can also be changed
@@ -62,7 +62,7 @@ To store password for SVN commit commands, set store-passwords and store-plainte
 #### [Update commit message history](https://help.github.com/en/github/committing-changes-to-your-project/changing-a-commit-message)
 To rename previous commit messages, enter the command:
 
-```
+```bash
 git rebase -i HEAD~n
 ```
 

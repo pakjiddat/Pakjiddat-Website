@@ -142,7 +142,7 @@ The main framework features which are URL Routing, Session Handling, Error Handl
 #### Configuration
 Configuration is one of the main features of the Pak Php Framework. It allows class objects to be used without explicitly initializing the object. The user only has to mention the class once in **config/RequiredObjects.php**. For example:
 
-```
+```php
 $config['contactpage']['class_name'] = '\PakJiddat\Ui\Pages\Contact';
 ```
 
@@ -150,7 +150,7 @@ The class can then be used using the syntax: **Config::GetComponent("contactpage
 
 Application data is stored in configuration files inside the folder: **config/**. See the [user application structure](#application-structure) for details. Configuration variables can be accessed using the syntax:
 
-```
+```php
 Config::$config["general"]["dev_mode"]
 ```
 
@@ -164,7 +164,7 @@ The application should define an entry for each URL or pattern of URLs. The firs
 #### Command Line scripts
 If the application has functions that are called from the command line, then each function should have an entry in **Callables.txt**, that starts with **command:**. The entry should specify the name of the command that needs to be entered by the user from the command line. The next line defines the callback function for handling the command. For example if an application defines the command "Generate Site Map", then it can be run with the command:
 
-```
+```php
 php index.php --application=[app-name] --command="Generate Site Map"
 ```
 
@@ -177,14 +177,14 @@ callback: {"object": "websitetools", "function": "GenerateSiteMap"}
 
 This entry means that the function **GenerateSiteMap** of the object "websitetools" will be called, when the command "Generate Site Map" is entered. The config file: **config\General.php**, should contain the following line:
 
-```
+```php
 /** The custom commands */
 $config['commands'] = array("Generate Site Map (generates site map of website)");
 ```
 
 The above command defines the commands implemented by the application. These commands are shown to the user when he enters the command:
 
-```
+```php
 php index.php --application=[app-name] --command="Help"
 ```
 
@@ -222,7 +222,7 @@ White Box tests are written like [PhpUnit](https://en.wikipedia.org/wiki/PHPUnit
 
 Black Box tests are written by defining test data inside test files. Each method has its own test data file. The first line in the test data file gives the list of parameters separated by '|'. The last three entries in the first line gives the expected return value, the type of the return value and the rule used to validate the return value. The test data file can be auto generated for each method defined by the application. The command:
 
-```
+```php
 php index.php --application="[app-name]" --action="Generate Test Data"
 ```
 
@@ -252,7 +252,7 @@ The vendors folder contains third party libraries such as [Twitter Bootstrap](ht
 #### Installation
 * Run the command:
 
-```
+```bash
 composer require nadirlc/pak-php-framework (Installation using Composer) OR
 git clone https://github.com/nadirlc/pak-php-framework.git (Download from [GitHub Repository](https://github.com/nadirlc/pak-php-framework))
 ```

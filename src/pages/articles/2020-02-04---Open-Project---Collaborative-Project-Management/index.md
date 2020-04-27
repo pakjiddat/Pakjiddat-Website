@@ -23,25 +23,25 @@ Features provided by Open Project include: **Gannt Chart, Calendar, Roadmap, Iss
 ### Installation
 Open Project installation is very simple and is described in the [Open Project Installation Guide](https://www.openproject.org/download-and-installation/#installation). To install Open Project on Debian Jessie we need to first install the packager.io repository signing key using the command:
 
-```
+```bash
 wget -qO- https://dl.packager.io/srv/opf/openproject-ce/key | sudo apt-key add -
 ```
 
 Next we need to install the HTTPS support for apt using the command:
 
-```
+```bash
 apt-get install apt-transport-https
 ```
 
 After that we need to add the OpenProject package source to the package manager source list. This can be done using the command:
 
-```
+```bash
 sudo wget -O /etc/apt/sources.list.d/openproject-ce.list https://dl.packager.io/srv/opf/openproject-ce/stable/7/installer/debian/8.repo
 ```
 
 After that we can install the OpenProject software using the commands:
 
-```
+```bash
 apt-get update
 apt-get install openproject
 ```
@@ -51,7 +51,7 @@ This should install Open Project to the folder: **/opt/openproject**.
 ### Configuration
 Once the installation has ended, we need to configure the Open Project using the command:
 
-```
+```bash
 openproject configure
 ```
 

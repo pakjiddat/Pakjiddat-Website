@@ -15,6 +15,6 @@ One use case for the Redir command is to setup SSH access for a container that i
 
 The following redir command listens on all available IP addresses and port 1000. It redirects all incoming connections to port 22 on host 192.168.1.6. The '&' at the end of the command allows the command to run in the background.
 
-```
+```bash
 redir --laddr=0.0.0.0  --lport=1000 --caddr=192.168.1.6 --cport=22 &
 ```

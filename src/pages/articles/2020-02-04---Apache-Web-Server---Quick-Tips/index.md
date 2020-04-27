@@ -39,7 +39,7 @@ The **[L]** flag signals that the processing of the mod_rewrite commands should 
 #### [Creating and Installing Apache Self Signed Certificate](https://www.sslshopper.com/article-how-to-create-and-install-an-apache-self-signed-certificate.html)
 To generate an Apache self signed certificate, we need to issue the command:
 
-```
+```bash
 openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout mysitename.key -out mysitename.crt
 ```
 

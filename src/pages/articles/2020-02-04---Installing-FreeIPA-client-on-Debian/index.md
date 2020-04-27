@@ -23,7 +23,7 @@ Ubuntu provides [FreeIPA server and client packages on Launchpad](https://launch
 
 Here is how to install FreeIPA client on Debian.
 
-```
+```bash
 # First add the following 2 lines to /etc/apt/sources.list file:
 deb http://apt.numeezy.fr wheezy main
 deb-src http://apt.numeezy.fr wheezy main

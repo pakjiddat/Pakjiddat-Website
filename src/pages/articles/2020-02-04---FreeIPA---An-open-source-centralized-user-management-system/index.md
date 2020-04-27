@@ -29,13 +29,13 @@ Installation of FreeIPA has to be done once on the server and once for each clie
 #### Installing FreeIPA Server
 Red Hat derived operating systems, e.g Centos and Fedora have FreeIPA in the default package repositories. Installing FreeIPA is as simple as entering the command :
 
-```
+```bash
 yum install ipa-client
 ```
 
 on Centos. The following command should be entered on Fedora
 
-```
+```bash
 yum install freeipa-client
 ```
 
@@ -44,7 +44,7 @@ To install FreeIPA on other Linux systems you will have to install from source.
 #### Configuring FreeIPA server
 After installation the command:
 
-```
+```bash
 ipa-server-install
 ```
 
@@ -53,13 +53,13 @@ has to be run. This starts the FreeIPA installer, which configures the FreeIPA.
 #### Installing FreeIPA client
 To install the FreeIPA client on Centos you have to run:
 
-```
+```bash
 yum install ipa-client
 ```
 
 On Fedora run:
 
-```
+```bash
 yum install freeipa-client
 ```
 
@@ -68,7 +68,7 @@ On other Linux operating systems you will have to follow the manual installation
 #### Configuring FreeIPA client
 After installation run the command:
 
-```
+```bash
 ipa-client-install
 ```
 

@@ -11,7 +11,7 @@ description: "The following script can be used to run an instance of Rocket Chat
 
 The following script can be used to run an instance of [Rocket Chat](https://rocket.chat/):
 
-```
+```bash
 #!/bin/sh
 
 if [ $(ps -e -o uid,cmd | grep $USER | grep rocketchat | grep -v grep | wc -l | tr -s "\n") -eq 0 ]
@@ -30,7 +30,7 @@ The above command checks if an instance of Rocket Chat is already running. If it
 
 The forever script can be installed with the command: **npm install forever**. The above script may be run when the system boots up using the following cron job command:
 
-```
+```bash
 @reboot /root/scripts/rc_starter.sh > /dev/null 2>&1
 ```
 

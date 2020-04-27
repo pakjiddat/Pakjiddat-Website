@@ -23,7 +23,7 @@ The tool has no graphical user interface and is run from the command line. The 
 
 [Installation guides](http://imapsync.lamiral.info/#install) are available for all major operating systems. Once the tool has been installed it can be run using the command **imapsync**. Here is an example usage of the command:
 
-```
+```bash
 ./imapsync --host1 test1.lamiral.info   --user1 test1   --password1 'secret1' \
            --host2 test2.lamiral.info   --user2 test2   --password2 'secret2' \
            --automap --justfolders --dry "$@"

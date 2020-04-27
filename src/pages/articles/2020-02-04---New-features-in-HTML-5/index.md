@@ -14,7 +14,7 @@ HTML 5 is the latest version of the HTML specification after HTML 4.01. The HTML
 
 HTML 5 contains many new features. The basic structure of a HTML 5 document is as follows:
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>

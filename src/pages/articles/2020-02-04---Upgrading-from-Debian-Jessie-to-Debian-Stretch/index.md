@@ -35,7 +35,7 @@ This step involves installing minimum updates. This step is needed because the f
 
 It is therefore recommended to first perform a minimal upgrade before performing the full upgrade. The minimal upgrade can be performed using the commands:
 
-```
+```bash
 apt-get update
 apt-get upgrade
 apt-get autoremove
@@ -46,7 +46,7 @@ The full upgrade installs new versions of all packages. It also resolves depende
 
 The full upgrade can be done using the command:
 
-```
+```bash
 apt-get dist-upgrade
 ```
 
@@ -54,7 +54,7 @@ While installing new versions of packages, it may prompt the user to choose whet
 
 It may also provide an option for checking difference between new and current versions of the configuration files. After the full upgrade has completed, obsolete packages should be removed using the command:
 
-```
+```bash
 apt-get autoremove
 ```
 

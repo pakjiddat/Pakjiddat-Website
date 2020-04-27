@@ -24,7 +24,7 @@ Editoria requires NodeJs version **8.3** and above. Version **8.9** worked for m
 #### Installing project dependencies
 The first step in installing Editoria is to clone the source code repository on GitLab using the command:
 
-```
+```bash
 git clone https://gitlab.coko.foundation/editoria/editoria.git
 ```
 
@@ -48,7 +48,7 @@ To create the database role and user, we first need to get the name of the conta
 
 Next we need to switch to user **postgres** and then select the **template1** database from psql prompt. This can be done with the commands:
 
-```
+```bash
 sudo su - postgres;
 psql template1;
 ```

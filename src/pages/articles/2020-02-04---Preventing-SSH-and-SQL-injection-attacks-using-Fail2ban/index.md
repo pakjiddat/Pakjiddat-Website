@@ -18,19 +18,19 @@ Fail2Ban is usually used to prevent Brute force SSH attacks. It can also be used
 ### Installation
 Fail2Ban can be installed on Debian 9 (stretch) using the command:
 
-```
+```bash
 sudo apt-get install fail2ban
 ```
 
 This configures fail2ban to automatically start on system boot. Fail2ban service can be controlled using the fail2ban-client command. For example the command:
 
-```
+```bash
 fail2ban-client start
 ```
 
 starts the Fail2Ban service. The command:
 
-```
+```bash
 fail2ban-client status
 ```
 

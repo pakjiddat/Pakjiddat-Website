@@ -11,15 +11,15 @@ description: "Cookies allow websites to store information on the user browsers. 
 
 Cookies allow websites to store information on the user browsers. They are usually used to store website session related information. To set a cookie using JavaScript we can use:
 
-```
-document.cookie="cookie_name=cookie_value
+```js
+document.cookie="cookie_name=cookie_value";
 ```
 
 Multiple cookie values should be separated by ';'.
 
 The cookie string can contain the date of expiry of the cookie as well as the URL path for which the cookie is valid. By default the cookie belongs to the current page. An example of setting a cookie using JavaScript:
 
-```
+```js
 document.cookie = "username=John Doe; expires=Thu, 18 Dec 2013 12:00:00 UTC; path=/";
 ```
 

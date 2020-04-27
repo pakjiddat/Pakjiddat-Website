@@ -32,7 +32,7 @@ Munin can be installed either from source code or from package repositories. The
 
 On Centos, Munin is part of the default package repositories and can be installed with the command:
 
-```
+```bash
 yum install munin munin-node
 ```
 
@@ -45,29 +45,29 @@ We also need to copy the plugin files to the Munin service directory which is /e
 
 The core plugins are part of the Munin installation and are usually located in /usr/share/munin/plugins. To Install a Munin plugin, we simply have to create a symbolic link inside the service directory which points to the actual plugin file. For example:
 
-```
+```bash
 ln -s /usr/share/plugins/http_loadtime /etc/munin/plugins/
 ```
 
 After that we need to restart the Munin node service using the command:
 
-```
+```bash
 service munin-node restart
 ```
 
 The munin-node service needs to be restarted after changes to the Munin configuration files or plugins. Third party plugins may be downloaded to any location. They can be installed by simply adding a symbolic link to the actual plugin file.
 
-A Munin plugin usually monitors one service. However it is possible for a Munin plugin to monitor several services. A Munin wildcard plugin can monitor several services. By convention the name of a wildcard plugin ends with **"_"**. For example the mysql_ core plugin is a wildcard plugin. It monitors several services such as mysql network traffic, mysql slow queries, mysql innodb buffer pool etc.
+A Munin plugin usually monitors one service. However it is possible for a Munin plugin to monitor several services. A Munin wildcard plugin can monitor several services. By convention the name of a wildcard plugin ends with **"_"**. For example the mysql_ core plugin is a wildcard plugin. It monitors several services such as MySQL network traffic, MySQL slow queries, mysql innodb buffer pool etc.
 
 To get the list of services monitored by a wildcard plugin we can run the command:
 
-```
+```bash
 munin-run plugin_name suggest
 ```
 
 The **munin-run** command allows us to test run the plugin. To monitor one of the services supported by the mysql plugin for example the mysql slow queries, we can use the following command:
 
-```
+```bash
 ln -s /usr/share/munin/plugins/mysql_ /etc/munin/plugins/mysql_slow
 ```
 
@@ -80,7 +80,7 @@ Sometimes Munin log files report plugin timeout errors. An interesting approach 
 
 This plugin uses shared memory for storing data. Sometimes access to the shared memory can be blocked by a semaphore. The solution to the problem was to use strace tool to find the semaphore id and then use the command:
 
-```
+```bash
 ipcrm -s semaphore-id
 ```
 

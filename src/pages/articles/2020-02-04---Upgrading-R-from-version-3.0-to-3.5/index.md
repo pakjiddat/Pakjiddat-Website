@@ -14,25 +14,25 @@ R is a free software package for statistical computing. It is part of most Linux
 
 CRAN is a network of ftp and web servers that provide upto date information on R such as documentation, source code and news about R development. To install R, we need to issue the commands:
 
-```
+```bash
 apt-get update
 ```
 
 followed by:
 
-```
+```bash
 apt-get install r-base r-base-dev
 ```
 
 To update R to a newer version we need to replace the CRAN URL in **/etc/apt/sources.list.d**, with a URL that points to the newer version of R. After that we need to issue the commands:
 
-```
+```bash
 apt-get update
 ```
 
 followed by:
 
-```
+```bash
 apt-get upgrade
 ```
 
@@ -40,7 +40,7 @@ Since the new CRAN URL requires different package signing keys, we will get an e
 
 The solution is to import the package signing keys for the new R package using the command:
 
-```
+```bash
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys [key_name]
 ```
 

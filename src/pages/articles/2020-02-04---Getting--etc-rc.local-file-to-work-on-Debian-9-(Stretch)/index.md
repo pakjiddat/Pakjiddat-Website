@@ -31,27 +31,27 @@ Debian Stretch uses the rc.local service for executing commands on system startu
 ```
 
 * Give executable permissions to the /etc/systemd/system/rc-local.service file
-```
+```bash
 sudo chmod +x /etc/systemd/system/rc-local.service
 ```
 
 * Gve executable permissions to the /etc/rc.local file
-```
+```bash
 sudo chmod +x /etc/rc.local
 ```
 
 * Enable the rc-local service to start on boot
-```
+```bash
 sudo systemctl enable rc-local
 ```
 
 * Start the rc-local service
-```
+```bash
 sudo systemctl start rc-local.service
 ```
 
 * Check the status of the rc-local service
-```
+```bash
 sudo systemctl status rc-local.service
 ```
 

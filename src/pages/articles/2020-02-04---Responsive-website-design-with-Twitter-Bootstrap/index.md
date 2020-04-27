@@ -35,7 +35,7 @@ The answer to our problems was to use code that detects the size of the web brow
 #### [CSS Media Queries](http://www.w3schools.com/cssref/css3_pr_mediaquery.asp)
 CSS Media Queries are supported in CSS3. They allow us to use certain CSS statements depending on the dimensions of the device. They provide a very simple way of getting your website to look good on mobile devices. For example the following CSS Media Query code will cause the browser to use certain CSS classes if the width of the browser is 600px or less:
 
-```
+```css
 /** Condition */
 @media screen and (max-device-width: 600px), screen and (max-width: 600px) {
 /** CSS classes used if condition is true */
@@ -60,7 +60,7 @@ The article titled [Detecting Browser Window Size/Resize with jQuery](http://ww
 
 If you are using PHP and you want to use different server side code depending on the type of mobile device, then you can use the [mobiledetect](http://mobiledetect.net/) library. This is an excellent library written in PHP that detects the user agent that is trying to access your web page. For example you can use the following code to detect if the website visitor is on a mobile device:
 
-```
+```php
 // Include and instantiate the class.
 require_once 'Mobile_Detect.php';
 // Include and instantiate the class.

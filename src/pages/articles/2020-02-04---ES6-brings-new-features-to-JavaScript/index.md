@@ -13,7 +13,7 @@ The ES6 standard has introduced several changes to JavaScript. These changes inc
 
 The **for of** syntax allows iterating over an array. The following example shows how it works:
 
-```
+```js
 var array = [4, 5, 3, 7, 9];
 
 //'i' refers to the values of the array indexes
@@ -25,7 +25,7 @@ for(var i of array)
 
 The spread operator which is **"..."** allows expanding an array. It can be used to allow functions to take indefinite number of arguments. For example:
 
-```
+```js
 //args variable is an array holding the passed function arguments
 function function_one(...args)
 {   
@@ -40,7 +40,7 @@ function_one(1, 4, 7, 0);
 
 ES6 also allows functions to return multiple values. It allows a function to return a numerically indexed array. Its values can be assigned to multiple variables. For example:
 
-```
+```js
 function function_name()
 {
     return [6, 2, 3, 4, 5, 3]; //here we are storing variables in an array and returning the array
