@@ -24,7 +24,7 @@
   "author": "Alexander Shelepenok <alxshelepenok@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "@pakjiddat/toc": "^1.0.7",
+    "@pakjiddat/toc": "^1.0.8",
     "bluebird": "^3.5.1",
     "disqus-react": "^1.0.8",
     "gatsby": "^2.0.22",
