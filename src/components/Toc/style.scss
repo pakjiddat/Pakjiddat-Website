@@ -19,6 +19,14 @@
   border-bottom: 1px solid rgba(0,0,0,.125);
 }
 
+.visible {
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
+
 ul {
   margin-bottom: 0 !important;
 }

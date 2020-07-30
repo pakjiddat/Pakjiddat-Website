@@ -14,7 +14,17 @@ class PostTemplateDetails extends React.Component {
     const tags = post.fields.tagSlugs
     const title = post.frontmatter.title
     const tocData = toc.Generate(post.html);
-
+    
+    let page_html = tocData.updatedText;
+    let toc_list = tocData.tocList
+    let visibility_class = "visible"
+    
+    if (tocData.updatedText === "") {
+        page_html = post.html
+        toc_list = ""
+        visibility_class = "hidden"
+    }
+    
     const disqusConfig = {
       shortname: 'pak-jiddat',
       config: { identifier: post.fields.slug, title }
@@ -58,7 +68,7 @@ class PostTemplateDetails extends React.Component {
             <div
               className="post-single__body"
               /* eslint-disable-next-line react/no-danger */
-              dangerouslySetInnerHTML={{ __html: tocData.updatedText }}
+              dangerouslySetInnerHTML={{ __html: page_html }}
             />
             <div className="post-single__date">
               <em>
@@ -67,10 +77,10 @@ class PostTemplateDetails extends React.Component {
             </div>
           </div>
 
-          <Toc tocList={tocData.tocList} />
+          <Toc tocList={toc_list} visibilityClass={visibility_class} />
           
           <button id="scroll-btn" className="sidebar-btns" title="Scroll to top"></button>
-          <button id="toggle-toc-btn" className="sidebar-btns" title="Toggle Table of Contents"></button>
+          <button id="toggle-toc-btn" className={"sidebar-btns " + visibility_class} title="Toggle Table of Contents"></button>
 
           <div className="post-single__footer">
             {tagsBlock}
