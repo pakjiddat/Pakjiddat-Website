@@ -37,6 +37,15 @@ To install Ghost as a local site run the command: **npm install ghost-cli@latest
 
 Next enter the command: **ghost start**. This will start a web server on **port 2368**. You should be able to access the Ghost site on: **http://localhost:2368**. The Ghost Admin can be accessed on: **http://localhost:2368/ghost**. To stop the Ghost server enter the command: **ghost stop** from the folder containing the Ghost site.
 
+To run your Ghost site automatically on server boot, install the forever and forever-service NPM modules globally using the commands:
+
+```
+npm install -g forever
+npm install -g forever-service
+```
+
+Next install the Ghost service using the command: **forever-service install [service-name] --script versions/[version-name]/index.js**. The command should be issued from the site root folder. Replace [service-name] with the name of the service such as Ghost. Replace [version-name] with the current version of the Ghost CMS. Your Ghost site will now start automatically on server boot. Also you can manage your Ghost site as a system service. For example you can stop the site using the command: **service ghost stop**. You can start the site using the command: **service ghost start**.
+
 ### Configuring Ghost
 Ghost can be configured by simply editing configuration files. By default Ghost is installed in development mode with **SQLite3** database. To switch to production mode set an environment variable using the command: **NODE_ENV=production node index.js**. The configuration file for development mode is **config.development.json**, while the configuration file for production mode is: **config.production.json**. The configuration files are in JSON format. The main configuration options are **URL, database and mail**. The [Ghost configuration guide](https://ghost.org/docs/concepts/config/) describes the different Ghost configuration options.
 

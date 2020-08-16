@@ -129,3 +129,11 @@ To find out which files and directories under a given directory are taking up th
 ```bash
 du -a /home | sort -n -r | head -n 5
 ```
+
+#### [Setting JAVA_HOME in Debian](https://stackoverflow.com/questions/24641536/how-to-set-java-home-in-linux-for-all-users)
+The **JAVA_HOME** environment variable is set to the path of the JDK installation. On Debian 9 the location of the JDK is **/usr/lib/jvm/java-11-openjdk-amd64** for JDK version 11. The variable should be set in /home/[user]/.bashrc file, where [user] is the system user account used to run Java applications. For example add following to /home/user/.bashrc file:
+
+```
+export JAVA_HOME="/usr/lib/jvm/java-11-openjdk-amd64"
+export PATH=$JAVA_HOME/bin:$PATH
+```

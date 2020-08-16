@@ -1,30 +1,30 @@
 ---
-title: Apache Web Server - Quick Tips
+title: Apache and Nginx - Quick Tips
 date: "2019-04-03"
 layout: post
 draft: false
-path: "/posts/apache-web-server---quick-tips"
+path: "/posts/apache-nginx---quick-tips"
 tags:
   - "quick tips"
   - "web servers"
-description: "Following are some quick tips related to Apache Web Server:"
+description: "Following are some quick tips related to Apache and Nginx Web Servers:"
 ---
 
-Following are some quick tips related to Apache Web Server:
+Following are some quick tips related to Apache and Nginx Web Servers:
 
 #### [Apache Multi Processing Modules (MPMs)](https://www.liquidweb.com/kb/apache-mpms-explained/)
-The Apache web server supports Multi Processing Modules (MPM) since version 2. An Apache MPM is a module that determines how Apache manages networking connections and output. Apache supports several MPM for different operating systems. The most commonly used MPMs are Prefork, Worker and Event MPMs
+The Apache web server supports Multi Processing Modules (MPM) since version 2. An Apache MPM is a module that determines how Apache manages networking connections and output. Apache supports several MPM for different operating systems. The most commonly used MPMs are Prefork, Worker and Event MPMs.
 
-The Prefork MPM is single threaded, which means it only allows one thread per child process. This is not efficient and is not suitable for busy web sites
+The Prefork MPM is single threaded, which means it only allows one thread per child process. This is not efficient and is not suitable for busy web sites.
 
 The Worker MPM allows multiple threads per child process. It is much more efficient than Prefork MPM.
-The Event MPM is similar to the Worker MPM. It is more efficient than the Worker MPM since it allows a thread to perform more than one task. It has the lowest resource usage but is considered as experimental for Apache versions before 2.4. For Apache 2.4 and above, the Event MPM seems to be the most suitable MPM
+The Event MPM is similar to the Worker MPM. It is more efficient than the Worker MPM since it allows a thread to perform more than one task. It has the lowest resource usage but is considered as experimental for Apache versions before 2.4. For Apache 2.4 and above, the Event MPM seems to be the most suitable MPM.
 
 #### [Calculating the number of simultaneous connections supported by Apache](http://stackoverflow.com/questions/3389496/how-do-you-increase-the-max-number-of-concurrent-connections-in-apache)
 Modern web browsers make 6 to 8 simultaneous connections to the web server.
 The number of simultaneous connections supported by Apache web server is determined by the configuration of the MPM  that is used.
 
-Generally the maximum number of users that can access a website served by Apache is equal to **ServerLimit * ThreadsPerChild.** The ServerLimit is the maximum number of processes that are allowed to be created by Apache. The ThreadsPerChild is the number of threads created per child process
+Generally the maximum number of users that can access a website served by Apache is equal to **ServerLimit * ThreadsPerChild.** The ServerLimit is the maximum number of processes that are allowed to be created by Apache. The ThreadsPerChild is the number of threads created per child process.
 
 #### [Generate Certificate Signing Request (CSR) for ssl certificates](https://pk.godaddy.com/help/apache-generate-csr-certificate-signing-request-5269)
 In order to purchase a SSL certificate, we need to generate a Certificate Signing Request (CSR). The CSR contains information on the domain to be secured and the owner of the domain. To generate a CSR, we can use openssl command.
@@ -61,3 +61,21 @@ RewriteRule ^/?(.*) https://%{SERVER_NAME}/$1 [R,L]
 # The leading slash is made optional so that this will work either in httpd.conf
 # or .htaccess context
 ```
+
+#### [Port forwarding with Nginx](https://stackoverflow.com/questions/24861311/forwarding-port-80-to-8080-using-nginx)
+To run a website on a different port, port forwarding can be used. For example if a website runs over port 8080, but it needs to be accessed over port 80, then port forwarding can be used. To implement port forwarding in Nginx, the following server block needs to be added to the website configuration file:
+
+```
+server {
+    listen 80;
+    server_name example.com;
+
+    location / {
+        proxy_set_header   X-Forwarded-For $remote_addr;
+        proxy_set_header   Host $http_host;
+        proxy_pass         "http://127.0.0.1:8080";
+    }
+}
+```
+
+With the above configuration, Nginx will listen on port 80, but will forward all requests to port 8080 on localhost.
