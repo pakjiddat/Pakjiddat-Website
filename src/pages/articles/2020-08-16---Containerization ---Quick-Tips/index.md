@@ -1,6 +1,6 @@
 ---
 title: Containerization - Quick Tips
-date: "2019-08-16"
+date: "2020-08-16"
 layout: post
 draft: false
 path: "/posts/containerization---quick-tips"
