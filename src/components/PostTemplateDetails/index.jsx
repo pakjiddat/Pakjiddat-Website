@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import moment from 'moment'
-import { DiscussionEmbed } from "disqus-react"
 import Toc from '../Toc'
 import './style.scss'
 
@@ -24,11 +23,6 @@ class PostTemplateDetails extends React.Component {
         toc_list = ""
         visibility_class = "hidden"
     }
-    
-    const disqusConfig = {
-      shortname: 'pak-jiddat',
-      config: { identifier: post.fields.slug, title }
-    }
 
     const homeBlock = (
       <div>
@@ -50,12 +44,6 @@ class PostTemplateDetails extends React.Component {
               </li>
             ))}
         </ul>
-      </div>
-    )
-
-    const commentsBlock = (
-      <div>
-        <DiscussionEmbed {...disqusConfig} />
       </div>
     )
 
@@ -88,7 +76,7 @@ class PostTemplateDetails extends React.Component {
             <p className="post-single__footer-text">
               {subtitle}
             </p>
-            {commentsBlock}
+
           </div>
         </div>
       </div>

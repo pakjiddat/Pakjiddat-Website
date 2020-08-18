@@ -26,7 +26,6 @@
   "dependencies": {
     "@pakjiddat/toc": "^1.0.8",
     "bluebird": "^3.5.1",
-    "disqus-react": "^1.0.9",
     "gatsby": "^2.24.24",
     "gatsby-paginate": "^1.1.1",
     "gatsby-plugin-catch-links": "^2.3.11",

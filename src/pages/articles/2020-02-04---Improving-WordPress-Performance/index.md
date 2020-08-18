@@ -16,7 +16,7 @@ Recently I had the opportunity of working on improving the performance of a Wor
 It is best to conduct a thorough performance tuning of your website **before** it is launched to the public. You can create a development version of your website and test it for performance. After it has been tested you can make the website live.
 
 ### The popularity of WordPress
-[WordPress](http://wordpress.org) is a very popular platform for hosting different types of websites. According to the article, [What Code You Should Learn](http://www.whoishostingthis.com/blog/2014/09/04/learn-to-code/), over 19% of all websites are based on WordPress. WordPress has over 25,000 plugins and themes that perform just about any task you can expect of a website. [14 Surprising statistics about wordpress usage](https://managewp.com/14-surprising-statistics-about-wordpress-usage) has some interesting statistics about WordPress.
+[WordPress](http://wordpress.org) is a very popular platform for hosting different types of websites. According to the article, [What Code You Should Learn](http://www.whoishostingthis.com/blog/2014/09/04/learn-to-code/), over 19% of all websites are based on WordPress. WordPress has over 25,000 plugins and themes that perform just about any task you can expect of a website. [47 WordPress Statistics We Bet You Didn’t Know in 2020](https://www.ukwebhostreview.com/blog/wordpress-statistics) has some interesting statistics about WordPress.
 
 ### Improving WordPress performance
 There are many factors that can slow down your WordPress website. Knowing exactly what is slowing down your website can be difficult. Fortunately there are several free on-line tools that can help you troubleshoot website performance problems.
