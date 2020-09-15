@@ -69,3 +69,32 @@ git rebase -i HEAD~n
 In the above command **n** is the number of commits back in history since the last commit. The command will cause the command line editor to open with the last **n** commit messages. Each commit message is prefix with the text: **pick**. Replace this with **reword** for the commit message that needs to be updated.
 
 Next save the changes and exit the editor. This will cause a new editor window to open allowing editing of a commit message. After changing the commit message, save the changes and exit the editor. The editor will open up again allowing editing of the next commit message. Do this for each commit message that needs to be updated.
+
+#### [Editing particular commit](https://stackoverflow.com/questions/1186535/how-to-modify-a-specified-commit)
+To edit files belonging to a particular commit, enter the command:
+
+```
+git rebase --interactive 'SHA-1^'
+```
+
+SHA-1 is the hash for the particular commit. It can be found using the command: **git log --oneline**
+
+This will open a command line editor which will list all commits made after the particular commit. Change the text "pick" to "edit" besides the particular commit. Save the changes and exit the editor.
+
+This will switch the HEAD to the given commit and will copy the commit files to the current working tree. The current working tree will be just like it was when the commit was made. Next make the necessary changes to the files and commit the changes using the command:
+
+```
+ git commit --all --amend --no-edit
+ ```
+
+ After that enter the command:
+
+ ```
+ git rebase --continue
+ ```
+
+ This will make the changes to the particular commit and will switch the HEAD back to the master branch. After that the changes can be pushed to the configured remote git repository using the command:
+
+ ```
+ git push -u origin master --force
+ ```
