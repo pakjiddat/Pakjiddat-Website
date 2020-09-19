@@ -12,6 +12,13 @@ description: "Following are some quick tips related to Docker and LXC/LXD contai
 
 Following are some quick tips related to Docker and LXC/LXD containers:
 
+#### [Removing unused Docker images](https://docs.docker.com/engine/reference/commandline/image_prune/)
+To remove all unused docker images with no associated container enter the following command:
+
+```
+docker image prune --all
+```
+
 #### [Getting console output of Docker container](https://stackoverflow.com/questions/33083385/getting-console-output-from-a-docker-container)
 To get the console output of a Docker container, enter the following command:
 
