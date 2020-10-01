@@ -122,8 +122,11 @@ module.exports = {
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
     {
-      resolve: 'gatsby-plugin-google-analytics',
-      options: { trackingId: 'UA-163786015-2' },
+      resolve: `gatsby-plugin-gtag`,
+      options: {
+        // your google analytics tracking id
+        trackingId: `UA-163786015-2`,
+      },
     },
     {
       resolve: 'gatsby-plugin-google-fonts',
