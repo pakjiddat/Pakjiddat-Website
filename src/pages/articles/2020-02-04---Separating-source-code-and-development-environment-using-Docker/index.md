@@ -17,15 +17,14 @@ These tools can be used in different ways leading to different possible workflow
 ### Concept
 The main idea behind the workflow is to separate the application source code from the development environment. The source code is kept on the host computer and mounted in the Docker container. The Docker container runs the development environment.
 
-Currently 4 development environments are supported. LAMP (for creating applications based on LAMP stack), Ionic (for creating applications based on Ionic framework), NodeJs (for creating applications based on Node.js) and R-Env (for creating applications based on R Programming language)
+Currently 3 development environments are supported. LAMP (for creating applications based on LAMP stack), NodeJs (for creating applications based on Node.js) and R-Env (for creating applications based on R Programming language)
 
-Each development environment has its own Docker image. For example to develop Ionic applications, you need to use the Ionic Docker image. To develop LAMP based applications, you need to use the LAMP docker image.
+Each development environment has its own Docker image. For example to develop Nodejs applications, you need to use the Nodejs Docker image. To develop LAMP based applications, you need to use the LAMP docker image.
 
-The workflow for each development environment is the same. You need to first download a Docker image, then download and extract the basic directory structure for the development environment. The base directory structure is provided as a zip file. See the following guides on how to develop applications for each development environment:
+The workflow for each development environment is the same. You need to first download a Docker image, then download and extract the base directory structure for the development environment. The base directory structure is provided as a zip file. See the following guides on how to develop applications for each development environment:
 
 ### Usage
 * [Guide for creating LAMP applications](https://github.com/pakjiddat/docker-workflows/tree/master/lamp)
-* [Guide for creating Ionic applications](https://github.com/pakjiddat/docker-workflows/tree/master/ionic)
 * [Guide for creating NodeJs applications](https://github.com/pakjiddat/docker-workflows/tree/master/nodejs)
 * [Guide for creating R applications](https://github.com/pakjiddat/docker-workflows/tree/master/r-env)
 
