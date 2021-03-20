@@ -16,7 +16,7 @@ description: "Jahia is a software company which provides enterprise products and
 
 These products are combined in innovative ways to provide solutions such as CMS (Customer Management System), PWA (Headless Progressive Web Applications), Customer Portals and more. Jahia provides a 30 day trial period of most of its products and solutions.
 
-Jahia is supported by an active [open source community][https://academy.jahia.com/community]. It initiated the [Apache Unomi][https://unomi.apache.org/] project and is an active contributor to the Karaf and Cellar Apache projects, as well as GraphQL Java. Jahia has hundreds of open source repositories on Git Hub.
+Jahia is supported by an active [open source community](https://academy.jahia.com/community). It initiated the [Apache Unomi](https://unomi.apache.org/) project and is an active contributor to the Karaf and Cellar Apache projects, as well as GraphQL Java. Jahia has hundreds of open source repositories on Git Hub.
 
 The [Jahia documentation site](https://academy.jahia.com/documentation) provides useful documentation for end users, system administrators and developers.
 
