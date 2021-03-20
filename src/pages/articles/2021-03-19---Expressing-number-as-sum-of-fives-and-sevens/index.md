@@ -1,12 +1,12 @@
 ---
 title: Expressing numbers as a sum of fives and sevens
-date: "2020-04-19"
+date: "2021-03-19"
 layout: post
 draft: false
 path: "/posts/expressing-number-as-sum-of-fives-and-sevens"
 tags:
   - "algorithms"
-description: "How to find out the largest number that cannot be expressed as a sum of fives and sevens."
+description: "I recently took a course on Coursera titled: "Mathematical Thinking in Computer Science". As part of the course, we were asked to solve a problem that involved expressing a number as a sum of fives and sevens. This problem is related to recursion. In this article I will describe the problem and my attempt at solving it."
 ---
 
 ### Introduction

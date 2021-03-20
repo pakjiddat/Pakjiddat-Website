@@ -1,12 +1,12 @@
 ---
 title: Solving N Diagonal Problem
-date: "2020-03-19"
+date: "2021-03-19"
 layout: post
 draft: false
 path: "/posts/solving-n-diagonal-problem"
 tags:
   - "algorithms"
-description: "How to solve N Diagonal problem in Python."
+description: "In the N Diagonal problem, we have a board containing NxN squares. Each square can have 2 diagonals, but the diagonals of neighboring squares should not intersect. A square can have three possible states. Either empty, a left diagonal or a right diagonal. We need to find out if it is possible to have X number of diagonals."
 ---
 
 ![NxN board with 16 non intersecting diagonals](./16-diagonals-on-5x5-board.png)
@@ -15,7 +15,7 @@ description: "How to solve N Diagonal problem in Python."
 
 I recently took a course on Coursera titled: "Mathematical Thinking in Computer Science". As part of the course, we were asked to solve the [N Diagonal problem](https://coursera.org/share/e2f7039632ad445c2b44fe4d47cfd7f9), which is related to recursion and back tracking. In this article I will describe the N Diagonal problem and my attempt at solving it.
 
-In the N Diagonal problem, we have a board containing NxN squares. Each square can have 2 diagonals, but the diagonals of neighboring squares should not intersect. A square can have three possible states. Either empty, a left diagonal or a right diagonal. We need to find out if it is possible to have X number on diagonals.
+In the N Diagonal problem, we have a board containing NxN squares. Each square can have 2 diagonals, but the diagonals of neighboring squares should not intersect. A square can have three possible states. Either empty, a left diagonal or a right diagonal. We need to find out if it is possible to have X number of diagonals.
 
 ### Solution Overview
 
