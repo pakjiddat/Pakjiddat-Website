@@ -6,7 +6,7 @@ draft: false
 path: "/posts/expressing-number-as-sum-of-fives-and-sevens"
 tags:
   - "algorithms"
-description: "I recently took a course on Coursera titled: "Mathematical Thinking in Computer Science". As part of the course, we were asked to solve a problem that involved expressing a number as a sum of fives and sevens. This problem is related to recursion. In this article I will describe the problem and my attempt at solving it."
+description: "I recently took a course on Coursera titled: Mathematical Thinking in Computer Science. As part of the course, we were asked to solve a problem that involved expressing a number as a sum of fives and sevens. This problem is related to recursion. In this article I will describe the problem and my attempt at solving it."
 ---
 
 ### Introduction
