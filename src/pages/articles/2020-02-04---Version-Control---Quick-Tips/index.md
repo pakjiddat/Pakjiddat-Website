@@ -93,8 +93,24 @@ This will switch the HEAD to the given commit and will copy the commit files to 
  git rebase --continue
  ```
 
- This will make the changes to the particular commit and will switch the HEAD back to the master branch. After that the changes can be pushed to the configured remote git repository using the command:
+This will make the changes to the particular commit and will switch the HEAD back to the master branch. After that the changes can be pushed to the configured remote git repository using the command:
 
  ```
  git push -u origin master --force
  ```
+ 
+#### [Removing large files from all commits](https://htmlpreview.github.io/?https://github.com/newren/git-filter-repo/blob/docs/html/git-filter-repo.html)
+To remove large files from all commits in a git repository, the git-filter-repo tool can be used. To install the tools follow this [install guide](https://newbedev.com/how-do-you-install-git-filter-repo).
+
+Next run the following command to remove the directory dir1/dir2 from all commits:
+
+```
+git-filter-repo --path "dir1/dir2" --invert-paths
+```
+
+The **path** options specifies the files or folders to include. The **invert-paths** option inverts the paths so the end result is that all files and folder except those given by the **path** option are included. In this way files and folders can be removed.
+
+The git-filter-repo supports many other options including removing objects larger than given size and editing commit messages.
+
+
+
