@@ -1,19 +1,19 @@
 ---
-title: Developing a Word Prediction App
+title: Using N-gram models for Word Prediction
 date: "2021-05-25"
 layout: post
 draft: false
-path: "/posts/developing-word-prediction-app"
+path: "/posts/using-n-gram-models-for-word-prediction"
 tags:
-  - "R"
-  - "Natural Language Processing"
-description: "N-gram models have applications in many areas such as spell checking, biological sequence analysis, speech recognition, word prediction and more. In this article I will describe my experience with developing a word prediction application based on n-gram models."
+  - "r programming"
+  - "natural language processing"
+description: "N-gram models have applications in many areas such as spell checking, biological sequence analysis, speech recognition, word prediction and more. In this article I will provide an overview of n-gram models."
 ---
 
-![Word Prediction App](./word-prediction-app.png)
+![Mobile keyboard](./mobile-keyboard.png)
 
 ### Introduction
-N-gram models have applications in many areas such as spell checking, biological sequence analysis, speech recognition, word prediction and more. In this article I will describe my experience with developing a word prediction application based on n-gram models. I will first describe n-gram models and how they are used to predict words. Next I will describe the steps involved in developing n-gram models for word prediction.
+N-gram models have applications in many areas such as spell checking, biological sequence analysis, speech recognition, word prediction and more. In this article I will provide an overview of n-gram models. I will first describe n-gram models and how they are used to predict words. Next I will describe the steps involved in developing n-gram models for word prediction.
 
 ### What are n-grams
 [N-grams](https://en.wikipedia.org/wiki/N-gram) are sequences of items such as letters, words, phonemes, syllables etc. The 'n' in n-grams refers to the number of items in the sequence. For example the term "4-gram words" refers to four words that occur in sequence.

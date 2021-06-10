@@ -32,6 +32,9 @@ Another benefit of the class is that it supports displaying the progress of proc
 
 The following is the source code for the **TextFileProcessor** class:
 
+<details>
+  <summary>Click to expand</summary>
+  
 ```r
 #' Base class for text file processing
 #'
@@ -203,9 +206,13 @@ TextFileProcessor <- R6::R6Class(
     )
 )
 ```
+</details>
 
 The following is an example of how to use the **TextFileProcessor** class. The **DataCleaner** class is an example class that allows cleaning large text files. The class is derived from the **TextFileProcessor** class. The main method of the class is **clean_files**.
 
+<details>
+  <summary>Click to expand</summary>
+  
 ```r
 #' Provides data cleaning functionality
 #'
@@ -276,7 +283,13 @@ DataCleaner <- R6::R6Class(
     )
 )
 ```
+
+</details>
+
 The following example shows how the **DataCleaner** class is used:
+
+<details>
+  <summary>Click to expand</summary>
 
 ```r
 dc <- DataCleaner$new(
@@ -287,3 +300,5 @@ dc <- DataCleaner$new(
         "save_data" = T), 
     ve = 2)
 ```
+</details>
+
