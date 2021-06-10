@@ -11,7 +11,6 @@ class PostTemplateDetails extends React.Component {
     const { subtitle } = this.props.data.site.siteMetadata
     const post = this.props.data.markdownRemark
     const tags = post.fields.tagSlugs
-    const title = post.frontmatter.title
     const tocData = toc.Generate(post.html);
     
     let page_html = tocData.updatedText;
@@ -67,8 +66,8 @@ class PostTemplateDetails extends React.Component {
 
           <Toc tocList={toc_list} visibilityClass={visibility_class} />
           
-          <button id="scroll-btn" className="sidebar-btns" title="Scroll to top"></button>
-          <button id="toggle-toc-btn" className={"sidebar-btns " + visibility_class} title="Toggle Table of Contents"></button>
+          <button id="scroll-btn" className="sidebar-btns" title="Scroll to top" aria-label="Scroll to top"></button>
+          <button id="toggle-toc-btn" className={"sidebar-btns " + visibility_class} title="Toggle Table of Contents" aria-label="Toggle Table of Contents"></button>
 
           <div className="post-single__footer">
             {tagsBlock}

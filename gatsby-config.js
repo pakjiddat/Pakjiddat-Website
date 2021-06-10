@@ -9,7 +9,7 @@ module.exports = {
     siteUrl: url,
     title: 'Pak Jiddat',
     subtitle:
-      'Pak Jiddat provides open source scripts and tutorials related to Web Development and System Administration.',
+      'Open source scripts and tutorials about Computer Science topics. Focuses mostly on Web Development, System Administration and Programming',
     copyright: '© All rights reserved.',
     disqusShortname: '',
     menu: [
