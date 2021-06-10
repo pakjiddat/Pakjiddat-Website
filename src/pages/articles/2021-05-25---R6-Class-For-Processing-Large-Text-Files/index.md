@@ -41,7 +41,6 @@ The following is the source code for the **TextFileProcessor** class:
 #' @description
 #' Provides basic structure for processing text files.
 #'
-#' @details
 #' It provides pre-processing, processing and post-processing functions, which
 #' need to be overridden by derived classes. The pre-processing function is
 #' called before reading a file. The process function is called for processing a
@@ -220,7 +219,6 @@ The following is an example of how to use the **TextFileProcessor** class. The *
 #' It provides a memory efficient method for removing unneeded
 #' characters from text files. It is suitable for cleaning large text files.
 #'
-#' @details
 #' It provides a method for cleaning text files. It allows removing bad
 #' words, stop words, non dictionary words, extra space, punctuation and
 #' non-alphabet characters. Allows conversion to lower case. It supports large
@@ -283,7 +281,6 @@ DataCleaner <- R6::R6Class(
     )
 )
 ```
-
 </details>
 
 The following example shows how the **DataCleaner** class is used:
