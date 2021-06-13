@@ -7,7 +7,7 @@ import PostTemplateDetails from '../components/PostTemplateDetails'
 
 class PostTemplate extends React.Component {
   render() {
-    const { title, subtitle, author } = this.props.data.site.siteMetadata
+    const { title, subtitle, author, url } = this.props.data.site.siteMetadata
     const post = this.props.data.markdownRemark
     const { title: postTitle, description: postDescription } = post.frontmatter
     const description = postDescription !== null ? postDescription : subtitle
@@ -18,6 +18,7 @@ class PostTemplate extends React.Component {
           <Helmet>
             <title>{`${postTitle}`}</title>
             <meta name="description" content={description} />
+            <link rel="canonical" href={`${url}${post.fields.slug}`} />
             <SEO
               title={postTitle}
               description={description}

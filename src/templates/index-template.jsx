@@ -10,7 +10,7 @@ class IndexRoute extends React.Component {
   render() {
     const items = []
 
-    const { title, subtitle } = this.props.data.site.siteMetadata
+    const { title, subtitle, url } = this.props.data.site.siteMetadata
     const posts = this.props.data.allMarkdownRemark.edges
 
     const { currentPage, numPages } = this.props.pageContext
@@ -29,6 +29,7 @@ class IndexRoute extends React.Component {
           <Helmet>
             <title>{title} - Learn and Progress</title>
             <meta name="description" content={subtitle} />
+            <link rel="canonical" href={url} />
           </Helmet>
           <Sidebar {...this.props} />
           <div className="content">
@@ -68,6 +69,7 @@ export const pageQuery = graphql`
           github
           rss
         }
+        url
       }
     }
     allMarkdownRemark(

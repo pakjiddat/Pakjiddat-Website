@@ -9,11 +9,12 @@ class TagTemplate extends React.Component {
   render() {
 
     const { tag } = this.props.pageContext
-
     return (
       <Layout>
         <div>
-          <Helmet title={`All Posts tagged as "${tag}"`} />
+          <Helmet>
+            <title>{`All Posts tagged as "${tag}"`}</title>
+          </Helmet>
           <Sidebar {...this.props} />
           <TagTemplateDetails {...this.props} />
         </div>
@@ -41,6 +42,7 @@ export const pageQuery = graphql`
           github
           rss
         }
+        url
       }
     }
     allMarkdownRemark(
