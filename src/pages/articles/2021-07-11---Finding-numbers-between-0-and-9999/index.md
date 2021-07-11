@@ -22,11 +22,11 @@ Numbers containing one "1" and one "3" that are less than 9999, can have 2, 3 or
 
 Suppose that we label the digit which does not have the value "1" or "3" as **"c"**. This digit can have the values 0,2,4,5,6,7,8,9.
 
-#### Count of two digit numbers
+### Count of two digit numbers
 
 The number of 2 digit numbers that contain exactly one "1" and one "3" are **2**, which are 13 and 31.
 
-#### Count of three digit numbers
+### Count of three digit numbers
 
 For 3 digit numbers that contain exactly one "1" and one "3", there is only one digit, c that can have values between 0 and 9 excluding 1 and 3. This digit can be the first digit, second digit or third digit.
 
@@ -38,24 +38,26 @@ If c is the third digit, then it can have 8 values which are 0,2,4,5,6,7,8,9. Fo
 
 So in total there are **16+16+14=46**, 3 digit numbers containing exactly one "1" and one "3".
 
-#### Count of four digit numbers
+### Count of four digit numbers
 
 Consider the following table. It shows the different possibilities for the four digit numbers. a and b are digits that can be either 1 or 3. c is a number that can have all values between 0 and 9 except for 1 and 3. The table shows the different ways of arranging a, b and c.
 
-a b c c (8*8=64 possibilities)
-b a c c (8*8=64 possibilities)
-c c a b (7*8=56 possibilities)
-c c b a (7*8=56 possibilities)
-a c b c (8*8=64 possibilities)
-b c a c (8*8=64 possibilities)
-c a b c (7*8=56 possibilities)
-c b a c (7*8=56 possibilities)
-c a c b (7*8=56 possibilities)
-c b c a (7*8=56 possibilities)
-a c c b (8*8=64 possibilities)
-b c c a (8*8=64 possibilities)
+| 1 | 3 | c | c | number of results |
+| :--- | :--- | :--- | :--- | :---------------------- |
+| a | b | c | c | (8*8=64 possibilities) |
+| b | a | c | c | (8*8=64 possibilities) |
+| c | c | a | b | (7*8=56 possibilities) |
+| c | c | b | a | (7*8=56 possibilities) |
+| a | c | b | c | (8*8=64 possibilities) |
+| b | c | a | c | (8*8=64 possibilities) |
+| c | a | b | c | (7*8=56 possibilities) |
+| c | b | a | c | (7*8=56 possibilities) |
+| c | a | c | b | (7*8=56 possibilities) |
+| c | b | c | a | (7*8=56 possibilities) |
+| a | c | c | b | (8*8=64 possibilities) |
+| b | c | c | a | (8*8=64 possibilities) |
 
-The total is **(64*6)+(56*7)=720**. There are **720**, 4 digit numbers that contain exactly one "1" and one "3".
+The total is **(64\*6)+(56\*7)=720**. There are **720**, 4 digit numbers that contain exactly one "1" and one "3".
 
 The total count is equal to sum of 2 digit count, 3 digit count and 4 digit count. The total is therefore **2+46+720=768**.
 

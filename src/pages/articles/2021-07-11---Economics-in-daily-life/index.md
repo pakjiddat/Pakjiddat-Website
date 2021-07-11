@@ -77,14 +77,23 @@ Another option is to create specialized accounts that serve the needs of differe
 
 Choose which of the above schemes that you think is the best. Please also discuss the pros and cons of the distributions schemes.
 
-**Con**. If you teach the class for free for all students, then some students may not be motivated to study since they are not paying. Also the course platform and instructor would not benefit financially, since they are offering a service for free.
+1. **The course instructor teaches the class for free to as many students as sign up.**
+
 **Pro**. If you teach the class for free for all students, then a lot people benefit from excellent teaching material. This will result in fewer social problems and higher employment. Specially useful in developing countries.
 
-**Con**. If you teach the class for free to just a few students who pay the most, then a lot of people who dont have the money but are motivated to study will not be able to study.
+**Con**. If you teach the class for free for all students, then some students may not be motivated to study since they are not paying. Also the course platform and instructor would not benefit financially, since they are offering a service for free.
+
+2. **The course instructor teaches the class for free to just a few students who pay the most. Assume that either the online platform and/or the university get the money from the participants, while the course instructor teaches the course for free.**
+
 **Pro**. The course platform will earn money for their service.
 
-**Con**. If you teach the class for free to a random students, then not all students will benefit from the class. Some motivated students may be left out. Also the course platform and the instructor will not make any money.
+**Con**. If you teach the class for free to just a few students who pay the most, then a lot of people who dont have the money but are motivated to study will not be able to study.
+
+3. **The course instructor chooses a few students at random and teaches the class to those students for free.**
+
 **Pro**. Some motivated students who are not able to pay the fees will be able to study. But only if they are lucky.
+
+**Con**. If you teach the class for free to a random students, then not all students will benefit from the class. Some motivated students may be left out. Also the course platform and the instructor will not make any money.
 
 ### Is it better to study in groups? 
 
