@@ -98,12 +98,12 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
     typeof node.slug === 'undefined'
   ) {
     const fileNode = getNode(node.parent)    
-
-    if (typeof fileNode.fields !== 'undefined') {
-      slug = fileNode.fields.slug
-    }
-    else if (typeof node.frontmatter.path !== 'undefined') {
+    
+    if (typeof node.frontmatter.path !== 'undefined') {
       slug = node.frontmatter.path
+    }
+    else if (typeof fileNode.fields !== 'undefined') {
+      slug = fileNode.fields.slug
     }
 
     createNodeField({
