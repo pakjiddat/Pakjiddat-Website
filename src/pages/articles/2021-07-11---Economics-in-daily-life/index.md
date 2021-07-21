@@ -20,7 +20,7 @@ Economics is an interesting subject with useful applications in daily life. In t
 ### Economics in your daily life
 
 #### Question
-According to Wikipedia: "[Trade](https://en.wikipedia.org/wiki/Trade) involves the transfer of goods or services from one person or entity to another, often in exchange for money."
+According to Wikipedia: [Trade](https://en.wikipedia.org/wiki/Trade) involves the transfer of goods or services from one person or entity to another, often in exchange for money.
 
 Give at least 2 examples of trade that you observe in your daily life. Try to be very specific describing the examples, and also describe how the economic principle applies to your examples.
 
@@ -46,7 +46,7 @@ The outcome of trade is that both parties benefit from it. The picture at the to
 ### What is the opportunity cost of going to college
 
 #### Question
-According to Wikepedia: "[Opportunity cost](https://en.wikipedia.org/wiki/Opportunity_cost) is the loss of the benefit that could have been enjoyed if the best alternative choice were chosen instead. Directly or indirectly, opportunity cost underpins the majority of day-to-day economic decisions that are made in society."
+According to Wikepedia: [Opportunity cost](https://en.wikipedia.org/wiki/Opportunity_cost) is the loss of the benefit that could have been enjoyed if the best alternative choice were chosen instead. Directly or indirectly, opportunity cost underpins the majority of day-to-day economic decisions that are made in society.
 
 Please list the 2 largest opportunity costs of obtaining a 4-year degree (assume you must go to college full time to get this degree). Now, use 1 of these costs to explain the following trend: When the unemployment rate increases, enrollment in college also increases, and vice-versa.
 
@@ -63,10 +63,10 @@ When the unemployment rate increases, people are not encouraged to spend on non 
 
 When enrollment in college increases, people spend a lot on college tuition, so there is less money for other resources. Because there is not enough money, there are less opportunities for people to work, which can lead to an increase in unemployment.
 
-### When does the invisible hand not work? 
+### When does the invisible hand not work
 
 #### Question
-According to Wikipedia: "The [Invisible Hand](https://en.wikipedia.org/wiki/Invisible_hand) is an economic concept that describes the unintended greater social benefits and public good brought about by individuals acting in their own self-interests".
+According to Wikipedia: The [Invisible Hand](https://en.wikipedia.org/wiki/Invisible_hand) is an economic concept that describes the unintended greater social benefits and public good brought about by individuals acting in their own self-interests.
 
 Please describe a situation in which the invisible hand does not seem to work. Then explain why the principle does not work and what would need to happen for it to work.
 
@@ -79,7 +79,7 @@ To make it work in this case, the banking institutions should transfer money to 
 
 Another option is to create specialized accounts that serve the needs of different types of account holders. It would be also useful if the banking institutions engage with their customers on a personal level and try to find spending opportunities for their customers. In this way the customers will be happy and society as a whole will benefit because of creation of value, that should result from the customers spending.
 
-### What is the best way to teach an online course?
+### What is the best way to teach an online course
 
 #### Question
 1. The course instructor teaches the class for free to as many students as sign up.
@@ -107,7 +107,7 @@ Choose which of the above schemes that you think is the best. Please also discus
 
 **Con**. If you teach the class for free to a random students, then not all students will benefit from the class. Some motivated students may be left out. Also the course platform and the instructor will not make any money.
 
-### Is it better to study in groups? 
+### Is it better to study in groups
 
 #### Question
 Explain the economic benefits of studying in a group versus individually. Please try to offer a specific example to demonstrate your arguments. For instance, would it be better for you to study with another person. If so, how many students would be a good number of group partners? Why might the benefits of adding more partners to the group decrease as more partners are added the group?.
