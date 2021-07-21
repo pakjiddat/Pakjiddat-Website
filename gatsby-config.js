@@ -4,6 +4,7 @@ const pxtorem = require('postcss-pxtorem')
 const url = 'https://pakjiddat.netlify.app'
 
 module.exports = {
+  flags: { PRESERVE_WEBPACK_CACHE: true },
   siteMetadata: {
     url,
     siteUrl: url,

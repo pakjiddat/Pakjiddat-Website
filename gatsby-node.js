@@ -97,11 +97,15 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
     node.internal.type === 'MarkdownRemark' &&
     typeof node.slug === 'undefined'
   ) {
-    const fileNode = getNode(node.parent)
-    let slug = fileNode.fields.slug
-    if (typeof node.frontmatter.path !== 'undefined') {
+    const fileNode = getNode(node.parent)    
+
+    if (typeof fileNode.fields !== 'undefined') {
+      slug = fileNode.fields.slug
+    }
+    else if (typeof node.frontmatter.path !== 'undefined') {
       slug = node.frontmatter.path
     }
+
     createNodeField({
       node,
       name: 'slug',

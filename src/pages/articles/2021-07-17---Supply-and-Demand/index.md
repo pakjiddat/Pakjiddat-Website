@@ -13,7 +13,7 @@ description: "Supply and demand are two important principles in Economics. In th
 
 ### Introduction
 
-I took the [Microeconomics](https://www.coursera.org/learn/microeconomics) course on [Coursera](https://www.coursera.org/) and found it useful. The following are some of the things I learned from the course.
+I recently took the [Microeconomics](https://www.coursera.org/learn/microeconomics) course on [Coursera](https://www.coursera.org/) and found it useful. The following are some of the things I learned from the course.
 
 Supply and demand are two important principles in Economics. In this article I will first describe the principles of supply and demand. Next I will describe some daily life events where these principles can be applied.
 

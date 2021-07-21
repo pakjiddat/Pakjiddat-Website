@@ -13,7 +13,7 @@ description: "Economics is an interesting subject with useful applications in da
 
 ### Introduction
 
-I took the [Microeconomics](https://www.coursera.org/learn/microeconomics) course on [Coursera](https://www.coursera.org/) and found it useful. The following are some of the things I learned from the course.
+I recently took the [Microeconomics](https://www.coursera.org/learn/microeconomics) course on [Coursera](https://www.coursera.org/) and found it useful. The following are some of the things I learned from the course.
 
 Economics is an interesting subject with useful applications in daily life. In this article I will use economics to discuss some daily life questions.
 

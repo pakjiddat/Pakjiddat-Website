@@ -12,7 +12,7 @@ description: "Combinatorics is a field of Mathematics that allows us to efficien
 
 ### Introduction
 
-I took the [Combinatorics](https://www.coursera.org/learn/combinatorics) course on [Coursera](https://www.coursera.org/). The course provides useful knowledge about counting and probabilities. I found the course very useful and interesting. In this article I will describe one of the problems that were given to the students to solve.
+I recently took the [Combinatorics](https://www.coursera.org/learn/combinatorics) course on [Coursera](https://www.coursera.org/). The course provides useful knowledge about counting and probabilities. I found the course very useful and interesting. In this article I will describe one of the problems that were given to the students to solve.
 
 Combinatorics is a field of Mathematics that allows us to efficiently count numbers. It includes topics such as probabilities, permutations and combinations. In this article I will describe how to solve a problem in Combinatorics that involves numbers between 0 and 9999.
 

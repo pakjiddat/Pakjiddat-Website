@@ -12,7 +12,7 @@ description: "Recursion is one method for proving statements mathematically. It 
 
 ### Introduction
 
-I took the [What is a proof](https://www.coursera.org/learn/what-is-a-proof) course on [Coursera](https://www.coursera.org/) and found it very useful. The course provides useful knowledge about mathematical proofs. I found the course very useful and interesting. In this article I will describe one of the problems that were given to the students to solve. The problem is related to the concept of Recursion.
+I recently took the [What is a proof](https://www.coursera.org/learn/what-is-a-proof) course on [Coursera](https://www.coursera.org/) and found it very useful. The course provides useful knowledge about mathematical proofs. I found the course very useful and interesting. In this article I will describe one of the problems that were given to the students to solve. The problem is related to the concept of Recursion.
 
 Recursion is one method for proving statements mathematically. It is a powerful concept that has important applications in Computer Science. In this article I will describe how to use the technique of Recursion to prove a statement mathematically. I will describe two such problems.
 

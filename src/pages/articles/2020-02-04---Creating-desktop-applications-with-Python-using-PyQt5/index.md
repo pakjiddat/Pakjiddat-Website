@@ -14,7 +14,7 @@ description: "PyQt5 is a Python package that provides a wrapper for accessing th
 
 [PyQt5](https://pypi.org/project/PyQt5/) is a Python package that provides a wrapper for accessing the [Qt framework libraries](https://en.wikipedia.org/wiki/Qt_(software)). Qt is a cross platform widget toolkit that allows creating graphical user interfaces. It supports Windows, Android, Linux and Mac. Several options exist for developing GUI applications using Python. For example [Pyside](https://en.wikipedia.org/wiki/PySide), [TKinter](https://en.wikipedia.org/wiki/Tkinter), [PyGTK](https://en.wikipedia.org/wiki/PyGTK) and [Kivy](https://en.wikipedia.org/wiki/Kivy_(framework)) are Python packages for creating GUI applications
 
-The obvious benefit of GUI applications is that they allow the data to remain on the local computer. Also the GUI application is always available since it does not depend on internet connectivity. The drawback of GUI applications is that they are not as easy to access as Web based applications. For instance a GUI application needs to be installed on each computer where it is to run.
+The obvious benefit of desktop applications is that they allow the data to remain on the local computer. Also the desktop application is always available since it does not depend on internet connectivity. The drawback of desktop applications is that they are not as easy to access as Web based applications. For instance a desktop application needs to be installed on each computer where it is to run.
 
 [Qt 5 Developments Tools](https://packages.debian.org/stretch/qttools5-dev-tools) is a package that provides tools for the Qt5 framework. It includes the Qt5 Desginer which is a graphical designer for Qt5 applications.
 
