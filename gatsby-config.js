@@ -8,8 +8,7 @@ module.exports = {
     url,
     siteUrl: url,
     title: 'Pak Jiddat',
-    subtitle:
-      'Open source scripts and tutorials about Computer Science topics. Focuses mostly on Web Development, System Administration and Programming',
+    subtitle: 'Tutorials about Computer Science, Economics and Mathematics',
     copyright: '© All rights reserved.',
     disqusShortname: '',
     menu: [
