@@ -46,11 +46,10 @@ The following steps can be used to install the "Islam Companion Web API" project
 * Customize the following variables in the file: **api/config/General.php**. **$config['app_name'], $config['dev_mode'] and $config['site_url']**
 
 ### Download data
-We have compiled a Hadith database with the purpose of spreading knowledge of Hadith. The database should be used by developers in their own applications. The Hadith database contains text in Urdu, English and Arabic languages.
 
-* [Click here](https://drive.google.com/open?id=1gd8B0C-N7LcppMNikv1FNQoL_XJ2nuQv) to download the Hadith database in **.sql** format for MySQL server.
-* [Click here](https://drive.google.com/open?id=1pHo5auUuKiNEi9jlmQJ0-n3oqDEdbDR0) to download the Hadith database in **.db** format for SQLite server.
-* [Click here](https://drive.google.com/open?id=11a_dQ4i0__--x5PkFjlmwMUxgMdTWbIa) to download the Quranic database in **.db** format for SQLite server.
+* [Click here](https://drive.google.com/file/d/1gd8B0C-N7LcppMNikv1FNQoL_XJ2nuQv/view?usp=sharing) to download the Hadith database in **.sql** format for MySQL server.
+* [Click here](https://drive.google.com/file/d/1pHo5auUuKiNEi9jlmQJ0-n3oqDEdbDR0/view?usp=sharing) to download the Hadith database in **.db** format for SQLite server.
+* [Click here](https://drive.google.com/file/d/16BdoFFoi2Vic6eDDqtk72DRppgTWCFI7/view?usp=sharing) to download the Quranic database in **.db** format for SQLite server.
 
 ### Frequently asked questions
 
