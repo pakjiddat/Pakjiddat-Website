@@ -21,7 +21,7 @@ module.exports = {
         path: '/tags/',
       },
       {
-        label: 'Contact Us',
+        label: 'Contact',
         path: '/contact/',
       }
     ],
