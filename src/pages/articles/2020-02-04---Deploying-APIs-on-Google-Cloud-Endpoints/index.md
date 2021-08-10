@@ -5,8 +5,7 @@ layout: post
 draft: false
 path: "/posts/deploying-apis-on-google-cloud-endpoints"
 tags:
-  - "application program interface"
-  - "cloud computing"
+  - "web apis"
 description: "Google Cloud Endpoint is a service that allows developing, deploying and managing APIs on Google Cloud. This article describes how to get started with Google Cloud Endpoint."
 ---
 

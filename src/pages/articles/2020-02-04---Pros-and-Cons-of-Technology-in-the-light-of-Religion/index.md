@@ -5,7 +5,7 @@ layout: post
 draft: false
 path: "/posts/pros-and-cons-of-technology-in-the-light-of-religion"
 tags:
-  - "society"
+  - "essays"
 description: "Modern technology has transformed our lives. It has brought tremendous changes to culture, society and moral and social values. In this article I will try to express my views on how technology is affecting our lives and how religion can guide us in understanding technology."
 ---
 

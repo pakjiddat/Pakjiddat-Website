@@ -5,9 +5,7 @@ layout: post
 draft: false
 path: "/posts/creating-custom-playlists-for-mediaelementplayer"
 tags:
-  - "html"
-  - "javascript"
-  - "css"
+  - "frontend web development"
 description: "MediaElement Player is a HTML/CSS Video/Audio player for the web. It is based on MediaElement.js media framework library. Both player and library are available as open source and free of cost under the MIT license."
 ---
 

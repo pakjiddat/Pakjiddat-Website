@@ -5,6 +5,7 @@ layout: post
 draft: false
 path: "/posts/installing-lets-encrypt-ssl-certificates-on-debian-jessie-and-nginx"
 tags:
+  - "cyber security"
   - "software installation and configuration"
 description: "HTTPS Certificates are files that are used to secure websites. A website that is secured using HTTPS is accessed using the HTTPS protocol. For example https://www.google.com. HTTPS certificates are issued by a Certificate Authority (CA). Lets Encrypt is a CA that issues HTTPS certificates free of cost."
 ---

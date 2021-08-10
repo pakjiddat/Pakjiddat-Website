@@ -5,7 +5,7 @@ layout: post
 draft: false
 path: "/posts/problems-with-accessing-websites-over-local-network-using-haproxy-and-pfsense"
 tags:
-  - "software installation and configuration"
+  - "network administration"
 description: "Recently I had problems with accessing websites over a network that was using HaProxy and Pfsense. The websites could be accessed without problems over the internet, but it was not possible to access the websites over local network. For example when connected to the network over VPN."
 ---
 

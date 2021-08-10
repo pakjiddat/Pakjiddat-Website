@@ -5,7 +5,7 @@ layout: post
 draft: false
 path: "/posts/javascript-arrow-functions-and-the-let-keyword"
 tags:
-  - "javascript"
+  - "frontend web development"
 description: "JavaScript arrow functions are unnamed functions which are best used as non-method functions. They provide a short hand notation for using functions. An arrow function consists of a list of function parameters followed by an arrow which is followed by an expression to be returned or a code block."
 ---
 

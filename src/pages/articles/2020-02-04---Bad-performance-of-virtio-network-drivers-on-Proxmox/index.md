@@ -5,7 +5,7 @@ layout: post
 draft: false
 path: "/posts/bad-performance-of-virtio-network-drivers-on-proxmox"
 tags:
-  - "server virtualization"
+  - "virtualization"
 description: "This blog post is about my experience with trying to optimize network performance on a virtual machine managed by the Proxmox virtualization platform."
 ---
 

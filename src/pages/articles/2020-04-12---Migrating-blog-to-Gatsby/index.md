@@ -5,11 +5,8 @@ layout: post
 draft: false
 path: "/posts/migrating-blog-to-gatsby"
 tags:
-  - "online tools and services"
-  - "software deployment"
-  - "headless cms"
-  - "continuous integration"
-
+  - "web development"
+  - "server management"
 description: "Gatsby is a modern framework for developing websites. It requires knowledge of the React JavaScript framework and Node.js. Gatsby uses an innovative approach toward developing websites which is quite different from the common website development workflow."
 ---
 

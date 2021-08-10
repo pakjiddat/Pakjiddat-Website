@@ -5,8 +5,7 @@ layout: post
 draft: false
 path: "/posts/apache-nginx---quick-tips"
 tags:
-  - "quick tips"
-  - "web servers"
+  - "server configuration"
 description: "Following are some quick tips related to Apache and Nginx Web Servers:"
 ---
 

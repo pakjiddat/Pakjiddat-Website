@@ -5,8 +5,8 @@ layout: post
 draft: false
 path: "/posts/using-n-gram-models-for-word-prediction"
 tags:
-  - "r programming"
-  - "natural language processing"
+  - "data science"
+  - "machine learning" 
 description: "N-gram models have applications in many areas such as spell checking, biological sequence analysis, speech recognition, word prediction and more. In this article I will provide an overview of n-gram models."
 ---
 

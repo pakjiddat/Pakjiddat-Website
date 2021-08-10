@@ -5,8 +5,8 @@ layout: post
 draft: false
 path: "/posts/adding-scroll-to-top-button-to-gatsby-website"
 tags:
-  - "headless cms"
-
+  - "web development"
+  - "backend programming"
 description: "Scrolling to top is a useful feature for Blogs. It allows readers to scroll to the top of the page any time with a single click of a button. In this article I will describe how to add a scroll to top button to a Gatsby website."
 ---
 

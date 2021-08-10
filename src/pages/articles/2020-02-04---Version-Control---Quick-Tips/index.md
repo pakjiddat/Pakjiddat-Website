@@ -5,8 +5,7 @@ layout: post
 draft: false
 path: "/posts/version-control---quick-tips"
 tags:
-  - "quick tips"
-  - "version control"
+  - "software installation and configuration"
 description: "Following are some quick tips related to Version Control:"
 ---
 

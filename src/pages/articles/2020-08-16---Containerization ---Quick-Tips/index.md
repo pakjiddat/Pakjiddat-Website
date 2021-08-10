@@ -5,8 +5,7 @@ layout: post
 draft: false
 path: "/posts/containerization---quick-tips"
 tags:
-  - "quick tips"
-  - "server virtualization"
+  - "virtualization"
 description: "Following are some quick tips related to Docker and LXC/LXD containers:"
 ---
 

@@ -5,8 +5,7 @@ layout: post
 draft: false
 path: "/posts/new-features-in-html-5"
 tags:
-  - "css"
-  - "html"
+  - "web development"
 description: "HTML 5 is the latest version of the HTML specification after HTML 4.01. The HTML standard is maintained by the W3C."
 ---
 

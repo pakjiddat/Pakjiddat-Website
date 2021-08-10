@@ -5,7 +5,7 @@ layout: post
 draft: false
 path: "/posts/some-excellant-wordpress-plugins"
 tags:
-  - "wordpress"
+  - "applications"
 description: "This blog post is about my experience with using WordPress plugins. WordPress is an excellent blogging platform that is used by millions. It has an enormous number of plugins that are maintained by people all over the world. You can find a WordPress plugin for just about any function you can imagine."
 ---
 

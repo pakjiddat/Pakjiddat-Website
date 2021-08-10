@@ -5,8 +5,8 @@ layout: post
 draft: false
 path: "/posts/installing-nextcloud--collabora-and-spreed-on-debian-jessie"
 tags:
+  - "applications"
   - "software installation and configuration"
-  - "collaboration tools"
 description: "NextCloud is a document management and collaboration system. It allows users to access their images, documents, spreadsheets and other files from any location and any device."
 ---
 

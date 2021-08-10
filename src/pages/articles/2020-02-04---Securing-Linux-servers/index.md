@@ -6,7 +6,7 @@ draft: false
 path: "/posts/securing-linux-servers-with-selinux--clamav--spamassassin-and-rkhunter"
 tags:
   - "server management"
-  - "server security"
+  - "cyber security"
 description: "Securing your servers is a very important task that can save your organization a lot of problems. Recently there have been a lot of cases where insecure servers belonging to high profile organizations have been exploited and used for nefarious purpose. It is therefore important to secure your servers."
 ---
 

@@ -5,8 +5,7 @@ layout: post
 draft: false
 path: "/posts/linux-command-line-tools---quick-tips"
 tags:
-  - "quick tips"
-  - "command line tools"
+  - "server management"
 description: "Following are some quick tips related to Linux Command Line Tools:"
 ---
 

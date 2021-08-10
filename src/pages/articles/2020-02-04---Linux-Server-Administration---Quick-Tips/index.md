@@ -5,7 +5,6 @@ layout: post
 draft: false
 path: "/posts/linux-server-administration---quick-tips"
 tags:
-  - "quick tips"
   - "server management"
 description: "Following are some quick tips related to Linux Server Administration:"
 ---

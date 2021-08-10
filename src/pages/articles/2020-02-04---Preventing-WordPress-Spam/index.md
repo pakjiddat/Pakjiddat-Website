@@ -5,8 +5,7 @@ layout: post
 draft: false
 path: "/posts/preventing-wordpress-spam"
 tags:
-  - "wordpress"
-  - "server security"
+  - "cyber security"
 description: "WordPress is a very popular platform for publishing websites. Almost all features that one can expect from a website are provided in the form of open source plugins and themes. Adding new features to a website is as easy as installing a plugin and configuring it."
 ---
 

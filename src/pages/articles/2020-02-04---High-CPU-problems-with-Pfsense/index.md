@@ -5,7 +5,7 @@ layout: post
 draft: false
 path: "/posts/high-cpu-problems-with-pfsense"
 tags:
-  - "software installation and configuration"
+  - "server monitoring"
 description: "Recently our Pfsense gateway server was consuming too much CPU. Especially during high network activity. This blog post describes my experience with trying to optimize Pfsense."
 ---
 

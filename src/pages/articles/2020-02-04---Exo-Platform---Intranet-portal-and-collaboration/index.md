@@ -5,8 +5,8 @@ layout: post
 draft: false
 path: "/posts/exo-platform---intranet-portal-and-collaboration"
 tags:
+  - "applications"
   - "software installation and configuration"
-  - "collaboration tools"
 description: "Exo Platform is an Intranet portal with collaboration features written in Java language. It is available as open source. It allows employees to collaborate effectively and productively. Its main features are an activity stream, documents, wiki, calendar, forums, contacts and spaces."
 ---
 

@@ -5,7 +5,8 @@ layout: post
 draft: false
 path: "/posts/nodejs-table-of-contents-generator"
 tags:
-  - "open source"
+  - "projects"
+  - "backend programming" 
 
 description: "Gatsby is a modern CMS that is well suited for publishing Blog posts. However managing a Gatsby Blog is like managing a web application and can be difficult for those not familiar with Software Development. In this blog post I will describe how I managed to add Table of contents to my Gatsby Blog."
 ---

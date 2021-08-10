@@ -5,7 +5,7 @@ layout: post
 draft: false
 path: "/posts/youtube-playlist"
 tags:
-  - "open source"
+  - "projects"
 description: "The YouTube Playlist is derived from the MediaElement player. It allows YouTube videos to be displayed in a playlist."
 ---
 

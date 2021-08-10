@@ -5,8 +5,8 @@ layout: post
 draft: false
 path: "/posts/installing-humhub-and-communote-on-debian-jessie"
 tags:
-  - "server management"
-  - "collaboration tools"
+  - "applications"
+  - "software installation and configuration"
 description: "HumHub and Communote are both web based social network platforms that allow teams and small organizations to communicate and collaborate using Activity Streams, Messaging, Blogging, Tagging and more. HumHub is based on the Yii Php Framework, while Communote is written in Java."
 ---
 

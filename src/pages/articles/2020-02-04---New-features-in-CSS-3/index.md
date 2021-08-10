@@ -5,7 +5,7 @@ layout: post
 draft: false
 path: "/posts/new-features-in-css-3"
 tags:
-  - "css"
+  - "web development"
 description: "CSS 3 is well supported in all major browsers. Old versions of Internet Explorer such as Explorer 6 support most CSS 3 modules. Modules such as Font Face module are not supported in old browsers."
 ---
 

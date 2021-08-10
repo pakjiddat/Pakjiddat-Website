@@ -5,7 +5,7 @@ layout: post
 draft: false
 path: "/posts/how-to-become-an-itunes-affiliate"
 tags:
-  - "application program interface"
+  - "web development"
 description: "The Itunes Affiliate program allows website owners to earn commission by adding links to Itunes products to their websites. Website owners can link to millions of songs, movies, tv shows, books and apps on Itunes and earn commission from the sales."
 ---
 

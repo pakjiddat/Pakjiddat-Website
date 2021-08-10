@@ -5,7 +5,7 @@ layout: post
 draft: false
 path: "/posts/wordpress-for-small-and-medium-businesses"
 tags:
-  - "wordpress"
+  - "applications"
 description: "WordPress is an excellent platform for small and medium businesses (SMBs). Recently I had the opportunity of constructing the home page for a small business. I will share my experience in this blog post."
 ---
 

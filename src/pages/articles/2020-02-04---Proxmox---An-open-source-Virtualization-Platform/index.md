@@ -5,7 +5,9 @@ layout: post
 draft: false
 path: "/posts/proxmox---an-open-source-virtualization-platform"
 tags:
-  - "server virtualization"
+  - "virtualization"
+  - "server management"
+  - "applications"
 description: "This blog post is about my experience with using Proxmox Virtualization Platform. Proxmox is an excellent open source virtualization platform from the German company Proxmox Server Solutions GmbH. It is used by tens of thousands of users."
 ---
 

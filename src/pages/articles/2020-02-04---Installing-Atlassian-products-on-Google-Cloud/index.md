@@ -5,8 +5,8 @@ layout: post
 draft: false
 path: "/posts/installing-atlassian-products-on-google-cloud"
 tags:
+  - "applications"
   - "software installation and configuration"
-  - "collaboration tools"
 description: "Atlassian is a software company that develops products for software developers and project managers. Its main products are an Issue Management system called Jira and a Document Management and Collaboration platform called Confluence."
 ---
 

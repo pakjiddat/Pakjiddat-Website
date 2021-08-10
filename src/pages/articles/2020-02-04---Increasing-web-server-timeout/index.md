@@ -5,7 +5,7 @@ layout: post
 draft: false
 path: "/posts/increasing-web-server-timeout"
 tags:
-  - "web servers"
+  - "server configuration"
 description: "If your website is based on PHP and is being served by Apache web server with Nginx as reverse proxy, then you may have experienced 504 Gateway Timeout errors. The error usually happens because some PHP script takes longer than usual to run."
 ---
 

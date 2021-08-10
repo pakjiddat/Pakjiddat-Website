@@ -5,8 +5,7 @@ layout: post
 draft: false
 path: "/posts/continuous-integration-and-project-management-with-jenkins-and-redmine"
 tags:
-  - "wordpress"
-  - "continuous integration"
+  - "software development"
 description: "Recently I had the opportunity of installing and configuring Jenkins Continuous Integration Server and Redmine. Both of these tools are becoming increasingly popular because they simplify and organize the Software Development Process"
 ---
 

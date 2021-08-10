@@ -5,7 +5,8 @@ layout: post
 draft: false
 path: "/posts/adding-table-of-contents-to-gatsby-website"
 tags:
-  - "headless cms"
+  - "web development"
+  - "backend programming"
 
 description: "Gatsby is a modern CMS that is well suited for publishing Blog posts. However managing a Gatsby Blog is like managing a web application and can be difficult for those not familiar with Software Development. In this blog post I will describe my experience of adding table of contents to my Gatsby Blog."
 ---

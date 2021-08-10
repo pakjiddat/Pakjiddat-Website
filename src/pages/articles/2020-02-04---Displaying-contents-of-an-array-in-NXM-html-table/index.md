@@ -5,8 +5,7 @@ layout: post
 draft: false
 path: "/posts/displaying-contents-of-an-array-in-nxm-html-table"
 tags:
-  - "php"
-  - "algorithms"
+  - "backend programming"
 description: "The following code allows displaying the contents of an array containing X number of elements in a HTML table. The HTML table contains N rows and M columns. The values of X, N and M can be configured:"
 ---
 

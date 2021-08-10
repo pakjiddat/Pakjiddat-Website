@@ -5,7 +5,7 @@ layout: post
 draft: false
 path: "/posts/using-cookies-in-javascript"
 tags:
-  - "javascript"
+  - "frontend web development"
 description: "Cookies allow websites to store information on the user browsers. They are usually used to store website session related information."
 ---
 

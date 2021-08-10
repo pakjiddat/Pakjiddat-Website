@@ -5,7 +5,7 @@ layout: post
 draft: false
 path: "/posts/using-await-and-async-with-promises"
 tags:
-  - "javascript"
+  - "frontend web development"
 description: "The async keyword is used when declaring functions. A function declared with async must return a promise. If a function is declared with async and it does not return a promise, then the JavaScript engine will automatically convert the return value of the function to a promise object."
 ---
 

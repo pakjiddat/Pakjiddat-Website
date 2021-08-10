@@ -6,7 +6,6 @@ draft: false
 path: "/posts/building-ionic-cordova-applications-for-android-on-debian-10"
 tags:
   - "mobile development"
-  - " hybrid apps"
 description: "Cordova is a platform that allows development of Mobile applications using HTML, CSS and JavaScript. These applications can be run on all major mobile platforms, which are Android, IOS and Windows Phone."
 ---
 

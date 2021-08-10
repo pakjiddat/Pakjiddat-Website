@@ -5,12 +5,14 @@ layout: post
 draft: false
 path: "/posts/graylog2---a-scalable-open-source-centralized-logging-system"
 tags:
+  - "applications"
   - "software installation and configuration"
-description: "In this blog post I will describe my experience with using an open source centralized logging system called Graylog2. Graylog2 is an excellent log management system. It is based on well known open source tools such as Mongodb and Elasticsearch."
+  - "server monitoring"
+description: "In this blog post I will describe my experience with installing an open source centralized logging system called Graylog2. Graylog2 is an excellent log management system. It is based on well known open source tools such as Mongodb and Elasticsearch."
 ---
 
 ### Introduction
-In this blog post I will describe my experience with using an open source centralized logging system called [Graylog2](http://www.graylog2.org). Graylog2 is an excellent log management system. It is based on well known open source tools such as [Mongodb](http://www.mongodb.org/) and [Elasticsearch](http://www.elasticsearch.org/). It allows I.T administrators to collect logging information from almost any source, including Linux and Windows computers.
+In this blog post I will describe my experience with installing an open source centralized logging system called [Graylog2](http://www.graylog2.org). Graylog2 is an excellent log management system. It is based on well known open source tools such as [Mongodb](http://www.mongodb.org/) and [Elasticsearch](http://www.elasticsearch.org/). It allows I.T administrators to collect logging information from almost any source, including Linux and Windows computers.
 
 Graylog2 works by collecting log messages from different sources. The log messages are saved in a central database. This database is queried and the query results are displayed on a nice web interface. Alerts can be configured that notify the administrator in case certain terms appear in search logs.
 

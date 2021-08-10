@@ -6,7 +6,6 @@ draft: false
 path: "/posts/open-project---collaborative-project-management"
 tags:
   - "software installation and configuration"
-  - "collaboration tools"
 description: "Open Project is an online project management application with collaboration features. It is one of the most popular open source project management software."
 ---
 

@@ -5,7 +5,7 @@ layout: post
 draft: false
 path: "/posts/5-best-javascript-editors--developers-rank-the-best-tools-worldwide"
 tags:
-  - "javascript"
+  - "frontend web development"
 description: "JavaScript has continued to grow in importance over the last decade. In fact, according to StackOverflow’s Insights, JavaScript has been the most popular programming language for the past 7 years, edging out popular languages including Python, C# and Java. The State of Javascript survey, which includes responses from over 20,000 developers, reveals that five JavaScript editors stand out accounting 95% of all usage!"
 ---
 

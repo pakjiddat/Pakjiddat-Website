@@ -5,7 +5,7 @@ layout: post
 draft: false
 path: "/posts/what-is-responsive-design"
 tags:
-  - "responsive website design"
+  - "frontend web development"
 description: "Responsive Design is a new trend in Web Design. It was started by Ethan Marcotte. Responsive Design is the design of websites that work well when viewed on a wide range of devices. For example a responsive website will look good on Iphone, Ipad, Tablets, Laptops and Desktops."
 ---
 

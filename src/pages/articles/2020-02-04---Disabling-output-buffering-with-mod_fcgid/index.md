@@ -5,7 +5,7 @@ layout: post
 draft: false
 path: "/posts/disabling-output-buffering-with-mod-fcgid"
 tags:
-  - "web servers"
+  - "server configuration"
 description: "Output buffering in PHP allows output from a PHP script to be stored in a buffer. When the buffer is flushed, the output is displayed to the user. Sometimes we may want to disable output buffering, so we can quickly access the output from a PHP script. For example it is useful to be able to view the output from long running scripts."
 ---
 

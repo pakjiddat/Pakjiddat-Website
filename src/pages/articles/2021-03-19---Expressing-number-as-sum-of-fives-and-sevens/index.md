@@ -5,8 +5,8 @@ layout: post
 draft: false
 path: "/posts/expressing-number-as-sum-of-fives-and-sevens"
 tags:
-  - "algorithms"
-  - "mathematics" 
+  - "discrete mathematics"
+  - "programming problems" 
 description: "Recursion is one method for proving statements mathematically. It is a powerful concept that has important applications in Computer Science. In this article I will describe how to use the technique of Recursion to prove a statement mathematically."
 ---
 

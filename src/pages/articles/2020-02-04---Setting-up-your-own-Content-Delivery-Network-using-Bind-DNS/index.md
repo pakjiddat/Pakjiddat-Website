@@ -5,8 +5,6 @@ layout: post
 draft: false
 path: "/posts/setting-up-your-own-content-delivery-network-using-bind-dns"
 tags:
-  - "content delivery network"
-  - "server management"
   - "software installation and configuration"
 description: "Recently I worked on constructing a simple Content Delivery Network using Bind DNS. I will share my experience in this blog post. Bind DNS is an open source DNS server. It is the most widely used DNS server. DNS is one of the building blocks of the internet. The main use of DNS is to translate domains names to IP Addresses. DNS also has other uses such as securing email."
 ---

@@ -5,9 +5,8 @@ layout: post
 draft: false
 path: "/posts/r-package-for-word-prediction"
 tags:
-  - "r programming"
-  - "open source"
-  - "natural language processing"
+  - "data science"
+  - "projects"
 description: "Wordpredictor is a R package for developing and evaluating n-gram 
 models. It provides methods for data analysis, data cleaning, data sampling, 
 converting text to tokens, generating n-gram transition probabilities, 

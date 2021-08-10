@@ -5,7 +5,6 @@ layout: post
 draft: false
 path: "/posts/running-multiple-versions-of-mailx-command"
 tags:
-  - "command line tools"
   - "server management"
 description: "Certain commands in Linux can be provided by multiple packages. The command provided by each package may differ. For example the mailx command is provided by the bsd-mailx package as well as the heirloom-mailx package. The mailx command provided by the packages use different command line parameters."
 ---

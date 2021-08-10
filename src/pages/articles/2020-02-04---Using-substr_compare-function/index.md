@@ -5,7 +5,7 @@ layout: post
 draft: false
 path: "/posts/using-substr-compare-function-to-find-out-if-a-file-exists-in-a-folder"
 tags:
-  - "php"
+  - "backend programming"
 description: "The substr_compare function is a useful function that can be used to check if a given string occurs at the end of a larger string."
 ---
 

@@ -6,7 +6,6 @@ draft: false
 path: "/posts/resizing-linux-root-partitions-without-unmount-on-google-cloud"
 tags:
   - "server management"
-  - "command line tools"
 description: "Virtual machines often run out of disk space and require resizing. Resizing root partitions without unmounting is always risky. It is recommended to take a backup of the partition's useful data before resizing the partition."
 ---
 

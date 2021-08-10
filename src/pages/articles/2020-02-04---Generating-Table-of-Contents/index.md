@@ -5,7 +5,7 @@ layout: post
 draft: false
 path: "/posts/generating-table-of-contents"
 tags:
-  - "algorithms"
+  - "backend programming"
 description: "Table of contents gives an overview of the article. It describes what the article contains. A quick glance at the table of contents gives a useful overview of the article. Most articles have a table of contents which contains links to the important parts of an article."
 ---
 

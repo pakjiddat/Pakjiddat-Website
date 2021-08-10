@@ -5,7 +5,8 @@ layout: post
 draft: false
 path: "/posts/cloudinary-cdn---a-free-content-delivery-network"
 tags:
-  - "content delivery network"
+  - "web development"
+  - "applications"
 description: "Recently I had the opportunity of integrating a free Content Delivery Network (CDN) called Cloudinary with my clients website. I will describe my experience in this blog post. Cloudinary is an excellent Content Delivery Network that can be used to serve static website content such as images, video, audio, HTML, CSS, JavaScript files and more. Cloudinary has an excellent free plan with great features."
 ---
 

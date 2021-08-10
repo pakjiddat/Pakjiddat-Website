@@ -5,8 +5,7 @@ layout: post
 draft: false
 path: "/posts/viewing-package-information-using-yum-history-command"
 tags:
-  - "command line tools"
-  - "software installation and configuration"
+  - "server management"
 description: "The yum history command displays list of all commands used to install or remove packages using yum package manager. The list is ordered by date and id. Each history item is called a transaction."
 ---
 

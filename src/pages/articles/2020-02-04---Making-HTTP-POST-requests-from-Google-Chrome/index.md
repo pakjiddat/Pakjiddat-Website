@@ -5,8 +5,7 @@ layout: post
 draft: false
 path: "/posts/making-http-post-requests-from-google-chrome"
 tags:
-  - "web servers"
-  - "online tools and services"
+  - "web development"
 description: "The Google Chrome developers toolbox is a useful tool that can be used to test HTTP POST requests. For example we may want to replay HTTP requests for testing APIS or debugging web pages."
 ---
 

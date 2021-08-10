@@ -5,8 +5,8 @@ layout: post
 draft: false
 path: "/posts/tuning-wordpress-performance-using-varnish"
 tags:
-  - "wordpress"
-  - "website testing"
+  - "software installation and configuration"
+  - "web development"
 description: "Recently I had the opportunity of on tuning website performance using Varnish. Varnish is called a Caching HTTP Reverse Proxy. This means it sits between your end user and one or more back-end servers such as Apache or Nginx and functions as a cache for HTTP traffic."
 ---
 

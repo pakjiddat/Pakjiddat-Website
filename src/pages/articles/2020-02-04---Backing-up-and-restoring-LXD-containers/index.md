@@ -5,8 +5,7 @@ layout: post
 draft: false
 path: "/posts/backing-up-and-restoring-lxd-containers"
 tags:
-  - "server management"
-  - "command line tools"
+  - "virtualization"
 description: "LXD containers can be backed up by creating snapshots or by creating an image from the container. The first method which is creating snapshots is useful for taking quick incremental backups of containers. However it does not provide a full backup. The second method allows creating full backup."
 ---
 

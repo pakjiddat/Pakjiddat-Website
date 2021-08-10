@@ -5,7 +5,7 @@ layout: post
 draft: false
 path: "/posts/separating-source-code-and-development-environment-using-docker"
 tags:
-  - "continuous integration"
+  - "software development"
 description: "A common problem faced by developers involves setting up development environments. Tools such as Docker and Vagrant allow separating source code and development environments."
 ---
 

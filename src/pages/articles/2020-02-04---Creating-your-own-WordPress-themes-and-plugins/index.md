@@ -5,7 +5,7 @@ layout: post
 draft: false
 path: "/posts/creating-your-own-wordpress-themes-and-plugins"
 tags:
-  - "wordpress"
+  - "web development"
 description: "WordPress is a great platform for building innovative applications. You can not only build standard websites with WordPress but you can also create complex applications full of features."
 ---
 

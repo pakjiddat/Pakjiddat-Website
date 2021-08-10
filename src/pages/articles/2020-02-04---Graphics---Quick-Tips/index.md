@@ -5,8 +5,7 @@ layout: post
 draft: false
 path: "/posts/graphics---quick-tips"
 tags:
-  - "quick tips"
-  - "graphics"
+  - "applications"
 description: "Following are some quick tips related to Graphics:"
 ---
 

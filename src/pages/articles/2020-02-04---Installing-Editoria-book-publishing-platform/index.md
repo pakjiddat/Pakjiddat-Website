@@ -5,6 +5,7 @@ layout: post
 draft: false
 path: "/posts/installing-editoria-book-publishing-platform"
 tags:
+  - "applications"
   - "software installation and configuration"
 description: "Editoria is a web based tool for publishing books. It allows editors and authors to collaborate on book publishing. Editoria is being developed by the University of California Press and the California Digital Library in partnership with the Coko Foundation."
 ---

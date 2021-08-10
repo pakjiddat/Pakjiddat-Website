@@ -5,9 +5,7 @@ layout: post
 draft: false
 path: "/posts/using-prefetch--preload-and-preconnect-for-speeding-page-load-times"
 tags:
-  - "html"
-  - "css"
-  - "javascript"
+  - "frontend web development"
 description: "Prefetch, Preload and Preconnect are mechanisms supported by modern web browsers that allow efficient loading of web resources."
 ---
 

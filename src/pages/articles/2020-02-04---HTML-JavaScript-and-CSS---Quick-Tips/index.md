@@ -5,10 +5,7 @@ layout: post
 draft: false
 path: "/posts/html--javascript-and-css---quick-tips"
 tags:
-  - "quick tips"
-  - "javascript"
-  - "html"
-  - "css"
+  - "web development"
 description: "Following are some quick tips related to HTML, JavaScript and CSS:"
 ---
 

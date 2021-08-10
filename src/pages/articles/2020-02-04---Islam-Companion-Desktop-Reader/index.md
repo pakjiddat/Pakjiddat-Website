@@ -1,11 +1,11 @@
 ---
 title: Islam Companion Desktop Reader
-date: "2020-08-10"
+date: "2021-08-10"
 layout: post
 draft: false
 path: "/posts/islam-companion-desktop-reader"
 tags:
-  - "open source"
+  - "projects"
 description: "The Islam Companion Desktop Reader project is a desktop application. It is availabe as a snap application on Ubuntu Store. It allows users to read Holy Quran and Hadith. It provides two applications. A Hadith reader and a Quran reader."
 ---
 

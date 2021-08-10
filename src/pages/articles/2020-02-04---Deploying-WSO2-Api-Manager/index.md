@@ -5,7 +5,9 @@ layout: post
 draft: false
 path: "/posts/deploying-wso2-api-manager"
 tags:
-  - "application program interface"
+  - "web apis"
+  - "applications"
+  - "software installation and configuration"
 description: "The WSO2 API Manager is a platform for managing APIs. It allows deploying, monitoring and testing APIs. It is a complete API management platform that allows building scalable APIs."
 ---
 

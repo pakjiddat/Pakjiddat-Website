@@ -1,12 +1,11 @@
 ---
 title: Creating desktop applications with Python using PyQt5
-date: "2019-03-26"
+date: "2021-08-10"
 layout: post
 draft: false
 path: "/posts/creating-desktop-applications-with-python-using-pyqt5"
 tags:
-  - "python"
-  - "desktop programming"
+  - "software development"
 description: "PyQt5 is a Python package that provides a wrapper for accessing the Qt framework libraries."
 ---
 

@@ -5,7 +5,8 @@ layout: post
 draft: false
 path: "/posts/installing-freeipa-client-on-debian"
 tags:
-  - "centralized user management"
+  - "applications"
+  - "software installation and configuration"
 description: "Recently I had the opportunity of installing FreeIPA client on servers running the Debian operating system. I will share my experience in this blog post. FreeIPA is an excellent centralized user management system from FreeIPA."
 ---
 

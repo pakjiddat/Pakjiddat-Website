@@ -5,9 +5,8 @@ layout: post
 draft: false
 path: "/posts/generating-free-ssl-certificate-from-letsencrypt-on-localhost"
 tags:
-  - "command line tools"
-  - "web servers"
-  - "server security"
+  - "web development"
+  - "cyber security" 
 description: "If your website hosting allows uploading SSL certificates but does not allow SSH access and you need a SSL certificate for your website, then a free SSL certificate from LetsEncrypt is a good option."
 ---
 

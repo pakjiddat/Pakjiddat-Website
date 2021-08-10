@@ -5,8 +5,8 @@ layout: post
 draft: false
 path: "/posts/counting-problems"
 tags:
-  - "algorithms"
-  - "mathematics" 
+  - "discrete mathematics"
+  - "programming problems" 
 description: "Combinatorics is a field of Mathematics that allows us to efficiently count numbers. It includes topics such as probabilities, permutations and combinations. It has applications in many areas outside Mathematics. In this article I will describe some problems related to Combinatorics."
 ---
 

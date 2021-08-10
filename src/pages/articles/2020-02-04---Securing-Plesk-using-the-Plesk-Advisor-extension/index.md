@@ -5,9 +5,7 @@ layout: post
 draft: false
 path: "/posts/securing-plesk-using-the-plesk-advisor-extension"
 tags:
-  - "cloud computing"
-  - "server security"
-  - "server management"
+  - "software installation and configuration"
 description: "Plesk is a useful control panel for Windows and Linux based servers. It is used for managing web hosts, users, server security, email and more."
 ---
 

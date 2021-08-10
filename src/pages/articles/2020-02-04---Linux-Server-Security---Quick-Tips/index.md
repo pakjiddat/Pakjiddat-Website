@@ -5,8 +5,8 @@ layout: post
 draft: false
 path: "/posts/linux-server-security---quick-tips"
 tags:
-  - "quick tips"
-  - "server security"
+  - "server management"
+  - "cyber security"
 description: "Following are some quick tips related to Linux Server Security:"
 ---
 

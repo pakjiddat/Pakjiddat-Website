@@ -5,8 +5,7 @@ layout: post
 draft: false
 path: "/posts/how-to-change-account-passwords-on-an-openldap-server"
 tags:
-  - "command line tools"
-  - "server management"
+  - "software installation and configuration"
 description: "To change the LDAP admin password, we need to first save the rootdn account information. We can do this with the command:"
 ---
 

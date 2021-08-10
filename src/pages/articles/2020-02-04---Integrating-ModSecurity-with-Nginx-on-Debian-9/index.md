@@ -5,8 +5,8 @@ layout: post
 draft: false
 path: "/posts/integrating-modsecurity-with-nginx-on-debian-9"
 tags:
-  - "server security"
-  - "web servers"
+  - "cyber security"
+  - "server configuration"
 description: "ModSecurity is a an open source Web Application Firewall (WAF). It can detect as well as prevent attacks to web applications. Initially released as an Apache web server module, ModSecurity now supports all major Web Servers including IIS, Nginx and Apache."
 ---
 

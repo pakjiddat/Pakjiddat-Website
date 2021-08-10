@@ -1,12 +1,11 @@
 ---
 title: Creating Snaps for PyQt5 applications
-date: "2019-09-02"
+date: "2021-08-10"
 layout: post
 draft: false
 path: "/posts/creating-snaps-for-pyqt5-applications"
 tags:
-  - "desktop programming"
-  - "software deployment"
+  - "software development"
 description: "Snap Apps or Snaps are applications for the Linux platform. They are managed using the Snappy package management system. Applications implemented using the Snap format can be installed across a wide range of Linux distributions."
 ---
 

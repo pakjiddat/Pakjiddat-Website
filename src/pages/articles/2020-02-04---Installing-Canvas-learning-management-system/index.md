@@ -5,9 +5,8 @@ layout: post
 draft: false
 path: "/posts/installing-canvas-learning-management-system"
 tags:
+  - "applications"
   - "software installation and configuration"
-  - "collaboration tools"
-  - "learning management systems"
 description: "Canvas LMS is a modern Learning Management System. It allows teachers and instructors to publish learning material online such as courses, quizzes, assignments, announcements, syllabus, modules, discussions, files, learning outcomes and more. Canvas is available as open source software and can be used free of charge."
 ---
 

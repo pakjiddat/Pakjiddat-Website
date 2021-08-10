@@ -4,10 +4,8 @@ date: "2018-06-28"
 layout: post
 draft: false
 path: "/posts/installing-latest-version-of-php"
-tags:
-  - "php"
+tags: 
   - "server management"
-  - "software installation and configuration"
 description: "PHP is a popular programming language commonly used for building web based applications. Most Linux distributions provide PHP out of the box. However the version of PHP in most cases is not the current stable version."
 ---
 

@@ -5,7 +5,7 @@ layout: post
 draft: false
 path: "/posts/installing-laravel-spark--gitscrum-and-icecoder-on-debian-stetch"
 tags:
-  - "php"
+  - "applications"
   - "software installation and configuration"
 description: "Laravel Spark is a non-free but open source application for the Laravel PHP Framework. It provides features that are commonly found in web applications such as user subscription, billing plans, invoicing and payment processing."
 ---

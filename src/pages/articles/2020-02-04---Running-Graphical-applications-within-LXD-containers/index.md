@@ -5,9 +5,8 @@ layout: post
 draft: false
 path: "/posts/running-graphical-applications-within-lxd-containers"
 tags:
-  - "server management"
-  - "software installation and configuration"
-  - "graphics"
+  - "virtualization"
+  - "server configuration"
 description: "LXD containers provide an isolated environment, which is separate from the main host. Sometimes we may need to run GUI apps from the container. For example during development of desktop applications."
 ---
 

@@ -5,7 +5,7 @@ layout: post
 draft: false
 path: "/posts/permanently-authenticating-with-remote-git-repositories"
 tags:
-  - "command line tools"
+  - "server configuration"
 description: "Some times we need to non-interactively run scripts which commit to git source code repositories that are hosted remotely. For example we may want push changes to a git repository stored on Bit Bucket. Normally we will be asked to enter our Bit Bucket credentials, but this can be automated."
 ---
 

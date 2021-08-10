@@ -5,7 +5,8 @@ layout: post
 draft: false
 path: "/posts/data-mining-with-graylog2"
 tags:
-  - "software installation and configuration"
+  - "applications"
+  - "server monitoring"
 description: "In my earlier post titled, Graylog2 - A scalable open source centralized logging system, I had described my experience with installing and configuring Graylog2. In this post, I will describe my experience with using the search features of Graylog2."
 ---
 

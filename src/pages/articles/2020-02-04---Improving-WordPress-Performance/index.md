@@ -5,8 +5,7 @@ layout: post
 draft: false
 path: "/posts/improving-wordpress-performance"
 tags:
-  - "wordpress"
-  - "website testing"
+  - "web development"
 description: "Recently I had the opportunity of working on improving the performance of a WordPress website for a customer. I will describe my experience in this blog post. Slow website loading times can distract your website visitors and discourage them from visiting your website again."
 ---
 

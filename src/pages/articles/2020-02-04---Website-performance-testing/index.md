@@ -5,8 +5,8 @@ layout: post
 draft: false
 path: "/posts/website-performance-testing"
 tags:
-  - "wordpress"
-  - "website testing"
+  - "web development"
+  - "software testing"
 description: "The role of websites has evolved greatly over the last few years. Websites were initially a novel way of presenting information. Over the last few years websites have grown greatly in importance. Websites now may be regarded as the public image of all types of organizations."
 ---
 
@@ -73,7 +73,6 @@ Remove the plugins you don't need. Having too many plugins on your site greatly 
 The World Wide Web Consortium (W3C) is an organization that manages HTML standards. It has an excellent [on-line tool](http://validator.w3.org/) that can be used to validate HTML documents.
 
 In WordPress you can validate each page and post of your website using the [validated](https://wordpress.org/plugins/validated/) plugin. WordPress also has a useful plugin called [Broken Link Checker](https://wordpress.org/plugins/broken-link-checker/), that can be used to check your website for broken page links.
-
 
 ### Conclusion
 Ensuring that the HTML of your website complies with web standards is an important consideration for any website. A website that is standards compliant will not only receive a higher ranking in Google search results but will also render more reliably across different web browsers.

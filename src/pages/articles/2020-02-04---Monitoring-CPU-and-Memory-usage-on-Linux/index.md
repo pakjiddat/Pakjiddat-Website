@@ -5,7 +5,7 @@ layout: post
 draft: false
 path: "/posts/monitoring-cpu-and-memory-usage-on-linux"
 tags:
-  - "server management"
+  - "server monitoring"
 description: "CPU and Memory monitoring is an important system administration task. It provides valuable information that can be used in resource planning and alert notifications."
 ---
 

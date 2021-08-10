@@ -5,7 +5,8 @@ layout: post
 draft: false
 path: "/posts/installing-ghost-on-debian-stretch"
 tags:
-  - "headless cms"
+  - "applications"
+  - "software installation and configuration"
 description: "Ghost is an open source blogging platform similar to WordPress. It is based on a modern web architecture and has very good performance and security. It is very popular and is used by major corporations including Mozilla, NASA, Apple and more."
 ---
 

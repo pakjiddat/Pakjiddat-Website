@@ -5,8 +5,8 @@ layout: post
 draft: false
 path: "/posts/solving-n-diagonal-problem"
 tags:
-  - "algorithms"
-  - "mathematics" 
+  - "discrete mathematics"
+  - "programming problems" 
 description: "In the N Diagonal problem, we have a board containing NxN squares. Each square can have 2 diagonals, but the diagonals of neighboring squares should not intersect. A square can have three possible states. Either empty, a left diagonal or a right diagonal. We need to find out if it is possible to have X number of diagonals."
 ---
 

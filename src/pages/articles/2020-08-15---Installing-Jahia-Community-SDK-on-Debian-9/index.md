@@ -6,8 +6,7 @@ draft: false
 path: "/posts/installing-jahia-community-sdk-on-debian-9"
 tags:
   - "software installation and configuration"
-  - "headless cms"
-
+  - "applications"
 description: "Jahia is a software company which provides enterprise products and services. Its main products are jContent (a content management system), jExperience (combines customer data with customer management for personalized customer experience and jCustomer (an open source customer data platform). These products are combined in innovative way to provide solutions such as CMS (Customer Management System), PWA (Headless Progressive Web Applications), Customer Portals and more. Jahia provides a 30 day trial period of most of its products and solutions."
 ---
 

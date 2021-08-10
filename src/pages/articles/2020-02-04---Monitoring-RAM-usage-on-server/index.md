@@ -5,7 +5,7 @@ layout: post
 draft: false
 path: "/posts/monitoring-ram-usage-on-server"
 tags:
-  - "server management"
+  - "server monitoring"
 description: "The RAM on a server can be monitored using /proc/meminfo and awk commands. /proc/ is a special file system created by the Linux kernel which contains kernel related information such as CPU and memory usage. /proc/meminfo contains information about memory usage."
 ---
 

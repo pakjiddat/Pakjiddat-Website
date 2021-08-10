@@ -5,8 +5,8 @@ layout: post
 draft: false
 path: "/posts/installing-zurmo-crm-and-oxwell-social-network-platform"
 tags:
+  - "applications"
   - "software installation and configuration"
-  - "collaboration tools"
 description: "Zurmo CRM is a customer relationship management system with a wide range of features such as Contact Management, Activity Management, Deal Tracking and more. Oxwell social network platform allows creation of social networks and online communities. Both applications are written in PHP and MySQL. Both platforms are open source and free to use."
 ---
 

@@ -5,9 +5,8 @@ layout: post
 draft: false
 path: "/posts/upgrading-jwplayer-to-version-7"
 tags:
-  - "html"
-  - "css"
-  - "javascript"
+  - "software installation and configuration"
+  - "web development"
 description: "JWPlayer is one of the most widely used video players. It has evolved from a simple video player into a video publishing platform. The latest version 7 of the player is a major upgrade from the last version. Websites that use the old JWPlayer 6 should upgrade to the latest version."
 ---
 

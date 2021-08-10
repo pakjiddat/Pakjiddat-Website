@@ -5,9 +5,7 @@ layout: post
 draft: false
 path: "/posts/creating-scalable-applications-with-ionic-framework-and-firebase"
 tags:
-  - "css"
-  - "javascript"
-  - "software installation and configuration"
+  - "mobile development"
 description: "The Ionic Framework allows developing applications for web browsers, desktops and mobile devices. Ionic Framework applications are written in HTML, CSS and JavaScript. Apps can be generated from a single code base, which can be accessed from web browsers, Android, IOS and Windows based devices."
 ---
 

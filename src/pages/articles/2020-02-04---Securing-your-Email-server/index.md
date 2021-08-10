@@ -6,7 +6,7 @@ draft: false
 path: "/posts/securing-your-email-server"
 tags:
   - "software installation and configuration"
-  - "server security"
+  - "cyber security"
 description: "In this blog post I will describe my experience with installing, configuring and securing an email server. Many companies have their own email servers but one thing I noticed about in house email servers is that they are very unreliable."
 ---
 

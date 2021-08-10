@@ -5,7 +5,7 @@ layout: post
 draft: false
 path: "/posts/responsive-web-design-with-html-5-and-css-3"
 tags:
-  - "responsive website design"
+  - "frontend web development"
 description: "Responsive website design is a design practice which aims at designing web pages with a layout that works on all devices. It involves several techniques such as responsive images, grid layouts, fluid layouts, media queries and more."
 ---
 

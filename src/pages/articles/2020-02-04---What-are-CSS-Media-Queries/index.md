@@ -5,7 +5,7 @@ layout: post
 draft: false
 path: "/posts/what-are-css-media-queries"
 tags:
-  - "responsive website design"
+  - "frontend web development"
 description: "CSS Media Queries allow us to use CSS rules for particular media"
 ---
 

@@ -6,7 +6,6 @@ draft: false
 path: "/posts/upgrading-from-debian-jessie-to-debian-stretch"
 tags:
   - "server management"
-  - "cloud computing"
 description: "Debian 9, also known as Debian Stretch is currently the latest stable version of the Debian operating system. It was released on 17th June 2017 as successor to Debian 8 also known as Debian Jessie."
 ---
 

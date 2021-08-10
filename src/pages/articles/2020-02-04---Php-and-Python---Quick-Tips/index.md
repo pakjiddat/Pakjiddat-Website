@@ -5,9 +5,7 @@ layout: post
 draft: false
 path: "/posts/php-and-python---quick-tips"
 tags:
-  - "quick tips"
-  - "php"
-  - "python"
+  - "backend programming"
 description: "Following are some quick tips related to PHP and Python"
 ---
 

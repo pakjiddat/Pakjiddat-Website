@@ -5,7 +5,7 @@ layout: post
 draft: false
 path: "/posts/evolution-of-web-development"
 tags:
-  - "society"
+  - "essays"
 
 description: "Websites may be developed in different ways. We can code a website from scratch or we can use libraries and frameworks. Or a combination of both approaches. All websites have a front-end end, which is displayed in a web browser to the end user. The website front-end may fetch data from a server. The data provided by the server may reside in flat files or in databases. The server may return raw data or it may process the data and combine it with presentation code."
 ---

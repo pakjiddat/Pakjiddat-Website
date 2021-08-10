@@ -5,10 +5,8 @@ layout: post
 draft: false
 path: "/posts/inadequate-security---ssl-cipher-problems-with-http2"
 tags:
-  - "network administration"
-  - "online tools and services"
-  - "server security"
-  - "web servers"
+  - "web development"
+  - "cyber security"
 description: "HTTP2 requires encryption over SSL. The recommended SSL protocol for HTTP2 is TLS 1.2. Ciphers are encryption algorithms used by SSL protocols."
 ---
 

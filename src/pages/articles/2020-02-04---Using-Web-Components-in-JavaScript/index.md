@@ -5,7 +5,7 @@ layout: post
 draft: false
 path: "/posts/using-web-components-in-javascript"
 tags:
-  - "javascript"
+  - "frontend web development"
 description: "Web Components is a suit of different technologies that allow creating and using reusable custom HTML elements. Currently it is based on the three main features which are: Custom Elements, Shadow DOM and HTML Templates."
 ---
 

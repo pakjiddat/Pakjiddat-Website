@@ -5,7 +5,7 @@ layout: post
 draft: false
 path: "/posts/es6-brings-new-features-to-javascript"
 tags:
-  - "javascript"
+  - "frontend web development"
 description: "The ES6 standard has introduced several changes to JavaScript. These changes include Classes, Proxies, Promises, Modules, Iterators and Generators and more"
 ---
 

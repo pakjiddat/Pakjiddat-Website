@@ -5,7 +5,7 @@ layout: post
 draft: false
 path: "/posts/running-lxc-containers-on-a-google-compute-instance"
 tags:
-  - "server virtualization"
+  - "virtualization"
 description: "Google Cloud Platform is a Google product that provides services related to Cloud Computing. Services provided by Google Cloud include Compute, Storage and Databases, Networking, Big Data, Machine Learning and more."
 ---
 

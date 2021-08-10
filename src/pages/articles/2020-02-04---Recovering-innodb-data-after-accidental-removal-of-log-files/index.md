@@ -5,6 +5,7 @@ layout: post
 draft: false
 path: "/posts/recovering-innodb-data-after-accidental-removal-of-log-files"
 tags:
+  - "server management"
   - "database management"
 description: "The role of Full Stack web developers is becoming increasingly popular. A Full Stack Web Developer is one who has a working knowledge of all components involved in website development. This includes front-end programming, back-end programming and server administration. "
 ---

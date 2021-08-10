@@ -5,8 +5,8 @@ layout: post
 draft: false
 path: "/posts/validate-your-wordpress-blog-using-wordpress-xml-rpc-api--php-tidy-and-nu-html-checker"
 tags:
-  - "wordpress"
-  - "website testing"
+  - "web development"
+  - "software testing"
 description: "WordPress is a very popular platform for hosting websites. Over 74 million websites are based on WordPress. WordPress is also increasingly being used to develop complex web based applications."
 ---
 

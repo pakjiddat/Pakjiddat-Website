@@ -5,7 +5,6 @@ layout: post
 draft: false
 path: "/posts/converting-mysql-database-to-sqlite3-format"
 tags:
-  - "command line tools"
   - "database management"
 description: "SQlite3 is a lightweight relational database that can be used in place of relational database servers such as MySQL and PostgreSQL. SQLite3 databases are commonly used in Mobile applications. In contrast to most relational databases, a SQLite3 database is a single independent file. The file has a .db extension. Most programming languages such as Python and PHP provide libraries for accessing SQLite3 databases."
 ---

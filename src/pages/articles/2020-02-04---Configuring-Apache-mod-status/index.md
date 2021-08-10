@@ -5,7 +5,7 @@ layout: post
 draft: false
 path: "/posts/configuring-apache-mod-status"
 tags:
-  - "web servers"
+  - "server configuration"
 description: Apache Mod Status is an Apache module that provides useful information about the requests being sent to Apache.
 ---
 

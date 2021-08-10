@@ -5,8 +5,7 @@ layout: post
 draft: false
 path: "/posts/customizing-redmine-layout"
 tags:
-  - "javascript"
-  - "css"
+  - "web development"
 description: "The user interface of Redmine can be easily customizing using the redmine_custom_css and redmine_custom_js plugins."
 ---
 

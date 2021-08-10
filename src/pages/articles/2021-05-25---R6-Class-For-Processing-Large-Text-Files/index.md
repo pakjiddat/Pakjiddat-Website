@@ -5,7 +5,8 @@ layout: post
 draft: false
 path: "/posts/r6-class-for-processing-large-text-files"
 tags:
-  - "R"
+  - "data science"
+  - "backend programming"
 description: "In this article I will describe a R6 class that I had developed for processing large text files."
 ---
 

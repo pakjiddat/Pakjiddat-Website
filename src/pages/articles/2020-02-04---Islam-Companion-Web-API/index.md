@@ -5,7 +5,7 @@ layout: post
 draft: false
 path: "/posts/islam-companion-web-api"
 tags:
-  - "open source"
+  - "projects"
 description: "The Islam Companion Web API project is a RESTFul API (Application Programming Interface) that allows users to add Holy Quran and Hadith data to their applications. It provides Holy Quran translation in 42 languages."
 ---
 

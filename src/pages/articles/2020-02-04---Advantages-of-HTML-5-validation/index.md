@@ -5,7 +5,7 @@ layout: post
 draft: false
 path: "/posts/advantages-of-html-5-validation"
 tags:
-  - "website testing"
+  - "frontend web development"
 description: "In this blog post I will discuss briefly the importance of HTML 5 and how to create standards compliant HTML code."
 ---
 

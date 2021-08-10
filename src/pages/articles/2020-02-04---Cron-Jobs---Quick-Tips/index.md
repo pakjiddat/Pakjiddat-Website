@@ -5,8 +5,7 @@ layout: post
 draft: false
 path: "/posts/cron-jobs---quick-tips"
 tags:
-  - "quick tips"
-  - "server management"
+  - "server configuration"
 description: "Following are some quick tips related to Cron Jobs:"
 ---
 

@@ -5,6 +5,7 @@ layout: post
 draft: false
 path: "/posts/tracking-issues-with-mantis-bug-tracker"
 tags:
+  - "applications"
   - "software installation and configuration"
 description: "Mantis Bug Tracker is web based software that allows keeping track of issues. It is used mainly for tracking bugs in software, but may be used as a general purpose issue tracker for all types of projects."
 ---

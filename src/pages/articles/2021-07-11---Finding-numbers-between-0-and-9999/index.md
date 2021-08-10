@@ -5,8 +5,8 @@ layout: post
 draft: false
 path: "/posts/finding-numbers-between-0-9999"
 tags:
-  - "algorithms"
-  - "mathematics" 
+  - "discrete mathematics"
+  - "programming problems" 
 description: "Combinatorics is a field of Mathematics that allows us to efficiently count numbers. It includes topics such as probabilities, permutations and combinations. In this article I will describe how to solve a problem in Combinatorics that involves numbers between 0 and 9999."
 ---
 

@@ -5,7 +5,7 @@ layout: post
 draft: false
 path: "/posts/configuring-apache-to-process-html-files-as-php"
 tags:
-  - "server management"
+  - "server configuration"
 description: "To allow Apache web server, to process files ending with .html as PHP files, we need to do two things. First we need to set the content-type http header for .html files to text/html. Secondly, we need to tell the Apache web server to process HTML files as PHP files."
 ---
 

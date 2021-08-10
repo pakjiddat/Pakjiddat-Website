@@ -5,8 +5,8 @@ layout: post
 draft: false
 path: "/posts/preventing-ssh-and-sql-injection-attacks-using-fail2ban"
 tags:
-  - "server security"
-  - "software installation and configuration"
+  - "cyber security"
+  - "server monitoring"
 description: "Fail2Ban is an intrusion detection and prevention tool for Linux operating system. It is written in Python language. It works by checking log files using regular expressions. Entries that match the regular expression are banned by adding the IP address to the system firewall."
 ---
 

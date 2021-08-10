@@ -5,7 +5,7 @@ layout: post
 draft: false
 path: "/posts/samba---an-open-source-file-server-and-active-directory-controller"
 tags:
-  - "centralized user management"
+  - "applications"
   - "server management"
 description: "Recently I had the task of setting up central user management for Windows servers. This blog post describes my experience with trying to setup central user management for Windows servers in an open source Linux based environment."
 ---

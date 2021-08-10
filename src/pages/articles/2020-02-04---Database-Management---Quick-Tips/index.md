@@ -5,7 +5,6 @@ layout: post
 draft: false
 path: "/posts/database-management---quick-tips"
 tags:
-  - "quick tips"
   - "database management"
 description: "Following are some quick tips related to Database Management:"
 ---

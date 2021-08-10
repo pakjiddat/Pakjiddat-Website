@@ -5,7 +5,7 @@ layout: post
 draft: false
 path: "/posts/comment-manager"
 tags:
-  - "open source"
+  - "projects"
 description: "The Comment Manager is a PHP script that allows parsing method Doc Block comments. It also allows validating parameter values and return values using information in the Doc Block comments."
 ---
 
