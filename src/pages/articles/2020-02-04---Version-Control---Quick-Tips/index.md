@@ -112,5 +112,27 @@ The **path** option specifies the files or folders to include. The **invert-path
 
 The git-filter-repo supports many other options including removing objects larger than given size and editing commit messages.
 
+#### [Tagging specific commit](https://git-scm.com/book/en/v2/Git-Basics-Tagging)
+To tag a specific commit, the following command can be used:
+
+```
+git tag -a tag-version commit-checksum -m "commit messsage"
+```
+
+The above command adds an annotated tag named "tag-version". The commit-checksum is the checksum of the commit. It can be found using the command:
+
+```
+git log --oneline
+``` 
+
+
+```
+git-filter-repo --path "dir1/dir2" --invert-paths
+```
+
+The **path** option specifies the files or folders to include. The **invert-paths** option inverts the paths so the end result is that all files and folder except those given by the **path** option are included. In this way files and folders can be removed.
+
+The git-filter-repo supports many other options including removing objects larger than given size and editing commit messages.
+
 
 

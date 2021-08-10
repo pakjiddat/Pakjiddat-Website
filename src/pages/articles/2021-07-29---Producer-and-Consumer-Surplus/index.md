@@ -109,7 +109,9 @@ Do you think there is a relationship between the price floor and the fact that t
 #### Answer
 Assuming that the price floor is less than the equilibrium price, having a price floor means supplier can continue to provide the airline service at the same equilibrium price. Hence producer surplus is not affected by the price floor.
 
-Consumer surplus may decrease because some consumers may not be willing to pay at prices equal to or more than the price floor. So demand for airline travel will decrease. To increase demand for airline travel, airlines may adopt strategies such as serving full meals for free and providing more leg room between seats. As a result, consumers will be willing to pay more for airline travel, which will increase consumer surplus.
+Consumer surplus may decrease because some consumers may not be willing to pay at prices equal to or more than the price floor. So demand for airline travel will decrease. To increase demand for airline travel, airlines may adopt strategies such as serving full meals for free and providing more leg room between seats. As a result, consumers will be willing to pay more for airline travel. This may explain why airlines offered complimentary meals on flights in the "good old days".
+
+I think airlines fares these days is much cheaper than it used to be. As a result consumer surplus is high and there is no need to provide extra amenities on flights such as complimentary meals.
 
 ### Why would an increase in the minimum wage lead to less unemployment
 
