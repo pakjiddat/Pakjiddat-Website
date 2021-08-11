@@ -1,19 +1,19 @@
 ---
-title: Islam Companion Desktop Reader
+title: Islam Companion
 date: "2021-08-10"
 layout: post
 draft: false
-path: "/posts/islam-companion-desktop-reader"
+path: "/posts/islam-companion"
 tags:
   - "projects"
-description: "The Islam Companion Desktop Reader project is a desktop application. It is availabe as a snap application on Ubuntu Store. It allows users to read Holy Quran and Hadith. It provides two applications. A Hadith reader and a Quran reader."
+description: "The Islam Companion project is a desktop application. It is available as a snap application on Ubuntu Store. It allows users to read Holy Quran and Hadith. It provides two applications. A Hadith reader and a Quran reader."
 ---
 
-![Islam Companion Desktop Reader](./islamcompanion-desktop-reader.png)
+![Islam Companion](./islamcompanion.png)
 
 ### Introduction
 
-The **Islam Companion Desktop Reader** project is a desktop application. It is availabe as a snap application on [Ubuntu Store](https://snapcraft.io/islamcompanion). It allows users to read Holy Quran and Hadith. It provides two applications. A Hadith reader and a Quran reader.
+The **Islam Companion** project is a desktop application. It is availabe as a snap application on [Ubuntu Store](https://snapcraft.io/islamcompanion). It allows users to read Holy Quran and Hadith. It provides two applications. A Hadith reader and a Quran reader.
 
 ### Features
 
@@ -23,23 +23,23 @@ Hadith text can be read in Urdu, English and Arabic languages.
 
 ### Limitations
 
-The Islam Companion Desktop Reader has the following limitations:
+The Islam Companion has the following limitations:
 
 * The text for some languages may be difficult to read because of font size.
 * The hadith text in English language is a rough translation and may contain grammatical errors.
 
 ### Installation
-The Islam Companion Desktop Reader application may be downloaded from the Ubuntu Snap Store.
+The Islam Companion application may be downloaded from the Ubuntu Snap Store.
 
 [![Get it from the Snap Store](https://snapcraft.io/static/images/badges/en/snap-store-white.svg)](https://snapcraft.io/islamcompanion)
 
 ### Development
 
-For details on how to develop the Islam Companion Desktop Reader application refer to the [GitHub repository](https://github.com/pakjiddat/islam-companion-desktop-reader) for the project.
+For details on how to develop the Islam Companion application refer to the [GitHub repository](https://github.com/pakjiddat/islam-companion) for the project.
 
 ### Acknowledgements
 
-The purpose of the Islam Companion Desktop Reader project is to allow users to read the Holy Quran and Hadith text in their own language.
+The purpose of the Islam Companion project is to allow users to read the Holy Quran and Hadith text in their own language.
 
 The following resources were used in the development of the project:
 
@@ -55,8 +55,8 @@ The following resources were used in the development of the project:
   * Kurdish: https://www.kurdfonts.com/font-info/609
 * The quran and hadith readers were developed using the PyQt5 framework. The applications were developed in Python language and use Sqlite3 for the database.
 
-To report bugs or make feature requests, post an [issue](https://github.com/pakjiddat/islam-companion-desktop-reader/issues). Constructive feedback is most welcome !.
+To report bugs or make feature requests, post an [issue](https://github.com/pakjiddat/islam-companion/issues). Constructive feedback is most welcome !.
 
 ### Licence 
 
-The Islam Companion Desktop Reader project is available under the **MIT licence**. You may use the application source code in your own projects.
+The Islam Companion project is available under the **MIT licence**. You may use the application source code in your own projects.
