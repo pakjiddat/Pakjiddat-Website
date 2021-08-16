@@ -13,7 +13,7 @@ description: "Producer and consumer surplus are used by economists to measure th
 By User:SilverStar - Own work, CC BY 2.5, https://commons.wikimedia.org/w/index.php?curid=1450405
 
 ### Introduction
-I recently took the [Microeconomics](https://www.coursera.org/learn/microeconomics) course on [Coursera](https://www.coursera.org/) and found it useful. As part of the course, we were given some practice questions related t0 producer and consumer surplus. In this article, I have listed these practice questions and my answers to the questions.
+I recently took the [Microeconomics](https://www.coursera.org/learn/microeconomics) course on [Coursera](https://www.coursera.org/) and found it useful. As part of the course, we were given some practice questions related to producer and consumer surplus. In this article, I have listed these practice questions and my answers to the questions.
 
 Producer and consumer surplus are used by economists to measure the total wealth of a society in a free market. In a free market trade is governed only by the principles of supply and demand. In this article I will describe what is meant by producer surplus, consumer surplus, total surplus, price ceiling and price floor. I will describe these terms along with examples and some related questions.
 
