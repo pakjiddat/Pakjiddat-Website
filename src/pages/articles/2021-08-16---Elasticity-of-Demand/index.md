@@ -78,6 +78,8 @@ Use the elasticities found by Medoff to answer the following 2 questions. Again,
 What are the economic and policy implications of the price elasticity of demand for abortions to further state and/or federal restrictions on abortions?
 What are the implications of the income elasticity of demand for abortions when one considers the accessibility of abortions between low- and high-income women?
 
+#### Answer
+
 The data collected by Marshall Medoff shows that the absolute values for the price and income elasticities for having abortions is more than 1, which means elastic. So a small change in cost for abortions or the income of users involved in abortions will lead to a large change in number of abortions.
 
 States that want to place restrictions on abortions may want to increase the cost of having abortions. A small increase in cost of abortions should not affect hight income users. To decrease abortions fairly among all income classes, restrictions on abortions may involve increase in the cost of abortions in proportion to the income of the users.
