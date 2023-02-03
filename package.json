@@ -63,7 +63,7 @@
     "eslint-plugin-react": "^7.20.5",
     "gh-pages": "^1.1.0",
     "lost": "^8.2.0",
-    "postcss-pxtorem": "^4.0.1",
+    "postcss-pxtorem": "^6.0.0",
     "prettier": "^1.10.2"
   }
 }
