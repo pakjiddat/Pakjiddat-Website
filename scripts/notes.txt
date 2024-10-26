@@ -1,0 +1,34 @@
+Work Done
+
+- Cloned the gatsby-starter-lumen repository
+- Copied all the articles from current website's articles folder
+  to the new website's posts folder
+- Created a php script that updates the meta information in
+  the article index.md file so it works with the updated website
+- Updated website photo, sidebar links and description
+- Updated the social icon links at the bottom of the left sidebar
+- Removed socialImage field from PostTemplate and PageTemplate files
+- Added Google Analytics code to new website
+
+- Added contacts form
+- Added tags link to sidebar. It shows list of all tags along with article count for each tag
+
+- Removed "Pak Jiddat on Twitter" from post page footer
+- Add table of contents
+- Add scroll to top
+- Update table of contents article and scroll to top article
+
+- On /posts/islam-companion#installation, the Snap Store image was not showing. Replace image width iframe based card
+- Updated screenshot in README.md file
+- Remove trailing slashes from post urls
+- The header color of table of contents and list items changes when the website background color is changed
+
+To Do
+
+- Copy current website's .git folder to updated website's root folder
+- Commit changes and push to Github
+- Check Netlify's admin page for errors
+- Test contact form
+- Test Google Analytics
+
+- Update Chromium to latest version

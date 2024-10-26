@@ -1,0 +1,48 @@
+{
+  "title": "Pak Jiddat Website",
+  "url": "https://pakjiddat.netlify.app/",
+  "subtitle": "Pak Jiddat - Learn and Progress",
+  "copyright": "© All rights reserved.",
+  "googleAnalyticsId": "UA-163786015-2",
+  "disqusShortname": "",
+  "postsLimit": 4,
+  "pathPrefix": "/",
+  "menu": [
+    {
+      "label": "Articles",
+      "path": "/"
+    },
+    {
+      "label": "Contact",
+      "path": "/pages/contact/"
+    },
+    {
+      "label": "Tags",
+      "path": "/tags/"
+    }
+  ],
+  "author": {
+    "name": "Pak Jiddat",
+    "photo": "/photo.webp",
+    "bio": "Tutorials about Web Development, Server Management, Computer Science and more",
+    "contacts": {
+      "rss": "/rss.xml",
+      "email": "pakjiddat@gmail.com",
+      "github": "pakjiddat",
+      "facebook": "#",
+      "telegram": "#",
+      "twitter": "#",
+      "linkedin": "#",
+      "instagram": "#",
+      "mastodon": "#",
+      "line": "",
+      "weibo": "",
+      "gitlab": "",
+      "medium": "",
+      "youtube": "",
+      "codepen": "",
+      "soundcloud": "",
+      "bluesky": ""
+    }
+  }
+}
