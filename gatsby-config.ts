@@ -159,13 +159,6 @@ export default {
         theme_color: "hsl(31, 92%, 62%)",
         background_color: "hsl(0, 0%, 100%)",
         icon: "content/photo.webp",
-        icons: [
-          {
-            src: `/content/favicon.ico`,
-            sizes: `48x48`,
-            type: `image/vnd`,
-          }
-        ],
         display: "standalone",
         start_url: "/",
       },
