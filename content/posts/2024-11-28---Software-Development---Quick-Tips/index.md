@@ -27,4 +27,14 @@ public static void SetDoubleBuffered(System.Windows.Forms.Control c)
         | System.Reflection.BindingFlags.Instance);
     aProp.SetValue(c, true, null);
 }
+
+protected override CreateParams CreateParams
+{
+    get
+    {
+        CreateParams cp = base.CreateParams;
+        cp.ExStyle |= 0x02000000;
+        return cp;
+    }
+}
 ```
